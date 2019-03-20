@@ -27,6 +27,8 @@ console.log ("el tio ha vivido " + year + " dias" )
 
 // me parece genial que hagas pruebas, pero no me toques los cojones y me revientes todo el codigo, payaso
 
+// a ver si el que te va a reventar a ti voy a ser yo subnormal, que no eres ni media mierda, retrasao!
+
 
 
 
