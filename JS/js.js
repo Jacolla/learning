@@ -22,14 +22,14 @@ console.log ("el tio ha vivido " + year + " dias" )
 
 
 
-//prueba conexion con github
+//pc: prueba conexion con github
 
 
-// me parece genial que hagas pruebas, pero no me toques los cojones y me revientes todo el codigo, payaso
+//git:  me parece genial que hagas pruebas, pero no me toques los cojones y me revientes todo el codigo, payaso
 
-// a ver si el que te va a reventar a ti voy a ser yo subnormal, que no eres ni media mierda, retrasao!
+//pc:  a ver si el que te va a reventar a ti voy a ser yo subnormal, que no eres ni media mierda, retrasao!
 
-
+//git: mira este... vente a mi oficina mongolo, que te vi a dejar como un trapo, sucia perra asquerosa
 
 
 
