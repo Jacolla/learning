@@ -25,6 +25,9 @@ console.log ("el tio ha vivido " + year + " dias" )
 //prueba conexion con github
 
 
+// me parece genial que hagas pruebas, pero no me toques los cojones y me revientes todo el codigo, payaso
+
+
 
 
 
