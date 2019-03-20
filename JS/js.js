@@ -22,8 +22,7 @@ console.log ("el tio ha vivido " + year + " dias" )
 
 
 
-nada tranqui, todo esta guay
- enga va, en verdad era gracioso jaja
+
 
 
 
