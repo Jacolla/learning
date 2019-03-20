@@ -22,7 +22,8 @@ console.log ("el tio ha vivido " + year + " dias" )
 
 
 
-//prueba conexion github
+//prueba conexion con github
+
 
 
 
