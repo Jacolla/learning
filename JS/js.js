@@ -35,7 +35,10 @@
 
 var x = 3;
 var y = 8;
-!(x == "3" || x === y)/*false*/  && !(y !=8 && x <=y)  //false, porque
+!(x == "3" || x === y)/* false */  && !(y !=8 && x <=y)/* true */   
+
+//  false, porque al ser el &&(and) tiene que tener los dos lados positivos (o negativos) y como es el caso, solo 1 de ellos es positivo,
+//  el otro es negativo, es decir, a resultado total, FALSE
 
 
 
@@ -118,7 +121,6 @@ var y = 8;
 //     prompt("a ver que tal..."
 //           )
 // "ouuu yyyeahhh"
-//
 //      and(prompt == "vaya")
 //      alert("mmmm vaya pppeaso crá")  no funciona, va bien hasta el prompt, luego no tengo ni idea de usar el "and"
-
+// 
