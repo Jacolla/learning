@@ -1,42 +1,41 @@
 //------------------------------------------------
 // ejercicio de preguntar al usuario cuatro mierdas y luego juntarlas en una frase, pero OJO, solo en la consola.
-//
-//var nombre=prompt("Que pasa, como te llamas? ")
-//var apellido=prompt ("y apellidos por favor ")
-//var edad= prompt (" y ya para completarlo todo, que edad tienes? ")
+// 
+// var nombre=prompt("Que pasa, como te llamas? ")
+// var apellido=prompt ("y apellidos por favor ")
+// var edad= prompt (" y ya para completarlo todo, que edad tienes? ")
 
-//esto es lo que deja el mensaje en la consola "console.log"
+// esto es lo que deja el mensaje en la consola "console.log"
 // console.log ("Este usuario se llama " + nombre + ", dice que su apellido es " + apellido )
 // console.log("y finalmente, su edad es de " + edad )
 
 
+
 // -----------------------------------------------
 //
-// Esto es un ejemplo simpre para hacer una calculadora ( multiplicas la edad por 365.25)
-// es decir, solo multiplicas la edad por 365,25, no los dias que has vivido, solo cambiará si cambia la edad 
+// Esto es "una calculadora" ( multiplicas la edad por 365.25)
+// es decir, solo multiplicas la edad por 365,25, no los dias que has vivido, solo cambiará si cambia el numero de entrada. 
 
-var edad = prompt ("Dime que edad tienes y te dire cuantos dias has vivido.")
-var year = edad * 365.25
-alert(edad + " years are, more or less, " + year + " days")
-console.log ("el tio ha vivido " + year + " dias" )
-
-
+// var edad = prompt ("Dime que edad tienes y te dire cuantos dias has vivido.")
+// var year = edad * 365.25
+// alert(edad + " years are, more or less, " + year + " days")
+// console.log ("el tio ha vivido " + year + " dias" )
 
 
+// -----------------------------------------------
 
-
-
-
-
-
+// var x = 10;
+// var y = "a"
+// 
+// y==="b"||x>=10    //--> true, "b" no es "a" pero (or( || )) x si es mayor o igual que 10, por lo tanto, true bitch
 
 
 
+// -----------------------------------------------
 
-
-
-
-
+var x = 3;
+var y = 8;
+!(x == "3" || x === y)/*false*/  && !(y !=8 && x <=y)  //false, porque
 
 
 
@@ -64,20 +63,7 @@ console.log ("el tio ha vivido " + year + " dias" )
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-// cosas que no son del curso.
+// cosas que no son del curso. Puro jugueteo
 
 // -----------------------------------------------
 
@@ -93,7 +79,7 @@ console.log ("el tio ha vivido " + year + " dias" )
 // 	console.log(num);
 // 	num--;
 // 	countdown(num);
-// }
+//  }
 // 
 // countdown(4);
 // 	
@@ -109,6 +95,8 @@ console.log ("el tio ha vivido " + year + " dias" )
 
 //-----------------------------------------------
 
+
+// No fucking idea what this is
 // function sumRange(num){ 
 // 		if(num === 1) return 1;
 // 		return num + sumRange(num-1);					
@@ -120,3 +108,17 @@ console.log ("el tio ha vivido " + year + " dias" )
 
 
 //-----------------------------------------------
+
+// probando como va eso de los if's y and's
+
+// var x = 3;
+// var y = 8;
+// var result = !(x == "3" || x === y) && !(y !=8 && x <=y)
+// 	if(result == false)
+//     prompt("a ver que tal..."
+//           )
+// "ouuu yyyeahhh"
+//
+//      and(prompt == "vaya")
+//      alert("mmmm vaya pppeaso crá")  no funciona, va bien hasta el prompt, luego no tengo ni idea de usar el "and"
+
