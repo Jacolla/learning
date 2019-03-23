@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>inputs demo</title>
+</head>
+<body>
+<p>Coche preferido</p>
+
+<!--  Este va de hacer opciones de 2 formas, una mas larga y una mas corta, la corta es la larga comprimida, mas o menos, esta es la larga
+
+label= etiqueta/s de la pagina
+for= a que encasilla la LABEL 
+name= pregunta almacenada en data (barra de navegacion)
+id= nombre de identificacion
+type= tipo eleccion (no lo tengo muy claro)
+value= valor de la opcion
+required= que es obligatorio tio.
+  -->
+
+<form>
+	<label for="skyline">Skyline</label>
+	<input name="Coche"	id="skyline" type="radio"
+	value="skyline"required>
+
+	<label for="supra">Supra</label>
+	<input type="radio" name="Coche" id="supra" value="supra"required>
+
+	<label for="Evo">Evo</label>
+	<input type="radio" name="Coche" id="Evo" value="Evo" required>
+
+	<label for="M3">M3</label>
+	<input type="radio" name="Coche" id="M3"
+	value="M3">
+
+<!-- para hacer un boton... -->
+	<button>palante</button>
+
+<!-- texto -->
+<p> Y que color le sienta mejor?</p>
+
+<!-- y esta es la manera corta, que es siemplemente hacento un SELECT y dentro las OPTIONS del SELECT,
+se le da un NAME, que da pregunta del amacenage del data (color=negro / azul / rojo) --> 
+<select name="color">
+	<option name="botones">negro</option>
+	<option name="botones">azul</option>
+	<option name="botones">rojo</option>
+</select>
+<button>seh...</button>
+</form>
+
+
+</body>
+</html>

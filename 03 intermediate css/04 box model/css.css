@@ -1,0 +1,28 @@
+/*
+width: es el ancho del elemento;
+height: es el alto del elemento;
+
+padding: es el espacio entre el "borde" y el contenido, el espacio
+dentro del borde.
+
+margin: es el espacio desde fuera del borde y todo lo demas, se emplea para 
+añadir/reducir espacio entre elementos.
+
+*/
+.uno{
+	text-align: center;
+	width: 25%;
+	border: 2px solid blue;
+	padding: 10px;
+	margin: auto;
+}
+.dos{
+	text-align: center;
+	width: 25% ;
+	border: 2px solid green;
+	padding: 10px;
+	margin: auto;
+	margin-top: 5px;	
+}
+
+
