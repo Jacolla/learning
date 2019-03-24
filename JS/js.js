@@ -114,13 +114,11 @@ var y = 8;
 
 // probando como va eso de los if's y and's
 
-// var x = 3;
-// var y = 8;
-// var result = !(x == "3" || x === y) && !(y !=8 && x <=y)
-// 	if(result == false)
-//     prompt("a ver que tal..."
-//           )
-// "ouuu yyyeahhh"
-//      and(prompt == "vaya")
-//      alert("mmmm vaya pppeaso crá")  no funciona, va bien hasta el prompt, luego no tengo ni idea de usar el "and"
-// 
+var x = 3;
+var y = 8;
+var result = !(x == "3" || x === y) && !(y !=8 && x <=y)
+	if(result == false)
+        prompt("a ver que tal..."
+          )
+        and(prompt == "vaya")
+        alert("mmmm vaya pppeaso crá") /* no funciona, va bien hasta el prompt, luego no tengo ni idea de usar el "and"  */
