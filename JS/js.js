@@ -27,7 +27,7 @@
 // var x = 10;
 // var y = "a"
 // 
-// y==="b"||x>=10    //--> true, "b" no es "a" pero (or( || )) x si es mayor o igual que 10, por lo tanto, true bitch
+//  y==="b"||x>=10    /*--> true, "b" no es "a" pero (or( || )) x si es mayor o igual que 10, por lo tanto, true bitch */
 
 
 
@@ -150,14 +150,12 @@ var result = !(x == "3" || x === y) && !(y !=8 && x <=y)
 
                                                         */
 
-
-
 // var x = 3;
-// var y = 8;
+// var y = 8;   
 // var result = !(x == "3" || x === y) && !(y !=8 && x <=y)
 // 	if(result == false)
 //         prompt("a ver que tal...")                
 //               {alert("ere un crá")                               
-// 		         console.log("Toda la sacada de polla")         /*  <------------- No está bien hecho, con o sin "if" sale todo.
-//                 }                                            /* Pero ahora, funciona cada vez, no necesitas pagina nueva para que SVGComponentTransferFunctionElement.   */  
+// 		         console.log("Toda la sacada de polla")         /*  <------------- No está bien hecho, con o sin "if" sale todo. */
+//                 }                                             
                                                                             
