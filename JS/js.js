@@ -158,5 +158,6 @@ var result = !(x == "3" || x === y) && !(y !=8 && x <=y)
 // 	if(result == false)
 //         prompt("a ver que tal...")                
 // 			if (prompt = "vaya") 
-//                     {alert("ere un crá") <------------- No está bien hecho, con o sin "if" sale todo.
-// 					console.log("Toda la sacada de polla")}
+//                   {alert("ere un crá")                               /*  <------------- No está bien hecho, con o sin "if" sale todo.
+// 					console.log("Toda la sacada de polla")}             /* Pero ahora, funciona cada vez, no necesitas pagina nueva para que SVGComponentTransferFunctionElement.   */  
+                                                                            
