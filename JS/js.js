@@ -156,7 +156,7 @@ var result = !(x == "3" || x === y) && !(y !=8 && x <=y)
 // var y = 8;
 // var result = !(x == "3" || x === y) && !(y !=8 && x <=y)
 // 	if(result == false)
-//         prompt("a ver que tal...")
+//         prompt("a ver que tal...")                
 // 			if (prompt = "vaya") 
-//                     {alert("ere un crá")
+//                     {alert("ere un crá") <------------- No está bien hecho, con o sin "if" sale todo.
 // 					console.log("Toda la sacada de polla")}
