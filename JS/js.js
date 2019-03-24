@@ -143,7 +143,8 @@ var result = !(x == "3" || x === y) && !(y !=8 && x <=y)
                                                         y no me permitira arrancar la funcion again, mmmecaguen!
                                                         
                                                         este es el error que me salta al intentar arrancarlo por 2ª vez
-                                                        Uncaught TypeError: prompt is not a function at <anonymous>:5:9    */
+                                                        Uncaught TypeError: prompt is not a function at <anonymous>:5:9, creo que es el
+                                                        prompt.    */
 
 
 
