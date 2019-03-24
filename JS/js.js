@@ -22,12 +22,13 @@
 // console.log ("el tio ha vivido " + year + " dias" )
 
 
+
 // -----------------------------------------------
 
 // var x = 10;
 // var y = "a"
 // 
-//  y==="b"||x>=10    /*--> true, "b" no es "a" pero (or( || )) x si es mayor o igual que 10, por lo tanto, true bitch */
+//  y==="b"||x>=10    /*--> true, "b" no es "a" pero (( || )or) x si es mayor o igual que 10, por lo tanto, true bitch */
 
 
 
@@ -66,7 +67,7 @@ var y = 8;
 
 
 
-// cosas que no son del curso. Puro jugueteo
+// COSAS QUE NO SON DEL CURSO. Puro jugueteo
 
 // -----------------------------------------------
 
