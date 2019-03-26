@@ -139,10 +139,14 @@
 // <3ª parte>----------------------
 
                                         
-var x = 3;                                                              /* pues despues de ir probando, funciona, PERO solo funciona 1 vez, es decir */
-var y = 8;                                                              /* no puedo volver a hacerlo si es en la misma hoja, tengo que cambiar de hoja y */ 
-var result = !(x == "3" || x === y) && !(y !=8 && x <=y)                /* hacerlo funcionar en una nueva, mmmecaguen! */
-        if(result == false)                                             /* Este es el error que me salta al intentar arrancarlo por 2ª vez */
-                prompt("a ver que tal...")                              /* Uncaught TypeError: prompt is not a function at <anonymous>:5:9, creo que es el */
-                {alert("ere un crá")                                    /* prompt */. 
-                console.log("Toda la sacada de polla")                  /* fallo 2-> Escribas lo que escribas en el prompt, te salta el alert de todas formas. */   
+// var x = 3;                                                              /* pues despues de ir probando, funciona, PERO solo funciona 1 vez, es decir */
+// var y = 8;                                                              /* no puedo volver a hacerlo si es en la misma hoja, tengo que cambiar de hoja y */ 
+// var result = !(x == "3" || x === y) && !(y !=8 && x <=y)                /* hacerlo funcionar en una nueva, mmmecaguen! */
+//         if(result == false)                                             /* Este es el error que me salta al intentar arrancarlo por 2ª vez */
+//                 prompt("a ver que tal...")                              /* Uncaught TypeError: prompt is not a function at <anonymous>:5:9, creo que es el */
+//                 {alert("ere un crá")                                    /* prompt */. 
+//                 console.log("Toda la sacada de polla")                  /* fallo 2-> Escribas lo que escribas en el prompt, te salta el alert de todas formas. */   
+
+
+
+//-----------------------------------------------
