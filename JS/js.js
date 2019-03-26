@@ -127,14 +127,14 @@
 
 // <2ª parte>-----------------------                    
 
-var x = 3;
-var y = 8;
-var result = !(x == "3" || x === y) && !(y !=8 && x <=y)
-	if(result == false)
-        prompt("a ver que tal...")
-			if (prompt = "vaya") 
-                    {alert("ere un crá")}         /* Esta si funciona, creo que era, esque eso del and aun no se como usarlo
-                                                     voy a necesitar un poco mas de tiempo.  */
+// var x = 3;
+// var y = 8;
+// var result = !(x == "3" || x === y) && !(y !=8 && x <=y)
+// 	if(result == false)
+//         prompt("a ver que tal...")
+// 			if (prompt = "vaya") 
+//                     {alert("ere un crá")}         /* Esta si funciona, creo que era, esque eso del and aun no se como usarlo
+//                                                      voy a necesitar un poco mas de tiempo.  */
 
 // <3ª parte>----------------------
 
