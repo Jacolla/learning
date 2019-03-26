@@ -142,7 +142,7 @@
                                                         no puedo volver a hacerlo si es en la misma hoja, tengo que cambiar de hoja y 
                                                         hacerlo funcionar en una nueva, mmmecaguen!
                                                         
-                                                        este es el error que me salta al intentar arrancarlo por 2ª vez
+                                                        Este es el error que me salta al intentar arrancarlo por 2ª vez
                                                         Uncaught TypeError: prompt is not a function at <anonymous>:5:9, creo que es el
                                                         prompt. 
 
