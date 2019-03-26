@@ -132,16 +132,15 @@
 // var result = !(x == "3" || x === y) && !(y !=8 && x <=y)
 // 	if(result == false)
 //         prompt("a ver que tal...")
-// 			if (prompt = "vaya") 
-//                     {alert("ere un crá")}         /* Esta si funciona, creo que era, esque eso del and aun no se como usarlo
+// 		if (prompt = "vaya") 
+//                    {alert("ere un crá")}             /* Esta si funciona, creo que era, esque eso del and aun no se como usarlo
 //                                                      voy a necesitar un poco mas de tiempo.  */
 
 // <3ª parte>----------------------
 
                                                         /*pues despues de ir probando, funciona, PERO solo funciona 1 vez, es decir
                                                         no puedo volver a hacerlo si es en la misma hoja, tengo que cambiar de hoja y 
-                                                        hacerlo funcionar en una nueva, imagino que se quedará el data de algo guardado
-                                                        y no me permitira arrancar la funcion again, mmmecaguen!
+                                                        hacerlo funcionar en una nueva, mmmecaguen!
                                                         
                                                         este es el error que me salta al intentar arrancarlo por 2ª vez
                                                         Uncaught TypeError: prompt is not a function at <anonymous>:5:9, creo que es el
