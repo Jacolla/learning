@@ -155,7 +155,7 @@
 // var result = !(x == "3" || x === y) && !(y !=8 && x <=y)
 // 	if(result == false)
 //         prompt("a ver que tal...")                
-//               {alert("ere un crá")                               /*  <------------- No está bien hecho, con o sin segundo "if" sale todo. */
+//               {alert("ere un crá")                               /*  <------------- No está bien hecho, con o sin segundo "if" saca todo. */
 // 		         console.log("Toda la sacada de polla")         
 //                 }                                             
                                                                             
