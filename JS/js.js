@@ -165,10 +165,5 @@
 
     function preguntas (){
         prompt("Que dia es?")
-        if(prompt="1234"){
-            alert("ou yeah, it's done!")
-        }
-            
-        else {"nah... no es eso canalla"
-        }    
+        getElementById("preguntas").innetHTML = "prueba con get";
     }
