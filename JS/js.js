@@ -165,8 +165,10 @@
 
     function preguntas (){
         prompt("Que dia es?")
-        if("miercoles"){
-            alert("ou yeah, it's done!")}
-        else {"nah... no es eso canalla"
+        if(prompt="1234"){
+            alert("ou yeah, it's done!")
         }
+            
+        else {"nah... no es eso canalla"
+        }    
     }
