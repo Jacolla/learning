@@ -163,7 +163,7 @@
 
 /* Vamos a intentar hacer unas preguntas y coger la respuesta. */
 
-    function preguntas (){                                      /* Stá to mal */            
+    function preguntas (){                                         /* Stá to mal */            
         prompt("Que dia es?")                                   
         if(prompt="1234"){                                      
             alert("ou yeah, it's done!")                        
