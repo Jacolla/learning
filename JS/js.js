@@ -108,9 +108,10 @@
 // }
 // 
 // sumRange(3)
-// 
 
 
+
+////-----------------------------------------------
                                                                     // |---------------------------------------------------------------|
                                                                     // | var x = 3;                                                    |
                                                                     // | var y = 8;                                                    |
@@ -132,7 +133,7 @@
                                                                    /* no funciona,  va bien hasta el prompt, luego no tengo ni idea de usar el "and"  */
 
 
-// <2ª parte>-----------------------                    
+// <2ª parte>-----------------------------------------------                    
 
 // var x = 3;
 // var y = 8;
@@ -145,7 +146,7 @@
 
 
 
-// <3ª parte>----------------------
+// <3ª parte>-----------------------------------------------
 
 // var x = 3;                                                      /* pues despues de ir probando, funciona, PERO solo funciona 1 vez, es decir */
 // var y = 8;                                                      /* no puedo volver a hacerlo si es en la misma hoja, tengo que cambiar de hoja y */ 
@@ -162,13 +163,13 @@
 //-----------------------------------------------
 
 /* Vamos a intentar hacer unas preguntas y coger la respuesta. */
-
-    function preguntas (){                                         /* Stá to mal */            
-        prompt("Que dia es?")                                   
-        if(prompt="1234"){                                      
-            alert("ou yeah, it's done!")                        
-        }
-            
-        else {"nah... no es eso canalla"
-        }    
-    }
+// 
+//     function preguntas (){                                         /* Stá to mal */            
+//         prompt("Que dia es?")                                   
+//         if(prompt="1234"){                                      
+//             alert("ou yeah, it's done!")                        
+//         }
+//             
+//         else {"nah... no es eso canalla"
+//         }    
+//     }
