@@ -7,7 +7,7 @@
 
 numero1=5
 numero2=7
-if numero1<numero2:
+if numero1>numero2:
     print("El numero uno mola mas")
 else:
     print("Pues no tanto")
