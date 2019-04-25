@@ -70,7 +70,7 @@
 
 // COSAS QUE NO SON DEL CURSO. Puro jugueteo
 
-// -----------------------------------------------
+// ----------------------------------------------
 
 // esto es una funcion que se llama a si misma, se llama recursion.
 // Recursion is a process ( a function, en este caso ) that calls itself
@@ -111,7 +111,7 @@
 
 
 
-////-----------------------------------------------
+//-----------------------------------------------
                                                                     // |---------------------------------------------------------------|
                                                                     // | var x = 3;                                                    |
                                                                     // | var y = 8;                                                    |
@@ -162,14 +162,13 @@
 
 //-----------------------------------------------
 
-/* Vamos a intentar hacer unas preguntas y coger la respuesta. */
-// 
-//     function preguntas (){                                         /* Stá to mal */            
-//         prompt("Que dia es?")                                   
-//         if(prompt="1234"){                                      
-//             alert("ou yeah, it's done!")                        
-//         }
-//             
-//         else {"nah... no es eso canalla"
-//         }    
-//     }
+/* Vamos a intentar hacer unas preguntas y coger la respuesta.*/   /* Tengo que meter un get a la respuesta, pero no se si eso del prompt me permite cogerla */
+//
+     function preguntas (){                                        /* Stá to mal */            
+         prompt("Que dia es?")                                     /*   */
+         if(prompt="1234"){                                        /* No sé si el prompt me da opción a coger la pregunta.  */
+             alert("nah is not!")                                  /*   */
+                          }                                        /*   */
+         else {"nah... no es eso canalla"                          /* Esto stá mal,  */  
+              }                                                    /*   */
+ }
