@@ -53,33 +53,33 @@
 //
 //  Todo lo demas... Truly bro
 //  
-//  var msj1 = " "                                                     Espacio vacio, no equivale a nada... es False bitch
-//  var msj2 = "que pasó"                                              No es un False value... por lo tanto, true bro
-//  var ndah = "false"                                                 Es un mensaje normal, con la triquiñuela del False dentro del mensaje... True bro then
-// 
-//  !(( msj1 || msj2) && ndah)                                         Farzo por er ! der prinsipio zupare         
+//  var msj1 = " "                                        Espacio vacio, no equivale a nada... es False bitch
+//  var msj2 = "que pasó"                                 No es un False value... por lo tanto, true bro
+//  var ndah = "false"                                    Es un mensaje normal, con la triquiñuela del False dentro del mensaje... True bro then
+//              
+//  !(( msj1 || msj2) && ndah)                            Farzo por er ! der prinsipio zupare         
 //
 //-----------------------------------------------
 //
-// Vamos con los if's, else if y los else
+//  Vamos con los if's, else if y los else
 //
-var edad = prompt("Que edad tienes?")
-
- if (edad < 18){
-     console.log("Nope, no puedes entrar miarma");
- }
-
- else if (edad <21){
-     console.log("Hmmmm, puedes entrar... pero... no puedes tocar ná");
- }
-
-else if(edad % Math.sqrt(edad) === 0) {
-    console.log("Ou yeah, tienes Perfec Square lad!");
-}
-
-else{
-    console.log("Ente pacá, tu puedes entrar y hacer lo que quieras");
-}
+//  var edad = prompt("Que edad tienes?")
+//  
+//   if (edad < 18){
+//       console.log("Nope, no puedes entrar miarma");
+//   }
+//  
+//   else if (edad <21){
+//       console.log("Hmmmm, puedes entrar... pero... no puedes tocar ná");
+//   }
+//  
+//  else if(edad % Math.sqrt(edad) === 0) {                                     Esto del perfect square, no lo he pillado del todo ese "% Math.sqrt"
+//      console.log("Ou yeah, tienes Perfec Square lad!");
+//  }
+//  
+//  else{
+//      console.log("Ente pacá, tu puedes entrar y hacer lo que quieras");
+//  }
 
 
 
