@@ -65,28 +65,28 @@
 //
 //  var edad = prompt("Que edad tienes?")
 //    
-//   if (edad < 18){
-//         console.log("Nope, no puedes entrar miarma");
+//   if (edad < 18){                                                                    Este actua primero
+//         console.log("Nope, no puedes entrar miarma");                                En caso de que no cumpla el primer filtro
 //     }
 //    
-//     else if (edad <21){
-//         console.log("Hmmmm, puedes entrar... pero... no puedes tocar ná");
+//     else if (edad <21){                                                              Actua en segundo paso
+//         console.log("Hmmmm, puedes entrar... pero... no puedes tocar ná");           Con su respectiva respuesta
 //     }
 //     
-//     else if (edad == 21 ){
-//         console.log("Felcidades, es tu cumpleaños!!")
+//     else if (edad == 21 ){                                                           Si es exactamente 21
+//         console.log("Felcidades, es tu cumpleaños!!")                                Respuesta adecuada
 //     }
 //    
-//     else if (age % 2 !== 0) {                                                                  Ni esto del %, not evenly divisible by two
-//      console.log("Your age is odd!");
+//     else if (age % 2 !== 0) {                                                        No entiendo esto del todo, tengo que ojearlo, "% not evenly divisible by two"
+//      console.log("Your age is odd!");                                                Respuesta adecuada   
 //     }
 //  
-//     else if(edad % Math.sqrt(edad) === 0) {                                                /*  Esto del perfect square, no lo he pillado del todo ese "% Math.sqrt"  */
-//      console.log("Ou yeah, tienes Perfec Square lad!");
+//     else if(edad % Math.sqrt(edad) === 0) {                                          Esto del perfect square, no lo he pillado del todo ese "% Math.sqrt"  
+//      console.log("Ou yeah, tienes Perfec Square lad!");                              Respuesta adecuada        
 //     }
 //    
-//    else{
-//      console.log("Ente pacá, tu puedes entrar y hacer lo que quieras");
+//    else{                                                                             Todo lo demas
+//      console.log("Ente pacá, tu puedes entrar y hacer lo que quieras");              Respuesta adecuada
 //    }
 
 
