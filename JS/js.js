@@ -64,24 +64,30 @@
 //  Vamos con los if's, else if y los else
 //
 //  var edad = prompt("Que edad tienes?")
-//  
+//    
 //   if (edad < 18){
-//       console.log("Nope, no puedes entrar miarma");
-//   }
+//         console.log("Nope, no puedes entrar miarma");
+//     }
+//    
+//     else if (edad <21){
+//         console.log("Hmmmm, puedes entrar... pero... no puedes tocar ná");
+//     }
+//     
+//     else if (edad == 21 ){
+//         console.log("Felcidades, es tu cumpleaños!!")
+//     }
+//    
+//     else if (age % 2 !== 0) {                                                                  Ni esto del %, not evenly divisible by two
+//      console.log("Your age is odd!");
+//     }
 //  
-//   else if (edad <21){
-//       console.log("Hmmmm, puedes entrar... pero... no puedes tocar ná");
-//   }
-//  
-//  else if(edad % Math.sqrt(edad) === 0) {                                     Esto del perfect square, no lo he pillado del todo ese "% Math.sqrt"
+//     else if(edad % Math.sqrt(edad) === 0) {                                                /*  Esto del perfect square, no lo he pillado del todo ese "% Math.sqrt"  */
 //      console.log("Ou yeah, tienes Perfec Square lad!");
-//  }
-//  
-//  else{
+//     }
+//    
+//    else{
 //      console.log("Ente pacá, tu puedes entrar y hacer lo que quieras");
-//  }
-
-
+//    }
 
 
 
