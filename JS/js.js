@@ -59,22 +59,36 @@
 // 
 //  !(( msj1 || msj2) && ndah)                                         Farzo por er ! der prinsipio zupare         
 //
+//-----------------------------------------------
 //
+// Vamos con los if's, else if y los else
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+var edad = prompt("Que edad tienes?")
+
+ if (edad < 18){
+     console.log("Nope, no puedes entrar miarma");
+ }
+
+ else if (edad <21){
+     console.log("Hmmmm, puedes entrar... pero... no puedes tocar ná");
+ }
+
+else if(edad % Math.sqrt(age) === 0) {
+    console.log("Ou yeah, tienes Perfec Square lad!");
+}
+
+else{
+    console.log("Ente pacá, tu puedes entrar y hacer lo que quieras");
+}
+
+
+
+
+
+
+
+
+
 //
 //
 //
