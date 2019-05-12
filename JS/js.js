@@ -12,7 +12,7 @@
 
 
 
-// -----------------------------------------------
+//-----------------------------------------------
 //
 // Esto es "una calculadora" ( multiplicas la edad por 365.25)
 // es decir, solo multiplicas la edad por 365,25, no los dias que has vivido, solo cambiará si cambia el numero de entrada. 
@@ -24,7 +24,7 @@
 //
 //
 //
-// -----------------------------------------------
+//-----------------------------------------------
 //
 // var x = 10;
 // var y = "a"
@@ -33,7 +33,7 @@
 //
 //
 //
-// -----------------------------------------------
+//-----------------------------------------------
 //
 // var x = 3;
 // var y = 8;
@@ -41,6 +41,8 @@
 //
 //  false, porque al ser el &&(and) tiene que tener los dos lados positivos (o negativos) y como es el caso, solo 1 de ellos es positivo,
 //  el otro es negativo, es decir, a resultado total, FALSE bitch
+//
+//
 //
 //-----------------------------------------------
 //  Falsy values->
@@ -59,35 +61,68 @@
 //              
 //  !(( msj1 || msj2) && ndah)                            Farzo por er ! der prinsipio zupare         
 //
+//
+//
 //-----------------------------------------------
 //
 //  Vamos con los if's, else if y los else
 //
 //  var edad = prompt("Que edad tienes?")
 //    
-//   if (edad < 18){                                                                    Este actua primero
-//         console.log("Nope, no puedes entrar miarma");                                En caso de que no cumpla el primer filtro
+//   if (edad < 18){
+//         alert("tira pa tu casa, squeroso!")                                         Este actua primero
+//         console.log("Nope, no puedes entrar miarma");                               En caso de que no cumpla el primer filtro
 //     }
 //    
-//     else if (edad <21){                                                              Actua en segundo paso
-//         console.log("Hmmmm, puedes entrar... pero... no puedes tocar ná");           Con su respectiva respuesta
+//     else if (edad <21){     
+//         alert("Y te estoy vigilando...")                                            Actua en segundo paso
+//         console.log("Hmmmm, puedes entrar... pero... no puedes tocar ná");          Con su respectiva respuesta
 //     }
 //     
-//     else if (edad == 21 ){                                                           Si es exactamente 21
-//         console.log("Felcidades, es tu cumpleaños!!")                                Respuesta adecuada
+//     else if (edad == 21 ){                                                          Si es exactamente 21
+//          alert("Nga coge la botella y tiratela por encima")
+//          console.log("Felcidades, es tu cumpleaños!!")                              Respuesta adecuada
 //     }
 //    
-//     else if (age % 2 !== 0) {                                                        No entiendo esto del todo, tengo que ojearlo, "% not evenly divisible by two"
-//      console.log("Your age is odd!");                                                Respuesta adecuada   
+//     else if (edad % 2 !== 0) {                                                       No entiendo esto del todo, tengo que ojearlo, "% not evenly divisible by two"
+//          alert("Nga coge la botella y tiratela por encima")
+//          console.log("Your age is odd!");                                           Respuesta adecuada   
 //     }
 //  
-//     else if(edad % Math.sqrt(edad) === 0) {                                          Esto del perfect square, no lo he pillado del todo ese "% Math.sqrt"  
-//      console.log("Ou yeah, tienes Perfec Square lad!");                              Respuesta adecuada        
+//     else if(edad % Math.sqrt(edad) === 0) {                                         Esto del perfect square, no lo he pillado del todo ese "% Math.sqrt"  
+//          alert("Nga coge la botella y tiratela por encima")
+//          console.log("Ou yeah, tienes Perfec Square lad!");                         Respuesta adecuada        
 //     }
 //    
-//    else{                                                                             Todo lo demas
-//      console.log("Ente pacá, tu puedes entrar y hacer lo que quieras");              Respuesta adecuada
+//    else{                                                                            Todo lo demas
+//          alert("Nga coge la botella y tiratela por encima")
+//          console.log("Ente pacá, tu puedes entrar y hacer lo que quieras");         Respuesta adecuada
 //    }
+//
+//
+//-----------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
