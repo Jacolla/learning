@@ -73,7 +73,7 @@ var edad = prompt("Que edad tienes?")
      console.log("Hmmmm, puedes entrar... pero... no puedes tocar ná");
  }
 
-else if(edad % Math.sqrt(age) === 0) {
+else if(edad % Math.sqrt(edad) === 0) {
     console.log("Ou yeah, tienes Perfec Square lad!");
 }
 
