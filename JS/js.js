@@ -84,7 +84,7 @@
 //          console.log("Felcidades, es tu cumpleaños!!")                              Respuesta adecuada
 //     }
 //    
-//     else if (edad % 2 !== 0) {                                                       No entiendo esto del todo, tengo que ojearlo, "% not evenly divisible by two"
+//     else if (edad % 2 !== 0) {                                                      No entiendo esto del todo, tengo que ojearlo, "% not evenly divisible by two"
 //          alert("Nga coge la botella y tiratela por encima")
 //          console.log("Your age is odd!");                                           Respuesta adecuada   
 //     }
@@ -100,7 +100,40 @@
 //    }
 //
 //
+//
 //-----------------------------------------------
+//
+// Vamos a hacer filtros a las respuestas del prompt.
+
+
+    var numeroSecreto = 15;                                                         /*   Variable 1  */
+    var guess = prompt ("Adivina el numero");                                       /*   prompt para hacer la pregunta */
+        if(Number(guess)=== numeroSecreto){                                         /*   En caso de que acierte el numero secreto */  
+            alert("Ou yeahhhh asertahte");                                          /*   Respuesta para el caso de que se acierte el numero secreto */ 
+        }
+
+
+
+
+
+
+        else if(Number (guess) > numeroSecreto){                                    /*   En caso de que haya dicho un numero mas BAJO */
+            alert("Te has pasado de largo! Es mas bajo!");                          /*   Respuesta correspondiente */
+            
+            
+            
+             var reintentar = prompt ("Quieres intentarlo otra vez?");
+                if reintentar == (si){
+                    alert("PUES SACATE LA POLLA!")
+                }                           
+        
+
+
+
+
+
+        else if (Number (guess) < numeroSecreto)                                    /*   En caso de que haya dicho un numero mas ALTO */  
+            alert("Te has pasado de bajo, es mas alto!");                            /*   Respuesta correspondiente */
 
 
 
@@ -174,6 +207,5 @@
 // }
 // 
 // sumRange(3)
-
-
-                                                                                                                                                                                                                                                                                                                                  
+//
+//-----------------------------------------------                                                                                                                                                                                                                                                                                                                       
