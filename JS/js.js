@@ -29,7 +29,7 @@
 // var x = 10;
 // var y = "a"
 // 
-//  y==="b"||x>=10    /*--> true, "b" no es "a" pero (( || )or) x si es mayor o igual que 10, por lo tanto, true bitch */
+//  y==="b"||x>=10    /*--> true, "b" no es "a" pero (( || )or) x si es mayor o igual que 10, por lo tanto, TRUE bitch */
 //
 //
 //
@@ -41,33 +41,44 @@
 //
 //  false, porque al ser el &&(and) tiene que tener los dos lados positivos (o negativos) y como es el caso, solo 1 de ellos es positivo,
 //  el otro es negativo, es decir, a resultado total, FALSE bitch
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//
+//-----------------------------------------------
+//  Falsy values->
+//          -false
+//          -0
+//          -""
+//          -null
+//          -undefined
+//          -Nan
+//
+//  Todo lo demas... Truly bro
+//  
+//  var msj1 = " "                                                     Espacio vacio, no equivale a nada... es False bitch
+//  var msj2 = "que pasó"                                              No es un False value... por lo tanto, true bro
+//  var ndah = "false"                                                 Es un mensaje normal, con la triquiñuela del False dentro del mensaje... True bro then
+// 
+//  !(( msj1 || msj2) && ndah)                                         Farzo por er ! der prinsipio zupare         
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // COSAS QUE NO SON DEL CURSO. Puro jugueteo
 
 // ----------------------------------------------
@@ -130,7 +141,8 @@
 //           )
 //         and(prompt == "vaya")
 //         alert("mmmm vaya pppeaso crá")   
-                                                                   /* no funciona,  va bien hasta el prompt, luego no tengo ni idea de usar el "and"  */
+                                                                   /* no funciona,  va bien hasta el prompt, luego no tengo ni idea de usar el "and" */
+                                                                   /* creo que el prompt no funciona como pregunta... tengo que ojearlo */  
 
 
 // <2ª parte>-----------------------------------------------                    
@@ -148,27 +160,25 @@
 
 // <3ª parte>-----------------------------------------------
 
-// var x = 3;                                                      /* pues despues de ir probando, funciona, PERO solo funciona 1 vez, es decir */
-// var y = 8;                                                      /* no puedo volver a hacerlo si es en la misma hoja, tengo que cambiar de hoja y */ 
-// var result = !(x == "3" || x === y) && !(y !=8 && x <=y)        /* hacerlo funcionar en una nueva, mmmecaguen! */
-//         if(result == false)                                     /* Este es el error que me salta al intentar arrancarlo por 2ª vez */
-
-//                 prompt("a ver que tal...")                      /* Uncaught TypeError: prompt is not a function at <anonymous>:5:9, creo que es el */
-//                 {alert("ere un crá")                            /* prompt */. 
-
-//                 console.log("Toda la sacada de polla")          /* fallo 2-> Escribas lo que escribas en el prompt, te salta el alert de todas formas. */   
+// var x = 3;                                                      /*    pues despues de ir probando, funciona, PERO solo funciona 1 vez, es decir         */
+// var y = 8;                                                      /*    no puedo volver a hacerlo si es en la misma hoja, tengo que cambiar de hoja y         */ 
+// var result = !(x == "3" || x === y) && !(y !=8 && x <=y)        /*    hacerlo funcionar en una nueva, mmmecaguen!       */
+//  if(result == false)                                            /*    Este es el error que me salta al intentar arrancarlo por 2ª vez       */
+//      prompt("a ver que tal...")                                 /*    Uncaught TypeError: prompt is not a function at <anonymous>:5:9, creo que es el       */
+//      {alert("ere un crá")                                       /*    prompt        */. 
+//      console.log("Toda la sacada de polla")                     /*    fallo 2-> Escribas lo que escribas en el prompt, te salta el alert de todas formas.       */   
 
 
 
 //-----------------------------------------------
 
 /* Vamos a intentar hacer unas preguntas y coger la respuesta.*/   /* Tengo que meter un get a la respuesta, pero no se si eso del prompt me permite cogerla */
-//
-     function preguntas (){                                        /* Stá to mal */            
-         prompt("Que dia es?")                                     /*   */
-         if(prompt="1234"){                                        /* No sé si el prompt me da opción a coger la pregunta.  */
-             alert("nah is not!")                                  /*   */
-                          }                                        /*   */
-         else {"nah... no es eso canalla"                          /* Esto stá mal,  */  
-              }                                                    /*   */
- }
+
+      function preguntas (){                                        /* Stá to mal */            
+          prompt("Que dia es?")                                     /*   */
+          if(prompt="1234"){                                        /* (Linea 134) No sé si el prompt me da opción a coger la pregunta.  */
+              alert("nah is not!")                                  /*   */
+                           }                                        /*   */
+          else {"nah... no es eso canalla"                          /* Esto stá mal,  */  
+               }                                                    /*   */
+  }
