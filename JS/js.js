@@ -105,7 +105,8 @@
 //
 // Vamos a hacer filtros a las respuestas del prompt, "comprobar la respuesta".
 
-function preguntas(){
+function preguntas(){                                                               /*   Y con esta maravillosa "funcion", podemos unir el boton con todo el 
+                                                                                    /*   rollo este, 'function + id'. */
     var numeroSecreto = 15;                                                         /*   Variable 1  */
     var guess = prompt ("Adivina el numero");                                       /*   prompt para hacer la pregunta */
         if(Number(guess)=== numeroSecreto){                                         /*   En caso de que acierte el numero secreto */  
