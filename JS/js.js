@@ -103,7 +103,7 @@
 //
 //-----------------------------------------------
 //
-// Vamos a hacer filtros a las respuestas del prompt.
+// Vamos a hacer filtros a las respuestas del prompt, "comprobar la respuesta".
 
 
     var numeroSecreto = 15;                                                         /*   Variable 1  */
@@ -112,29 +112,13 @@
             alert("Ou yeahhhh asertahte");                                          /*   Respuesta para el caso de que se acierte el numero secreto */ 
         }
 
-
-
-
-
-
         else if(Number (guess) > numeroSecreto){                                    /*   En caso de que haya dicho un numero mas BAJO */
             alert("Te has pasado de largo! Es mas bajo!");                          /*   Respuesta correspondiente */
-            
-            
-            
-             var reintentar = prompt ("Quieres intentarlo otra vez?");
-                if reintentar == (si){
-                    alert("PUES SACATE LA POLLA!")
-                }                           
-        
-
-
-
-
-
+        }                                                                                          
         else if (Number (guess) < numeroSecreto)                                    /*   En caso de que haya dicho un numero mas ALTO */  
-            alert("Te has pasado de bajo, es mas alto!");                            /*   Respuesta correspondiente */
-
+            alert("Te has pasado de bajo, es mas alto!");                           /*   Respuesta correspondiente */
+                                                                                    
+        else("Ta to mal, squeroso!");
 
 
 
