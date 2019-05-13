@@ -1,1 +1,1 @@
-No big deal, just playing with this shit.
+No big deal, just playing with this.
