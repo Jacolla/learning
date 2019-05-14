@@ -105,27 +105,27 @@
 //
 // Vamos a hacer filtros a las respuestas del prompt, "comprobar la respuesta".
 
-//  function preguntas(){                                                             /*   Y con esta maravillosa "funcion", podemos unir el boton con todo el 
-//                                                                                    /*   rollo este, 'function + id'. */
-//    var numeroSecreto = 33;
-//    
-//    var stringGuess = prompt("Adivina el numero")
-//    var guess =Number(stringGuess);                                                 /*   prompt para hacer la pregunta */
-//        if(guess=== numeroSecreto){                                                 /*   En caso de que acierte el numero secreto */  
-//           alert("Ou yeahhhh asertahte");                                          /*   Respuesta para el caso de que se acierte el numero secreto */ 
-//        }
-//
-//        else if(guess > numeroSecreto){                                             /*   En caso de que haya dicho un numero mas BAJO */
-//            alert("Te has pasado de largo! Es mas bajo!");                          /*   Respuesta correspondiente */
-//        }   
-//
-//        else if (guess < numeroSecreto)                                             /*   En caso de que haya dicho un numero mas ALTO */  
-//            alert("Te has pasado de corto, es mas alto!");                          /*   Respuesta correspondiente */
-//        
-//        else{
-//            alert("Sta to mal saco mierda");
-//        }
-//    }
+  function preguntas(){                                                             /*   Y con esta maravillosa "funcion", podemos unir el boton con todo el 
+                                                                                    /*   rollo este, 'function + id'. */
+    var numeroSecreto = 33;
+    
+    var stringGuess = prompt("Adivina el numero")
+    var guess =Number(stringGuess);                                                 /*   prompt para hacer la pregunta */
+        if(guess=== numeroSecreto){                                                 /*   En caso de que acierte el numero secreto */  
+           alert("Ou yeahhhh asertahte");                                           /*   Respuesta para el caso de que se acierte el numero secreto */ 
+        }
+
+        else if(guess > numeroSecreto){                                             /*   En caso de que haya dicho un numero mas BAJO */
+            alert("Te has pasado de largo! Es mas bajo!");                          /*   Respuesta correspondiente */
+        }   
+
+        else if (guess < numeroSecreto)                                             /*   En caso de que haya dicho un numero mas ALTO */  
+            alert("Te has pasado de corto, es mas alto!");                          /*   Respuesta correspondiente */
+        
+        else{
+            alert("Sta to mal saco mierda");
+        }
+    }
 //
 //
 //
@@ -157,7 +157,7 @@
 // while(count<10){
 //     console.log(count;}
 // }
-
+//
 //
 //
 //
