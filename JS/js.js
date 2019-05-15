@@ -9,9 +9,9 @@
 // esto es lo que deja el mensaje en la consola "console.log"
 // console.log ("Este usuario se llama " + nombre + ", dice que su apellido es " + apellido )
 // console.log("y finalmente, su edad es de " + edad )
-
-
-
+//
+//
+//
 //-----------------------------------------------
 //
 // Esto es "una calculadora" ( multiplicas la edad por 365.25)
@@ -34,6 +34,13 @@
 //
 //
 //-----------------------------------------------
+//      
+//  Comparativos
+//
+//
+//
+//
+//
 //
 // var x = 3;
 // var y = 8;
@@ -55,11 +62,11 @@
 //
 //  Todo lo demas... Truly bro
 //  
-//  var msj1 = " "                                        Espacio vacio, no equivale a nada... es False bitch
-//  var msj2 = "que pasó"                                 No es un False value... por lo tanto, true bro
-//  var ndah = "false"                                    Es un mensaje normal, con la triquiñuela del False dentro del mensaje... True bro then
-//              
-//  !(( msj1 || msj2) && ndah)                            Farzo por er ! der prinsipio zupare         
+//  var msj1 = " "                                                                                  Espacio vacio, no equivale a nada... es False bitch
+//  var msj2 = "que pasó"                                                                           No es un False value... por lo tanto, true bro
+//  var ndah = "false"                                                                              Es un mensaje normal, con la triquiñuela del False dentro del mensaje... True bro then
+//                                                          
+//  !(( msj1 || msj2) && ndah)                                                                      Farzo por er ! der prinsipio zupare         
 //
 //
 //
@@ -69,61 +76,71 @@
 //
 // var edad = prompt("Que edad tienes?")
 //   
-//  if (edad < 18){
-//        alert("tira pa tu casa, squeroso!")                                         Este actua primero
-//        console.log("Nope, no puedes entrar miarma");                               En caso de que no cumpla el primer filtro
-//    }
-//   
-//    else if (edad <21){     
-//        alert("Y te estoy vigilando...")                                            Actua en segundo paso
-//        console.log("Hmmmm, puedes entrar... pero... no puedes tocar ná");          Con su respectiva respuesta
-//    }
-//    
-//    else if (edad == 21 ){                                                          Si es exactamente 21
-//         alert("Nga coge la botella y tiratela por encima")
-//         console.log("Felcidades, es tu cumpleaños!!")                              Respuesta adecuada
-//    }
-//   
-//    else if (edad % 2 !== 0) {                                                      No entiendo esto del todo, tengo que ojearlo, "% not evenly divisible by two"
-//         alert("Nga coge la botella y tiratela por encima")
-//         console.log("Your age is odd!");                                           Respuesta adecuada   
-//    }
-// 
-//    else if(edad % Math.sqrt(edad) === 0) {                                         Esto del perfect square, no lo he pillado del todo ese "% Math.sqrt"  
-//         alert("Nga coge la botella y tiratela por encima")
-//         console.log("Ou yeah, tienes Perfec Square lad!");                         Respuesta adecuada        
-//    }
-//   
-//   else{                                                                            Todo lo demas
-//         alert("Nga coge la botella y tiratela por encima")
-//         console.log("Ente pacá, tu puedes entrar y hacer lo que quieras");         Respuesta adecuada
-//   }
-//
+//  if (edad < 18){  
+//        alert("tira pa tu casa, squeroso!")                                                        Este actua primero
+//        console.log("Nope, no puedes entrar miarma");                                              En caso de que no cumpla el primer filtro
+//    }              
+//                   
+//    else if (edad <21){                    
+//        alert("Y te estoy vigilando...")                                                           Actua en segundo paso
+//        console.log("Hmmmm, puedes entrar... pero... no puedes tocar ná");                         Con su respectiva respuesta
+//    }              
+//                   
+//    else if (edad == 21 ){                                                                         Si es exactamente 21
+//         alert("Nga coge la botella y tiratela por encima")                
+//         console.log("Felcidades, es tu cumpleaños!!")                                             Respuesta adecuada
+//    }              
+//                   
+//    else if (edad % 2 !== 0) {                                                                     No entiendo esto del todo, tengo que ojearlo, "% not evenly divisible by two"
+//         alert("Nga coge la botella y tiratela por encima")                
+//         console.log("Your age is odd!");                                                          Respuesta adecuada   
+//    }              
+//               
+//    else if(edad % Math.sqrt(edad) === 0) {                                                        Esto del perfect square, no lo he pillado del todo ese "% Math.sqrt"  
+//         alert("Nga coge la botella y tiratela por encima")                
+//         console.log("Ou yeah, tienes Perfec Square lad!");                                        Respuesta adecuada        
+//    }              
+//                   
+//   else{                                                                                           Todo lo demas
+//         alert("Nga coge la botella y tiratela por encima")                
+//         console.log("Ente pacá, tu puedes entrar y hacer lo que quieras");                        Respuesta adecuada
+//   }             
+//             
 //
 //
 //-----------------------------------------------
 //
 // Vamos a hacer filtros a las respuestas del prompt, "comprobar la respuesta".
-
-  function preguntas(){                                                             /*   Y con esta maravillosa "funcion", podemos unir el boton con todo el 
-                                                                                    /*   rollo este, 'function + id'. */
+//
+  function preguntas(){                                                                         /*   Y con esta maravillosa "funcion", podemos unir el boton con todo el 
+                                                                                                /*   rollo este, 'function + id'. */
     var numeroSecreto = 33;
     
     var stringGuess = prompt("Adivina el numero")
-    var guess =Number(stringGuess);                                                 /*   prompt para hacer la pregunta */
-        if(guess=== numeroSecreto){                                                 /*   En caso de que acierte el numero secreto */  
-           alert("Ou yeahhhh asertahte");                                           /*   Respuesta para el caso de que se acierte el numero secreto */ 
+    var guess =Number(stringGuess);                                                             /*   prompt para hacer la pregunta */
+        if(guess=== numeroSecreto){                                                             /*   En caso de que acierte el numero secreto */  
+           alert("Ou yeahhhh asertahte");                                                       /*   Respuesta para el caso de que se acierte el numero secreto */ 
+           console.log("Ou yeeah, acertaste!, no hace falta que busques mas. ")                                          
         }
 
-        else if(guess > numeroSecreto){                                             /*   En caso de que haya dicho un numero mas BAJO */
-            alert("Te has pasado de largo! Es mas bajo!");                          /*   Respuesta correspondiente */
+        else if (guess ==false){
+            alert("Escribe algun numero squeroso!")
+        }
+
+        else if(guess > numeroSecreto){                                                         /*   En caso de que haya dicho un numero mas BAJO */
+            alert("Te has pasado de largo! Es mas bajo!");                                      /*   Respuesta correspondiente */
+            console.log("Respuesta no correcta, tiene que ser un numero mas bajo: " + stringGuess)                                                                       
         }   
 
-        else if (guess < numeroSecreto)                                             /*   En caso de que haya dicho un numero mas ALTO */  
-            alert("Te has pasado de corto, es mas alto!");                          /*   Respuesta correspondiente */
-        
+        else if (guess < numeroSecreto){                                                        /*   En caso de que haya dicho un numero mas ALTO */  
+            alert("Te has pasado de corto, es mas alto!");
+            console.log("Respuesta no correcta, debe ser un numero mas alto que: " + stringGuess)                                              /*   Respuesta correspondiente */
+        }
+
         else{
-            alert("Sta to mal saco mierda");
+            alert("Esta todo mal, tiene que ser un numero");
+            console.log("Ha introducido algo que no es un numero")
+            console.log ("Esta ha sido su respuesta: " + stringGuess )
         }
     }
 //
@@ -131,7 +148,7 @@
 //
 //-----------------------------------------------
 //
-//  Vamos ahora con los "loops"... no se tu pero eso suena bien... jeje
+// /*  Vamos ahora con los "loops"...  */
 //
 //  var count = 1;
 //        while (count <=3){
@@ -140,7 +157,8 @@
 //  }   
 //
 //------------------------
-//  
+//  /* Para que te cuente la palabra metida en el "str */ 
+//"
 // var str = "hello";
 // var count = 0;
 //
@@ -151,19 +169,19 @@
 //    
 //------------------------
 //
+//      /*Para sacar numeros (var identificada) entre
+//      /* los numeros dados (los datos que queremos que busque)    
+//      
+//     var cuenta = -10;
+//     while (cuenta<=20){
+//         console.log(cuenta);
+//         cuenta++;                                       /* con en "++", le va sumando */
+//     }
 //
-// var count = 0;
-// var count = 0;
-// while(count<10){
-//     console.log(count;}
-// }
-//
-//
-//
-//
-//
+//-----------------------------------------------
 
 
+    /* Annoy-omatic (que te salta todo el rato) */
 
 
 
@@ -231,4 +249,16 @@
 // 
 // sumRange(3)
 //
-//-----------------------------------------------                                                                                                                                                                                                                                                                                                                       
+//-----------------------------------------------  
+
+function moto(){
+    alert("Que te crees? hasta que no la tenga no le des al tick")
+}function trabajo(){
+    alert("Que te crees? hasta que no la tenga no le des al tick")
+}function lenguajes(){
+    alert("Que te crees? hasta que no la tenga no le des al tick")
+}function remoto(){
+    alert("Que te crees? hasta que no la tenga no le des al tick")
+}
+
+ 
