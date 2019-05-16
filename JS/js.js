@@ -123,7 +123,7 @@
            console.log("Ou yeeah, acertaste!, no hace falta que busques mas. ")                                          
         }
 
-        else if (guess ==false){
+        else if (guess == false){
             alert("Escribe algun numero squeroso!")
         }
 
@@ -158,7 +158,7 @@
 //
 //------------------------
 //  /* Para que te cuente la palabra metida en el "str */ 
-//"
+//
 // var str = "hello";
 // var count = 0;
 //
@@ -255,7 +255,7 @@ function moto(){
     alert("Que te crees? hasta que no la tenga no le des al tick")
 }function trabajo(){
     alert("Que te crees? hasta que no la tenga no le des al tick")
-}function lenguajes(){
+}function lenguaje(){
     alert("Que te crees? hasta que no la tenga no le des al tick")
 }function remoto(){
     alert("Que te crees? hasta que no la tenga no le des al tick")
