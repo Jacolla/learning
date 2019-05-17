@@ -253,12 +253,22 @@
 
 function moto(){
     alert("Que te crees? hasta que no la tenga no le des al tick")
-}function trabajo(){
+}
+
+function trabajo(){
     alert("Que te crees? hasta que no la tenga no le des al tick")
-}function lenguaje(){
+}
+
+function lenguaje(){
     alert("Que te crees? hasta que no la tenga no le des al tick")
-}function remoto(){
+}
+
+function remoto(){
     alert("Que te crees? hasta que no la tenga no le des al tick")
+}
+
+function ingles(){
+    alert("Ou yeah baby, you did")
 }
 
  

@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 	<title>Todo List</title>
 	<script src="js.js"></script>
+
 </head>
 <body>
+
 <h2>Cosas que hacer</h2>
 <ul>
-	<li><input type="checkbox" checked>
+	<li onclick="ingles()"><input type="checkbox" checked disabled >
 	Aprender ingles</li>
+
 	<li onclick="moto()"><input type="checkbox">
 	Conseguir moto</li>
+
 	<li onclick="lenguaje()"><input type="checkbox">
-	Aprender lenguajes de programacion</li>	
+	Aprender lenguajes de programacion</li>
+
 	<li onclick="trabajo()"><input type="checkbox">
 	Empezar a trabajar de programador</li>
+
 	<li onclick="remoto()"><input type="checkbox">
 	Trabajar a remoto</li>
 </ul>
 
-<button id="preguntas" onclick="preguntas()">aprietame bien fuerte de mango</button>
+<button onclick="preguntas(); this.onclick=null;">aprietame bien fuerte de mango</button>
 
 </body>
 </html>
