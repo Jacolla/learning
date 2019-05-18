@@ -3,7 +3,7 @@
 <head>
 
 	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-	<title>Todo List</title>
+	<title>To do List</title>
 	<script src="js.js"></script>
 
 </head>
@@ -11,23 +11,25 @@
 
 <h2>Cosas que hacer</h2>
 <ul>
-	<li onclick="ingles()"><input type="checkbox" checked disabled >
+	<li onclick="ingles()"><input type="checkbox" checked disabled >              
 	Aprender ingles</li>
 
-	<li onclick="moto()"><input type="checkbox">
-	Conseguir moto</li>
+	<li onclick="moto(); this.onclick=null;"><input type="checkbox">			<!-- Esto es lo que hace que solo cuente 1 click, -->
+	Conseguir moto</li>												            <!-- "this.onclick=null";		 -->
+	
 
-	<li onclick="lenguaje()"><input type="checkbox">
+	<li onclick="lenguaje(); this.onclick=null;"><input type="checkbox">
 	Aprender lenguajes de programacion</li>
 
-	<li onclick="trabajo()"><input type="checkbox">
+	<li onclick="trabajo(); this.onclick=null;"><input type="checkbox">
 	Empezar a trabajar de programador</li>
 
-	<li onclick="remoto()"><input type="checkbox">
+	<li onclick="remoto(); this.onclick=null;"><input type="checkbox">
 	Trabajar a remoto</li>
+
 </ul>
 
-<button onclick="preguntas(); this.onclick=null;">aprietame bien fuerte de mango</button>
+<button onclick="preguntas()">aprietame bien fuerte de mango</button>
 
 </body>
 </html>
