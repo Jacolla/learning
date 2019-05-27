@@ -1,3 +1,5 @@
+alert("                                Bienvenido a mis tierras, mortal...")
+
 //------------------------------------------------
 //
 // ejercicio de preguntar al usuario cuatro mierdas y luego juntarlas en una frase, pero OJO, solo en la consola.
@@ -120,7 +122,7 @@
     var guess =Number(stringGuess);                                                             /*   prompt para hacer la pregunta */
         if(guess=== numeroSecreto){                                                             /*   En caso de que acierte el numero secreto */  
            alert("Ou yeahhhh asertahte");                                                       /*   Respuesta para el caso de que se acierte el numero secreto */ 
-           console.log("Ou yeeah, acertaste!, no hace falta que busques mas. ")                                          
+           console.log("Ou yeeah, acertaste!, no hace falta que busques más. ")                                          
         }
 
         else if (guess == false){
@@ -138,8 +140,8 @@
         }
 
         else{
-            alert("Esta todo mal, tiene que ser un numero");
-            console.log("Ha introducido algo que no es un numero")
+            alert("Esta todo mal, tiene que ser un numero, solo un numero!");
+            console.log("Ha introducido algo que no es un numero.")
             console.log ("Esta ha sido su respuesta: " + stringGuess )
         }
     }
@@ -179,7 +181,6 @@
 //     }
 //
 //-----------------------------------------------
-
 
     /* Annoy-omatic (que te salta todo el rato) */
 
@@ -256,19 +257,19 @@ function moto(){
 }
 
 function trabajo(){
-    alert("Que te crees? hasta que no la tenga no le des al tick")
+    alert("Que te crees? hasta que no lo tenga no le des al tick")
 }
 
 function lenguaje(){
-    alert("Que te crees? hasta que no la tenga no le des al tick")
+    alert("Que te crees? hasta que no lo tenga no le des al tick")
 }
 
 function remoto(){
-    alert("Que te crees? hasta que no la tenga no le des al tick")
+    alert("Que te crees? hasta que no lo tenga no le des al tick")
 }
 
 function ingles(){
-    alert("Ou yeah baby, you did")
+    alert("Ou yeah baby, you did it")
 }
 
  
