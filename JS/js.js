@@ -141,7 +141,7 @@ alert("                                Bienvenido a mis tierras, mortal...")
 
         else{
             alert("Esta todo mal, tiene que ser un numero, solo un numero!");
-            console.log("Ha introducido algo que no es un numero.")
+            console.log("Ha introducido algo que NO es un numero.")
             console.log ("Esta ha sido su respuesta: " + stringGuess )
         }
     }
@@ -253,7 +253,7 @@ alert("                                Bienvenido a mis tierras, mortal...")
 //-----------------------------------------------  
 
 function moto(){
-    alert("Que te crees? hasta que no la tenga no le des al tick")
+    alert("Que te crees? hasta que no la tengas no le des al tick")
 }
 
 function trabajo(){
@@ -261,7 +261,7 @@ function trabajo(){
 }
 
 function lenguaje(){
-    alert("Que te crees? hasta que no lo tenga no le des al tick")
+    alert("Que te crees? hasta que no los tengas no le des al tick")
 }
 
 function remoto(){
