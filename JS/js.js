@@ -85,27 +85,27 @@ alert("                                Bienvenido a mis tierras, mortal...")
 //                   
 //    else if (edad <21){                    
 //        alert("Y te estoy vigilando...")                                                           Actua en segundo paso
-//        console.log("Hmmmm, puedes entrar... pero... no puedes tocar ná");                         Con su respectiva respuesta
+//        console.log("Hmmmm, puedes entrar... pero... no puedes tocar ná");                         Respuesta
 //    }              
 //                   
 //    else if (edad == 21 ){                                                                         Si es exactamente 21
 //         alert("Nga coge la botella y tiratela por encima")                
-//         console.log("Felcidades, es tu cumpleaños!!")                                             Respuesta adecuada
+//         console.log("Felcidades, es tu cumpleaños!!")                                             Respuesta 
 //    }              
 //                   
 //    else if (edad % 2 !== 0) {                                                                     No entiendo esto del todo, tengo que ojearlo, "% not evenly divisible by two"
 //         alert("Nga coge la botella y tiratela por encima")                
-//         console.log("Your age is odd!");                                                          Respuesta adecuada   
+//         console.log("Your age is odd!");                                                          Respuesta    
 //    }              
 //               
 //    else if(edad % Math.sqrt(edad) === 0) {                                                        Esto del perfect square, no lo he pillado del todo ese "% Math.sqrt"  
 //         alert("Nga coge la botella y tiratela por encima")                
-//         console.log("Ou yeah, tienes Perfec Square lad!");                                        Respuesta adecuada        
+//         console.log("Ou yeah, tienes Perfec Square lad!");                                        Respuesta         
 //    }              
 //                   
 //   else{                                                                                           Todo lo demas
 //         alert("Nga coge la botella y tiratela por encima")                
-//         console.log("Ente pacá, tu puedes entrar y hacer lo que quieras");                        Respuesta adecuada
+//         console.log("Ente pacá, tu puedes entrar y hacer lo que quieras");                        Respuesta 
 //   }             
 //             
 //
@@ -183,27 +183,6 @@ alert("                                Bienvenido a mis tierras, mortal...")
 //-----------------------------------------------
 
     /* Annoy-omatic (que te salta todo el rato) */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //
 //
