@@ -123,37 +123,37 @@
 //
 // Vamos a hacer filtros a las respuestas del prompt, "comprobar la respuesta".
 //
-//  function preguntas(){                                                                            /*   Y con esta maravillosa "funcion", podemos unir el boton con todo el 
-//                                                                                                   /*   rollo este, 'function + id'. */
-//    var numeroSecreto = 33;
-//    
-//    var stringGuess = prompt("Adivina el numero")
-//    var guess =Number(stringGuess);                                                                /*   prompt para hacer la pregunta */
-//        if(guess=== numeroSecreto){                                                                /*   En caso de que acierte el numero secreto */  
-//           alert("Ou yeahhhh asertahte");                                                          /*   Respuesta para el caso de que se acierte el numero secreto */ 
-//           console.log("Ou yeeah, acertaste!, no hace falta que busques más. ")                                          
-//        }
+// function preguntas(){                                                                            /*   Y con esta maravillosa "funcion", podemos unir el boton con todo el 
+//                                                                                                  /*   rollo este, 'function + id'. */
+//   var numeroSecreto = 33;
+//   
+//   var stringGuess = prompt("Adivina el numero")
+//   var guess =Number(stringGuess);                                                                /*   prompt para hacer la pregunta */
+//       if(guess=== numeroSecreto){                                                                /*   En caso de que acierte el numero secreto */  
+//          alert("Ou yeahhhh asertahte");                                                          /*   Respuesta para el caso de que se acierte el numero secreto */ 
+//          console.log("Ou yeeah, acertaste!, no hace falta que busques más. ")                                          
+//       }
 //
-//        else if (guess == false){
-//            alert("Escribe algun numero squeroso!")
-//        }
+//       else if (guess == false){
+//           alert("Escribe algun numero squeroso!")
+//       }
 //
-//        else if(guess > numeroSecreto){                                                            /*   En caso de que haya dicho un numero mas BAJO */
-//            alert("Te has pasado de largo! Es mas bajo!");                                         /*   Respuesta correspondiente */
-//            console.log("Respuesta no correcta, tiene que ser un numero mas bajo: " + stringGuess)                                                                       
-//        }   
+//       else if(guess > numeroSecreto){                                                            /*   En caso de que haya dicho un numero mas BAJO */
+//           alert("Te has pasado de largo! Es mas bajo!");                                         /*   Respuesta correspondiente */
+//           console.log("Respuesta no correcta, tiene que ser un numero mas bajo: " + stringGuess)                                                                       
+//       }   
 //
-//        else if (guess < numeroSecreto){                                                           /*   En caso de que haya dicho un numero mas ALTO */  
-//            alert("Te has pasado de corto, es mas alto!");
-//            console.log("Respuesta no correcta, debe ser un numero mas alto que: " + stringGuess)  /*   Respuesta correspondiente */
-//        }
+//       else if (guess < numeroSecreto){                                                           /*   En caso de que haya dicho un numero mas ALTO */  
+//           alert("Te has pasado de corto, es mas alto!");
+//           console.log("Respuesta no correcta, debe ser un numero mas alto que: " + stringGuess)  /*   Respuesta correspondiente */
+//       }
 //
-//        else{
-//            alert("Esta todo mal, tiene que ser un numero, solo un numero!");
-//            console.log("Ha introducido algo que NO es un numero.")
-//            console.log ("Esta ha sido su respuesta: " + stringGuess )
-//        }
-//    }
+//       else{
+//           alert("Esta todo mal, tiene que ser un numero, solo un numero!");
+//           console.log("Ha introducido algo que NO es un numero.")
+//           console.log ("Esta ha sido su respuesta: " + stringGuess )
+//       }
+//   }
 //
 //
 //
@@ -191,12 +191,61 @@
 //
 //-----------------------------------------------
 
-    /* Annoy-omatic (que te salta todo el rato) */
+    /* Annoy-omatic  (que te salta todo el rato, utilizando el "while") */
 
-//
-//
-//
-//
+  var pregunta =("Ha salido bien ya?")
+    while(pregunta !== "si"  && pregunta !== "vaya"){
+        if(pregunta == "no"){
+        alert("tio cabron, que voy de buenas, echale ganas");
+        }
+    
+        var pregunta = prompt("Hemos llegado ya?");
+    }
+    alert("ou yeeahhh, toda la sacada de polla");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // COSAS QUE NO SON DEL CURSO. Puro jugueteo
 
 // ----------------------------------------------
