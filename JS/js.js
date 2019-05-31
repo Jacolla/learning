@@ -193,15 +193,17 @@
 
     /* Annoy-omatic  (que te salta todo el rato, utilizando el "while") */
 
-  var pregunta =("Ha salido bien ya?")
+var pregunta =("Ha salido bien ya?")
     while(pregunta !== "si"  && pregunta !== "vaya"){
+
         if(pregunta == "no"){
-        alert("tio cabron, que voy de buenas, echale ganas");
+
+            alert("tio cabron, echale ganas");
         }
     
         var pregunta = prompt("Hemos llegado ya?");
     }
-    alert("ou yeeahhh, toda la sacada de polla");
+alert("Bingoo!");
 
 
 
