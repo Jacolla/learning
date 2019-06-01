@@ -186,26 +186,40 @@
 //     var cuenta = -10;
 //     while (cuenta<=20){
 //         console.log(cuenta);
-//         cuenta++;                                                            /* con en "++", le va sumando */
+//         cuenta++;                                                                                 /* con en "++", le va sumando */
 //     }
 //
 //-----------------------------------------------
 
     /* Annoy-omatic  (que te salta todo el rato, utilizando el "while") */
 
-var pregunta =("Ha salido bien ya?")
+// var pregunta =("Ha salido bien ya?")
+// 
+//     while(pregunta !== "si"  && pregunta !== "vaya"){                                             /* El while crea el bucle hasta que obtenga la respuesta deseada, si no es "si" o "vaya" */
+// 
+//         if(pregunta == "no"){                                                                     /* Si la respuesta es "NO" */ 
+// 
+//             alert("tio cabron, echale ganas");                                                    /* Mensajito para animar a la respuesta NO deseada */
+//         }
+//     
+//         var pregunta = prompt("Hemos llegado ya?");                                               /* Se reactiva la pregunta */
+//     }
+// alert("Bingoo!");                                                                                 /* Cuando se cierra el bucle */
 
-    while(pregunta !== "si"  && pregunta !== "vaya"){           /* El while crea el bucle hasta que obtenga la respuesta deseada */
+//                                 VERSION 2 
 
-        if(pregunta == "no"){                                   /* La condicion para que NO se cierre el bucle */ 
-
-            alert("tio cabron, echale ganas");                  /* Mensajito para animar a la respuesta NO deseada */
+var pregunta = prompt("Hemos llegado?")
+   
+    while(pregunta.indexOf("si")===-1){                                                              /* Con esto, aceptas que la respuesta cuando incluye un SI */
+                                                                                                     /* Aunque la respusta sea un, Sisumeo, si dentro del texto hay un SI, se da por valido */
+        if(pregunta !=="si"){                                                                        /* Si la respuesta NO es si, que salte el alert */
+            
+            alert("Como sigas asi, doy la vuelta y no hay playa")
         }
-    
-        var pregunta = prompt("Hemos llegado ya?");             /* Se reactiva la pregunta */
+        
+        var pregunta = prompt("Hemos llegado ya?");                                                  /* Acciona el bucle */
     }
-alert("Bingoo!");                                               /* Cuando se cierra el bucle */
-
+alert("Bingoo!");                                    
 
 
 
