@@ -186,7 +186,7 @@
 //     var cuenta = -10;
 //     while (cuenta<=20){
 //         console.log(cuenta);
-//         cuenta++;                                       /* con en "++", le va sumando */
+//         cuenta++;                                                            /* con en "++", le va sumando */
 //     }
 //
 //-----------------------------------------------
@@ -194,16 +194,17 @@
     /* Annoy-omatic  (que te salta todo el rato, utilizando el "while") */
 
 var pregunta =("Ha salido bien ya?")
-    while(pregunta !== "si"  && pregunta !== "vaya"){
 
-        if(pregunta == "no"){
+    while(pregunta !== "si"  && pregunta !== "vaya"){           /* El while crea el bucle hasta que obtenga la respuesta deseada */
 
-            alert("tio cabron, echale ganas");
+        if(pregunta == "no"){                                   /* La condicion para que NO se cierre el bucle */ 
+
+            alert("tio cabron, echale ganas");                  /* Mensajito para animar a la respuesta NO deseada */
         }
     
-        var pregunta = prompt("Hemos llegado ya?");
+        var pregunta = prompt("Hemos llegado ya?");             /* Se reactiva la pregunta */
     }
-alert("Bingoo!");
+alert("Bingoo!");                                               /* Cuando se cierra el bucle */
 
 
 
