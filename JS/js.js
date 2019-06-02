@@ -217,7 +217,7 @@ var pregunta = prompt("Hemos llegado?")
             alert("Como sigas asi, doy la vuelta y no hay playa")
         }
         
-        var pregunta = prompt("Hemos llegado ya?");                                                  /* Acciona el bucle */
+        var pregunta = prompt("Hemos llegado ya?");                                                  /* pregunta dentro del bucle */
     }
 alert("Bingoo!");                                    
 
