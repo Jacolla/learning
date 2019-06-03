@@ -210,7 +210,7 @@
 
 var pregunta = prompt("Hemos llegado?")
    
-    while(pregunta.indexOf("si"), ===-1){                                                            /* Con esto, aceptas que la respuesta cuando incluye un SI */
+    while(pregunta.indexOf("si") ===-1){                                                            /* Con esto, aceptas que la respuesta cuando incluye un SI */
                                                                                                      /* Aunque la respusta sea un, Sisumeo, si dentro del texto hay un SI, se da por valido */
         if(pregunta == "no"){
             alert("tioo, venga yaaa!..")
