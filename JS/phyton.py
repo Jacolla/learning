@@ -55,7 +55,7 @@ Lista0.pop()
 
 
 Lista1=["Marta",25, True,]
-Lista2=["Alia", "Janet"]
+Lista2=["Charlene", "Janet"]
 Lista3= Lista0 + Lista1 + Lista2
 
-print(Lista3*3)
+print(Lista3*2)

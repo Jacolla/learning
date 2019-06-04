@@ -208,22 +208,22 @@
 
 //                                 VERSION 2 
 
-var pregunta = prompt("Hemos llegado?")
-   
-    while(pregunta.indexOf("si") ===-1){                                                            /* Con esto, aceptas que la respuesta cuando incluye un SI */
-                                                                                                     /* Aunque la respusta sea un, Sisumeo, si dentro del texto hay un SI, se da por valido */
-        if(pregunta == "no"){
-            alert("tioo, venga yaaa!..")
-        }
-        else if(pregunta !=="si"){                                                                   /* Si la respuesta NO es si, que salte el alert */
-            
-            alert("Como sigas asi, doy la vuelta y no hay playa")
-        }
-        var pregunta = prompt("Hemos llegado ya?");                                                  /* pregunta dentro del bucle */
-    }
-alert("Bingoo!");                                    
+// var pregunta = prompt("Hemos llegado?")
+//    
+//     while(pregunta.indexOf("si") ===-1){                                                            /* Con esto, aceptas que la respuesta cuando incluye un SI */
+//                                                                                                      /* Aunque la respusta sea un, Sisumeo, si dentro del texto hay un SI, se da por valido */
+//         if(pregunta == "no"){
+//             alert("tioo, venga yaaa!..")
+//         }
+//         else if(pregunta !=="si"){                                                                   /* Si la respuesta NO es si, que salte el alert */
+//             
+//             alert("Como sigas asi, doy la vuelta y no hay playa")
+//         }
+//         var pregunta = prompt("Hemos llegado ya?");                                                  /* pregunta dentro del bucle */
+//     }
+// alert("Bingoo!");                                    
 
-
+//-----------------------------------------------
 
 
 
