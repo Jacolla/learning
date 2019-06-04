@@ -191,39 +191,43 @@
 //
 //-----------------------------------------------
 
-    /* Annoy-omatic  (que te salta todo el rato, utilizando el "while") */
- var pregunta =("Ha salido bien ya?")
- 
-     while(pregunta !== "si"  && pregunta !== "vaya"){                                             /* El while crea el bucle hasta que obtenga la respuesta deseada, si no es "si" o "vaya" */
- 
-         if(pregunta == "no"){                                                                     /* Si la respuesta es "NO" */ 
- 
-             alert("tio cabron, echale ganas");                                                    /* Mensajito para animar a la respuesta NO deseada */
-         }
-     
-         var pregunta = prompt("Hemos llegado ya?");                                               /* Se reactiva la pregunta */
-     }
- alert("Bingoo!");                                                                                 /* Cuando se cierra el bucle */
-//                                VERSION 2 
- var pregunta = prompt("Hemos llegado?")
-    
-     while(pregunta.indexOf("si") ===-1){                                                            /* Con esto, aceptas que la respuesta cuando incluye un SI */
-                                                                                                      /* Aunque la respusta sea un, Sisumeo, si dentro del texto hay un SI, se da por valido */
-         if(pregunta == "no"){
-             alert("tioo, venga yaaa!..")
-         }
-         else if(pregunta !=="si"){                                                                   /* Si la respuesta NO es si, que salte el alert */
-             
-             alert("Como sigas asi, doy la vuelta y no hay playa")
-         }
-         var pregunta = prompt("Hemos llegado ya?");                                                  /* pregunta dentro del bucle */
-     }
- alert("Bingoo!");                                    
+//     /* Annoy-omatic  (que te salta todo el rato, utilizando el "while") */
+//  var pregunta =("Ha salido bien ya?")
+//  
+//      while(pregunta !== "si"  && pregunta !== "vaya"){                                             /* El while crea el bucle hasta que obtenga la respuesta deseada, si no es "si" o "vaya" */
+//  
+//          if(pregunta == "no"){                                                                     /* Si la respuesta es "NO" */ 
+//  
+//              alert("tio cabron, echale ganas");                                                    /* Mensajito para animar a la respuesta NO deseada */
+//          }
+//      
+//          var pregunta = prompt("Hemos llegado ya?");                                               /* Se reactiva la pregunta */
+//      }
+//  alert("Bingoo!");                                                                                 /* Cuando se cierra el bucle */
+// //                                VERSION 2 
+//  var pregunta = prompt("Hemos llegado?")
+//     
+//      while(pregunta.indexOf("si") ===-1){                                                            /* Con esto, aceptas que la respuesta cuando incluye un SI */
+//                                                                                                       /* Aunque la respusta sea un, Sisumeo, si dentro del texto hay un SI, se da por valido */
+//          if(pregunta == "no"){
+//              alert("tioo, venga yaaa!..")
+//          }
+//          else if(pregunta !=="si"){                                                                   /* Si la respuesta NO es si, que salte el alert */
+//              
+//              alert("Como sigas asi, doy la vuelta y no hay playa")
+//          }
+//          var pregunta = prompt("Hemos llegado ya?");                                                  /* pregunta dentro del bucle */
+//      }
+//  alert("Bingoo!");                                    
 
 //-----------------------------------------------
-
-
-
+     
+ //   Otro tipo de bucle es el "for", basicamente es lo mismo que el "while", pero mas sencillo
+ //   y directo.
+    
+for (var cuenta = 0; cuenta < 10; cuenta++){
+    console.log("Esta es la linea numero " + cuenta)
+}
 
 
 
