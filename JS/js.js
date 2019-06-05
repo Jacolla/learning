@@ -225,10 +225,15 @@
  //   Otro tipo de bucle es el "for", basicamente es lo mismo que el "while", pero mas sencillo
  //   y directo.
     
-for (var cuenta = 0; cuenta < 10; cuenta++){
-    console.log("Esta es la linea numero " + cuenta)
-}
+// for (var cuenta = 0; cuenta < 10; cuenta++){
+//     console.log("Esta es la linea numero " + cuenta)
+// }
 
+ var str= "Pontenza";
+
+ for(var i =0 ; i< str.length; i++){
+    console.log(str[i])
+ }
 
 
 
