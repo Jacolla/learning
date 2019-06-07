@@ -284,6 +284,28 @@
 
 
 
+                            /* ------ FUNCTIONS ------ */
+
+//  
+//  function jaime(){
+//      console.log("probando las function");
+//  }
+//  
+//  jaime();                                                            /* Importante llamar a la funcion con los "()", sinó, no llamas a la funcion en crudo, sin ejecutar */
+//  jaime();                                                            /* con los "()", llamas a ejecutar la funcion */        
+//  jaime();
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -297,34 +319,30 @@
 
 // esto es una funcion que se llama a si misma, se llama recursion.
 // Recursion is a process ( a function, en este caso ) that calls itself, el pez que se muerde la cola... hasta colapsar.
-//
+// Un torbellino!!
 //
 // function countdown(num){
-// 	if (num <=0) {
-// 		console.log("De puta madre!, no tengo ni idea que he hecho!")
+// 	if (num <=-1) {
+// 		console.log("   Free me!   ")
 // 		return;
 // 	}
 // 	console.log(num);
-// 	num--;
+// 	num++;
 // 	countdown(num);
 //  }
-// 
-// countdown(4);
-// 	
-// 	countdown(3);
+//
+// 	countdown(2);
 // 		
-// 		countdown(2);
+// 		countdown(1);
 // 			
-// 			countdown(1);
-// 				
-// 				 countdown(0);
+//  		countdown(0);
  				 	
 
 
 //-----------------------------------------------
 //
 //
-// No fucking idea what this is
+// Esto tio, esto es un pedazo de truño que no entiendo, no se ni si tiene sentido
 // function sumRange(num){ 
 // 		if(num === 1) return 1;
 // 		return num + sumRange(num-1);					

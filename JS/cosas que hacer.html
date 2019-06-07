@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 	<title>To do List</title>
 	<script src="js.js"></script>
 
 </head>
 <body>
-<h2>Cosas que hacer</h2>
-<ul>
-	<li onclick="ingles()"><input type="checkbox" checked disabled >              
-	Aprender ingles
-	</li>
+	<h2>Cosas que hacer</h2>
 
-	<li onclick="moto(); this.onclick=null;"><input type="checkbox">			<!-- Esto es lo que hace que solo cuente 1 click, -->
-	Conseguir moto																<!-- "this.onclick=null";		 -->
-	</li>												           				
+	<ul>
+		<li onclick="ingles()"><input type="checkbox" checked disabled >              
+			Aprender ingles
+		</li>
 
-	<li onclick="lenguaje(); this.onclick=null;"><input type="checkbox">
-	Aprender lenguajes de programacion
-	</li>
+		<li onclick="moto();"><input type="checkbox">								<!-- Esto es lo que hace que ejecute el botonsito -->
+			Conseguir moto																<!-- "onclick="		 -->
+		</li>												           				
 
-	<li onclick="trabajo(); this.onclick=null;"><input type="checkbox">
-	Empezar a trabajar de programador
-	</li>
+		<li onclick="lenguaje();"><input type="checkbox">
+			Aprender lenguajes de programacion
+		</li>
 
-	<li onclick="remoto(); this.onclick=null;"><input type="checkbox">
-	Trabajar a remoto
-	</li>
+		<li onclick="trabajo();"><input type="checkbox">
+			Empezar a trabajar de programador
+		</li>
 
-</ul>
+		<li onclick="remoto();"><input type="checkbox">
+			Trabajar a remoto
+		</li>
+
+	</ul>
 
 <!--  Boton de pregunta
-	 <button onclick="preguntas()">aprietame bien fuerte de mango</button>
+	 <button onclick="preguntas()">dale con chufa</button>
 -->
+
 </body>
 </html>
