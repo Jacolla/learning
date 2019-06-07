@@ -229,37 +229,57 @@
 //     console.log("Esta es la linea numero " + cuenta)
 // }
 
- var str= "Pontenza";
+//---
 
- for(var i =0 ; i< str.length; i++){
-    console.log(str[i])
- }
+//  var str= "Pontenza";
+// 
+//  for(var i = 0 ; i < str.length; i++){
+//     console.log(str[i])
+//  }
 
+// ---
 
+// var variable = "Ohsotloa"
+// for(var i= 1; i<variable.length; i+=2){
+//     console.log(variable[i])
+// }
 
+//----------------------- Exercise -----------------------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//  Print all number between -10 and 19
+//  Print all even number between 10 and 40
+//  Print all odd number between 300 and 333
+//  Print all number divisible by 5 and 3 between 5 and 50
 
 
-
-
-
-
-
-
+// /* Para los de entre los -10 y 20*/ 
+// console.log("Para los de entre los -10 y 20 ")
+// for(var cuenta = -10; cuenta < 20; cuenta++)
+//     {console.log("esta es la linea " + cuenta) 
+//     }
+//   
+// /* Para los INCLUIDOS 10 y 40 */
+// console.log("Para los INCLUIDOS 10 y 40")
+// for(var cuenta = 10; cuenta <= 40; cuenta++)
+//     if( cuenta % 2 ===0){
+//         console.log("estos son los pares " + cuenta) 
+//     
+//     } 
+//   
+// /* Para los odd(impares) numeros entre 300 y 333 */
+// console.log("Para los odd numeros entre 300 y 333")
+// for(var cuenta=300; cuenta<334; cuenta++)
+//   if(cuenta % 2 !== 0)
+//     {console.log("estos son los impares " +cuenta)
+//     }
+// 
+//   
+// /* Para los divisibles entre 5 y 3, entre 5 y 50 */
+// console.log("Divisibles entre 3 y 5")
+// for(var cuenta = 5; cuenta <= 50; cuenta++)
+//     if(cuenta % 5 === 0 && cuenta % 3 === 0){
+//     console.log("estos son los divisibles entre 3 y 5: "+ cuenta);
+// }
 
 
 
