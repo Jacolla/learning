@@ -280,12 +280,7 @@
 //     if(cuenta % 5 === 0 && cuenta % 3 === 0){
 //     console.log("estos son los divisibles entre 3 y 5: "+ cuenta);
 // }
-
-
-
-
-                            /* ------ FUNCTIONS ------ */
-
+//                          /* ------ FUNCTIONS ------ */
 //  
 //  function jaime(){
 //      console.log("probando las function");
@@ -294,11 +289,33 @@
 //  jaime();                                                            /* Importante llamar a la funcion con los "()", sinó, no llamas a la funcion en crudo, sin ejecutar */
 //  jaime();                                                            /* con los "()", llamas a ejecutar la funcion */        
 //  jaime();
+//---------------
+// 
+// function saySomething(algo){
+//     console.log("Que pasa " + algo + "?");
+// }
+// 
+// saySomething("Jaime");
+//
+//
+
+// //---------------
+// 
+// function notaFinal(nota1, nota2, nota3){
+//     console.log("Estas con un " + nota3 + ", disfruta");
+//     console.log("Bueno... lo importante es participar, tu nota es... un " + nota2)
+//     console.log(nota1 + "... no se que esperabas")
+// }
+// notaFinal("8.7", "4.89", "2");
 
 
 
+//---------------
 
-
+function multiplica(x) {
+	return x * 2;
+	console.log("El resultado es: ")
+}
 
 
 
@@ -372,4 +389,12 @@ function ingles(){
     alert("Ou yeah baby, you did it")
 }
 
- 
+//---------------
+
+
+function recordar(estudiar, trabajar, fumar){
+    alert("You should" + estudiar )
+    alert("Deja de fumar ya!" + fumar)
+    alert("Deberia trabajar?" + trabajar)
+}
+
