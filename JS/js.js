@@ -362,12 +362,43 @@
 //      /* Para reemplazar 'replace'  */
 //  
 //  function prueba(x){
-//  	var nuevaX = x.replace(/es grande/g, "no es tan grande");             /* / <-- dentro va lo que quieres corregir  /i ' la 'g' es de global ', luego lo que va a reemplazarlo */
+//  	var nuevaX = x.replace(/es grande/g, "no es tan grande");       /* / <-- dentro va lo que quieres corregir  /i ' la 'g' es de global ', luego lo que va a reemplazarlo */
 //  
 //  return nuevaX
 //  }     
 //    
 //-----------------------------------------------
+//                                      <--- JS Scope --->
+//  <--- JS Scope, contexto que algun codigo esta ejecutando, en una funcion.  
+//       Si defines algo dentro de una funcion, no puedes llamarla desde fuera de la funcion,
+//       pero, si la defines fuera de la funcion, luego puedes llamarla desde dentro la funcion
+//  
+//  var pruebaUno = 33
+//  
+//  
+//  function pruebaDos(){
+//          console.log(pruebaUno)                                      /* Cuando creas una variable dentro de una funcion, esa variable solo existe dentro de la funcion */ 
+//  }                                                                     
+//  
+//  function pruebaTres(){                          
+//          pruebaUno=100;                                              /* Cuando le cambias el valor a la variable, se altera el valor de la variable DENTRO de la funcion, la de fuera es otra variable */
+//          console.log(pruebaUno)                                        
+//  }
+//
+//-----------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
