@@ -159,7 +159,7 @@
 //
 //-----------------------------------------------
 //
-// /*  Vamos ahora con los "loops"...  */
+// 
 //
 //  var count = 1;
 //        while (count <=3){
@@ -268,7 +268,7 @@
 //   
 // /* Para los odd(impares) numeros entre 300 y 333 */
 // console.log("Para los odd numeros entre 300 y 333")
-// for(var cuenta=300; cuenta<334; cuenta++)
+// for(var cuenta = 300; cuenta < 334; cuenta++)
 //   if(cuenta % 2 !== 0)
 //     {console.log("estos son los impares " +cuenta)
 //     }
@@ -310,13 +310,64 @@
 
 
 
-//---------------
+//-----------------------------------------------
 
-function multiplica(x) {
-	return x * 2;
-	console.log("El resultado es: ")
-}
+// function multiplica(x) {
+//     console.log("El resultado es: " + x);
+//     return x * 2;
+// }
+// 
 
+
+//-----------------------------------------------
+        /* Exercise */
+
+
+
+  /* Para sacar los pares/impartes */
+
+//  function isEven (x){
+//      if(x %2 === 0 ){                                       
+//          return true;
+//                    }
+//      else{
+//          return false;
+//          }
+//      }
+//  
+//  
+//  //<-- Short Ver -->
+//  function isEven(x){
+//      return x & 2 == 0;
+//  }
+//
+//  //--------------- 
+//  
+//  
+//  
+//      /* Para hacer que el numero se multiplique por si mismo hasta llegar a 1 */
+//      /* Es decir, si entra el numero 5, seria 5x4x3x2x1 */
+//      
+//      function factorial(x){
+//      if (x==0){
+//          return 1;
+//      }
+//      return x * factorial(x-1);
+//  }
+//
+//  //---------------
+//  
+//  
+//  
+//      /* Para reemplazar 'replace'  */
+//  
+//  function prueba(x){
+//  	var nuevaX = x.replace(/es grande/g, "no es tan grande");             /* / <-- dentro va lo que quieres corregir  /i ' la 'g' es de global ', luego lo que va a reemplazarlo */
+//  
+//  return nuevaX
+//  }     
+//    
+//-----------------------------------------------
 
 
 
@@ -392,9 +443,9 @@ function ingles(){
 //---------------
 
 
-function recordar(estudiar, trabajar, fumar){
-    alert("You should" + estudiar )
-    alert("Deja de fumar ya!" + fumar)
-    alert("Deberia trabajar?" + trabajar)
-}
+// function recordar(estudiar, trabajar, fumar){
+//     alert("You should" + estudiar )
+//     alert("Deja de fumar ya!" + fumar)
+//     alert("Deberia trabajar?" + trabajar)
+// }
 
