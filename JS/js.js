@@ -369,10 +369,10 @@
 //    
 //-----------------------------------------------
 //                                      <--- JS Scope --->
-//  <--- JS Scope, contexto que algun codigo esta ejecutando, en una funcion.  
+// /*  <--- JS Scope, contexto que algun codigo esta ejecutando, en una funcion.  
 //       Si defines algo dentro de una funcion, no puedes llamarla desde fuera de la funcion,
 //       pero, si la defines fuera de la funcion, luego puedes llamarla desde dentro la funcion
-//  
+//  */
 //  var pruebaUno = 33
 //  
 //  
