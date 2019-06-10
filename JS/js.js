@@ -377,16 +377,16 @@
 //  
 //  
 //  function pruebaDos(){
-//          console.log(pruebaUno)                                      /* Cuando creas una variable dentro de una funcion, esa variable solo existe dentro de la funcion */ 
+//          console.log(pruebaUno);                                      /* Cuando creas una variable dentro de una funcion, esa variable solo existe dentro de la funcion */ 
 //  }                                                                     
 //  
 //  function pruebaTres(){                          
 //          pruebaUno=100;                                              /* Cuando le cambias el valor a la variable, se altera el valor de la variable DENTRO de la funcion, la de fuera es otra variable */
-//          console.log(pruebaUno)                                        
+//          return pruebaTres;                                        
 //  }
 //
 //-----------------------------------------------
-
+// this is to make the green thing in github
 
 
 
