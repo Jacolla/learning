@@ -482,3 +482,22 @@ function ingles(){
 //     alert("Deberia trabajar?" + trabajar)
 // }
 
+function preguntas(){                           /* Np se por qué, solo salta el ultimo */
+	prompt("Que te parece todo esto?")
+		
+		if(prompt == "bien"){
+			return "pues no va el tio y lo sabe"
+			}
+		 
+		else if (prompt == "mal" ){
+			return "esta todo mal, squeroso"
+        	}
+
+		else if (prompt == null){
+			return "aqui no hay ná"
+			}		
+
+		else {
+			return "cagon dios!"				
+			}
+	}
