@@ -79,42 +79,41 @@
 //     var edad = prompt("Que edad tienes?")
 //                      
 //  if (edad < 18){               
-//        alert("tira pa tu casa, squeroso!")                                                       Este actua primero
-//        console.log("Nope, no puedes entrar miarma");                                             En caso de que no cumpla el primer filtro
+//        alert("tira pa tu casa, squeroso!")                                               /*      Este actua primero  */
+//        console.log("Nope, no puedes entrar miarma");                                     /*      En caso de que no cumpla el primer filtro  */
 //    }                          
 //                               
-//    else if (edad <21){                                                                           Entra en segundo paso
-//        alert("Te estoy vigilando...")                                                            Respuesta que recive el usuario
-//        console.log("Hmmmm, puedes entrar... pero... no puede tocar nada");                       Respuesta en la consola
+//    else if (edad <21){                                                                   /*      Entra en segundo paso  */
+//        alert("Te estoy vigilando...")                                                    /*      Respuesta que recive el usuario  */
+//        console.log("Hmmmm, puedes entrar... pero... no puede tocar nada");               /*      Respuesta en la consola  */
 //    }                           
 //
 //                                
 //                                
-//    else if (edad == 21 ){                                                                        Actua en tercer paso
-//         alert("Por los pelos eh, venga entra, pide algo de beber.")                              Respuesta que recive el usuario
-//         console.log("Ponedle un ojo encima por si la lia")                                       Respuesta en la consola
+//    else if (edad == 21 ){                                                                /*      Actua en tercer paso  */
+//         alert("Por los pelos eh, venga entra, pide algo de beber.")                      /*      Respuesta que recive el usuario  */
+//         console.log("Ponedle un ojo encima por si la lia")                               /*      Respuesta en la consola  */
 //    }                           
 //    
-//    else if (edad >21){                                                                           Actua en cuarto paso
-//        alert("Ponte comodo y pide algo de beber.")                                               Respuesta que recive usuario    
-//        console.log("Hmmmm, puedes entrar... pero... no puedes tocar ná");                        Respuesta en la consola
+//    else if (edad >21){                                                                   /*      Actua en cuarto paso  */
+//        alert("Ponte comodo y pide algo de beber.")                                       /*      Respuesta que recive usuario  */    
+//        console.log("Hmmmm, puedes entrar... pero... no puedes tocar ná");                /*      Respuesta en la consola  */
 //    }   
-//
-//                                
-//                                
-//    else if (edad % 2 !== 0) {                                                                    No entiendo esto del todo, tengo que ojearlo, "% not evenly divisible by two"
-//         alert("Tu edad es divisible por 2")                                                      Respuesta que recive usuario
-//         console.log("Your age is odd!");                                                         Respuesta en la consola   
-//    }                           
+//                                                            
+////    else if (edad % 2 !== 0) {                                                            /*      No entiendo esto del todo, tengo que ojearlo, "% not evenly divisible by two"  */
+////         alert("Tu edad es divisible por 2")                                              /*      Respuesta que recive usuario  */
+////         console.log("Your age is odd!");                                                 /*      Respuesta en la consola  */   
+////    }                           
 //                            
-//    else if(edad % Math.sqrt(edad) === 0) {                                                       Esto del perfect square, no lo he pillado del todo ese "% Math.sqrt"  
+//    else if(edad % Math.sqrt(edad) === 0) {                                               /*      Esto del perfect square, no lo he pillado del todo ese "% Math.sqrt"  */  
 //         alert("Nga coge la botella y tiratela por encima")                             
-//         console.log("Ou yeah, tienes Perfec Square lad!");                                                
+//         console.log("Ou yeah, tienes Perfec Square lad!");                                              
 //    }                           
 //                                
-//   else{                                                                                          Todo lo demas
+//   else{                                                                                  /*      Todo lo demas  */
 //         alert("Escribe un numero, ejemplo: 1,2,3,4,5,6,7.")                                                                              
-//         console.log("Ente pacá, tu puedes entrar y hacer lo que quieras");                         
+//         console.log("Ente pacá, tu puedes entrar y hacer lo que quieras");
+//                                 
 //   }             
 //             
 //
@@ -368,6 +367,9 @@
 //  }     
 //    
 //-----------------------------------------------
+
+
+
 //                                      <--- JS Scope --->
 // /*  <--- JS Scope, contexto que algun codigo esta ejecutando, en una funcion.  
 //       Si defines algo dentro de una funcion, no puedes llamarla desde fuera de la funcion,
@@ -386,7 +388,28 @@
 //  }
 //
 //-----------------------------------------------
-// this is to make the green thing in github
+
+
+
+// Pass function to another function ( que una funcion llame a otra funcion )
+
+
+// function pruebaUno(){
+//         console.log("Cual es esta prueba? ");
+//         console.log("esta es la prueba uno");
+// }                              
+// 
+// setInterval(pruebaUno,2000)         /* Llama a la funcion 'pruebaUno' y la saque cada 2000 milisegundos */
+
+
+
+// setInterval(function (){
+//     console.log("Preparando intervalo con funcion creada dentro")
+//     console.log("No?")
+//     }, 2000);
+
+//-----------------------------------------------
+            /* Arrays */
 
 
 
@@ -403,17 +426,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+            
 // COSAS QUE NO SON DEL CURSO. Puro jugueteo
 
 // ----------------------------------------------
@@ -482,22 +495,22 @@ function ingles(){
 //     alert("Deberia trabajar?" + trabajar)
 // }
 
-function preguntas(){                                   /* No se por qué, solo salta el ultimo */
-	prompt("Que te parece todo esto?")
-		
-		if(prompt == "bien"){
-			return "pues no va el tio y lo sabe"
-			}
-		 
-		else if (prompt == "mal" ){
-			return "esta todo mal, squeroso"
-        	}
-
-		else if (prompt == null){
-			return "aqui no hay ná"
-			}		
-
-		else {
-			return "cagon dios!"				
-			}
-	}
+// function preguntas(){                                   /* No se por qué, solo salta el ultimo */
+// 	prompt("Que te parece todo esto?")
+// 		
+// 		if(prompt == "bien"){
+// 			return "pues no va el tio y lo sabe"
+// 			}
+// 		 
+// 		else if (prompt == "mal" ){
+// 			return "esta todo mal, squeroso"
+//         	}
+// 
+// 		else if (prompt == null){
+// 			return "aqui no hay ná"
+// 			}		
+// 
+// 		else {
+// 			return "cagon dios!"				
+// 			}
+// 	}
