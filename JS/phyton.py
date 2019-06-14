@@ -45,17 +45,17 @@
 
 # _______________________________________________
 
-Lista0=["Marta", True, 25, "False?"]
+# Lista0=["Marta", True, 25, "False?"]
 
-Lista0.append("Sandra")
-Lista0.insert(1,"Jesusito")
-Lista0.extend(["Antonio","Alia", "Pepote"])
-Lista0.remove("Antonio")
-Lista0.pop()
+# Lista0.append("Sandra")
+# Lista0.insert(1,"Jesusito")
+# Lista0.extend(["Antonio","Alia", "Pepote"])
+# Lista0.remove("Antonio")
+# Lista0.pop()
 
 
-Lista1=["Marta",25, True,]
-Lista2=["Charlene", "Janet"]
-Lista3= Lista0 + Lista1 + Lista2
+# Lista1=["Marta",25, True,]
+# Lista2=["Charlene", "Janet"]
+# Lista3= Lista0 + Lista1 + Lista2
 
-print(Lista3*2)
+# print(Lista3*2)

@@ -482,7 +482,7 @@ function ingles(){
 //     alert("Deberia trabajar?" + trabajar)
 // }
 
-function preguntas(){                           /* Np se por qué, solo salta el ultimo */
+function preguntas(){                                   /* No se por qué, solo salta el ultimo */
 	prompt("Que te parece todo esto?")
 		
 		if(prompt == "bien"){
