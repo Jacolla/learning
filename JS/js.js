@@ -399,13 +399,13 @@
 //         console.log("esta es la prueba uno");
 // }                              
 // 
-// setInterval(pruebaUno,2000)         /* Llama a la funcion 'pruebaUno' y la saque cada 2000 milisegundos */
+// setInterval(pruebaUno,2000)         /* Llama a la funcion 'pruebaUno' y la saca cada 2000 milisegundos */
 
 
 
 // setInterval(function (){
-//     console.log("Preparando intervalo con funcion creada dentro")
-//     console.log("No?")
+//     console.log("Preparando intervalo con funcion creada dentro");
+//     console.log("No?");
 //     }, 2000);
 
 //-----------------------------------------------
@@ -426,7 +426,7 @@
 
 
 
-            
+
 // COSAS QUE NO SON DEL CURSO. Puro jugueteo
 
 // ----------------------------------------------
