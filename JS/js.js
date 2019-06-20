@@ -473,7 +473,7 @@
 //-----------------------------------------------
 //
 //
-// Esto tio, esto es un pedazo de truño que no entiendo, no se ni si tiene sentido
+// Esto tio, esto es un pedazo de truño que no entiendo, no le encuentro el sentido...
 // function sumRange(num){ 
 // 		if(num === 1) return 1;
 // 		return num + sumRange(num-1);					
