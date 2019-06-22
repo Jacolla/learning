@@ -68,10 +68,27 @@
 
 #  Es como una lista, pero no es modificable, es decir, se pueden coger fracciones de la tupla, pero
 #  no puedes quitar/añadir componentes de la tupla, util cuando se quiere mirar la tupla o comprobar si hay algo en la tupla.
-#  Ocupan menos espacio, son mas rapidas de ejecutar, formatean strings
+#  Ocupan menos espacio, son mas rapidas de ejecutar, formatean strings(?)
 #  
-#  Diferencia entre tupla y lista a efectos reales?, las listas utilizan los [] y en las tuplas se utilizan ()(que no son obligatorios)
+#  Diferencia entre tupla y lista a efectos reales?, las listas utilizan los [] y en las tuplas se utilizan  () (que no son obligatorios)
 
-tuplaPrueba=("Marta", 30, "Alia", 25, "Janet", 23 )
-listaDos=list(tuplaPrueba)
-print(tuplaPrueba)
+#  tuplaPrueba=("Marta", 30, "Alia", 25, "Janet", 23 )
+#  listaDos=list(tuplaPrueba)
+#  print(listaDos[4])                                              # con los [], le decimos cual queremos seleccionar ( empezando por 0)
+
+
+# _______________________________________________
+
+#                  -- Diccionario --
+
+pruebaDicc={"Espania": "Mallorca", "England":"Manchester", "Russia": "Moscow"}
+pruebaDicc["Latvia"]="Riga"
+print(pruebaDicc["Latvia"])
+                                                                                # Se le puede reasignar solo con meterlo en la "lista"
+pruebaDicc["Polonia"]="Varsovia"
+print(pruebaDicc)
+
+del pruebaDicc["England"]
+print(pruebaDicc)
+
+
