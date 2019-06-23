@@ -80,15 +80,14 @@
 # _______________________________________________
 
 #                  -- Diccionario --
-
+  
 pruebaDicc={"Espania": "Mallorca", "England":"Manchester", "Russia": "Moscow"}
 pruebaDicc["Latvia"]="Riga"
 print(pruebaDicc["Latvia"])
                                                                                 # Se le puede reasignar solo con meterlo en la "lista"
 pruebaDicc["Polonia"]="Varsovia"
-print(pruebaDicc)
+print(pruebaDicc["Polonia"])
 
 del pruebaDicc["England"]
-print(pruebaDicc)
-
+print(pruebaDicc["Espania"])
 

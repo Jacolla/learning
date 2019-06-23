@@ -412,31 +412,6 @@
             /* Arrays */
 
 //      son los []
-//
-//
-//                                      wW
-//                                 \*__("/)__*/
-//                                     \__/
-//                                      ||
-//                                      \\
-//                                       ''
-
-//                                     WWWW
-//                                \*__('[]')__*/
-//                                     \__/
-//                                      ||
-//                                      \\
-//                                       ''
-//
-//                                      WWWW
-//                                 \*__('[]')__*/
-//                                      \__/
-//                                       ||
-//                                       \\
-//                                        ''
-//
-//
-
 
 
 
@@ -452,21 +427,21 @@
 // Recursion is a process ( a function, en este caso ) that calls itself, el pez que se muerde la cola... hasta colapsar.
 // Un torbellino!!
 //
-// function countdown(num){
-// 	if (num <=-1) {
-// 		console.log("   Free me!   ")
-// 		return;
-// 	}
-// 	console.log(num);
-// 	num++;
-// 	countdown(num);
-//  }
-//
-// 	countdown(2);
-// 		
-// 		countdown(1);
-// 			
-//  		countdown(0);
+//  function countdown(num){
+//  	if (num <=-1) {
+//  		console.log("   Free me!   ")
+//  		return;
+//  	}
+//  	console.log(num);
+//  	num++;
+//  	countdown(num);
+//   }
+// 
+//  	countdown(2);
+//  		
+//  		countdown(1);
+//  			
+//   		countdown(0);
  				 	
 
 
