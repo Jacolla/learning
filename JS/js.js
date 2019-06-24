@@ -1,7 +1,4 @@
-///////////////////////alert("                                Bienvenido a mis tierras, mortal...")
 
-//------------------------------------------------
-//
 // ejercicio de preguntar al usuario cuatro mierdas y luego juntarlas en una frase, pero OJO, solo en la consola.
 // 
 // var nombre=prompt("Que pasa, como te llamas? ")
@@ -38,12 +35,7 @@
 //-----------------------------------------------
 //      
 //  Comparativos
-//
-//
-//
-//
-//
-//
+
 // var x = 3;
 // var y = 8;
 // !(x == "3" || x === y)/* false */  && !(y !=8 && x <=y)/* true */   
@@ -166,6 +158,7 @@
 //	        count++;
 //  }   
 //
+
 //------------------------
 //  /* Para que te cuente la palabra metida en el "str */ 
 //
@@ -177,6 +170,7 @@
 //           count++;  
 //      }
 //    
+
 //------------------------
 //
 //      /*Para sacar numeros (var identificada) entre
@@ -188,9 +182,14 @@
 //         cuenta++;                                                                                 /* con en "++", le va sumando */
 //     }
 //
+
+
+
 //-----------------------------------------------
 
-//     /* Annoy-omatic  (que te salta todo el rato, utilizando el "while") */
+//   /* Annoy-omatic  (que te salta todo el rato, utilizando el "while") */
+
+
 //  var pregunta =("Ha salido bien ya?")
 //  
 //      while(pregunta !== "si"  && pregunta !== "vaya"){                                             /* El while crea el bucle hasta que obtenga la respuesta deseada, si no es "si" o "vaya" */
@@ -219,10 +218,13 @@
 //      }
 //  alert("Bingoo!");                                    
 
+
+
+
 //-----------------------------------------------
      
- //   Otro tipo de bucle es el "for", basicamente es lo mismo que el "while", pero mas sencillo
- //   y directo.
+//   Otro tipo de bucle es el "for", basicamente es lo mismo que el "while", pero mas sencillo
+//   y directo.
     
 // for (var cuenta = 0; cuenta < 10; cuenta++){
 //     console.log("Esta es la linea numero " + cuenta)
@@ -242,6 +244,8 @@
 // for(var i= 1; i<variable.length; i+=2){
 //     console.log(variable[i])
 // }
+
+
 
 //----------------------- Exercise -----------------------
 
@@ -279,6 +283,11 @@
 //     if(cuenta % 5 === 0 && cuenta % 3 === 0){
 //     console.log("estos son los divisibles entre 3 y 5: "+ cuenta);
 // }
+
+
+
+//-----------------------------------------------
+
 //                          /* ------ FUNCTIONS ------ */
 //  
 //  function jaime(){
@@ -318,8 +327,9 @@
 // 
 
 
+
 //-----------------------------------------------
-        /* Exercise */
+        /* Exercise's */
 
 
 
@@ -366,9 +376,10 @@
 //  return nuevaX
 //  }     
 //    
+
+
+
 //-----------------------------------------------
-
-
 
 //                                      <--- JS Scope --->
 // /*  <--- JS Scope, contexto que algun codigo esta ejecutando, en una funcion.  
@@ -387,9 +398,9 @@
 //          return pruebaTres;                                        
 //  }
 //
+
+
 //-----------------------------------------------
-
-
 
 // Pass function to another function ( que una funcion llame a otra funcion )
 
@@ -408,10 +419,83 @@
 //     console.log("No?");
 //     }, 2000);
 
+
+
 //-----------------------------------------------
             /* Arrays */
 
 //      son los []
+
+
+//  var motos = ["Jonda", "Yahama","Kasita","Triumph","Susuki"]
+//  motos[0] = "Honda";                                         /* llamando a la variable y seleccionando el que deseamos actualizar */
+//  motos[1] = "Yamaha";
+//  motos[2] = "Kawasaki";
+//  motos[4] = "Suzuki";
+//                                          /* Para añadir */
+//  motos[5] = "Ducati"
+//  
+//  moto[3]  /* Estas son las empepinás */
+//  
+//  //-----------------
+//              
+//                  /* push/pop arrays  */                  /* Para añadir/quitar a final de array */
+//  
+//  var colores = ["Azul","Rojo","Verde"]
+//  colores.push("Morado")                                      /* Lo empuja(push) al final de la variable, tambien devuelve la cantidad de arrays que hay dentro  */
+//  
+//  colores.pop()                                               /* Borra lo que esta al final del array y devuelve elemento borrado */
+//  
+//  //-----------------
+//  
+//              /* Shift/Unshift */                         /* Para añadir/quitar a principio de array */
+//  
+//  var colorines = ["Azul","Rojo","Verde"]
+//  colorines.unshift("Cian")                                   /* Con el UNSHIFT se le añade a primero de array */
+//  
+//  colorines.shift()                                           /* Con el SHIFT se le quita a primero de array */
+
+
+
+//-----------------  
+
+            /* IndexOf */                               /* Para buscar dentro del array */
+
+// var calzoncillos =["los rojos","Los de aviones","Los de la suerte","Los clasicos"]
+// calzoncillos.indexOf("Los clasicos")                        /* Le dices cual quieres encontrar  */
+// calzoncillos.indexOf("Los de follar")                       /* devuelve -1, porque no existen... */
+ 
+
+
+//-----------------
+
+//              /* Slice */                                 /* Para copiar arrays o partes de ella */
+//  
+//  var frutita = ["Banana","Mansanita","Manguito","Melocotonsito"]
+//  var platofruta = frutita.slice(2,4)                     /* Desde donde empieza el corte y donde lo termina sin incluir el ultimo */
+//  platofruta
+
+
+
+//-----------------------------------------------
+
+        /* Exercise's */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -447,8 +531,6 @@
 
 //-----------------------------------------------
 //
-//
-// Esto tio, esto es un pedazo de truño que no entiendo, no le encuentro el sentido...
 // function sumRange(num){ 
 // 		if(num === 1) return 1;
 // 		return num + sumRange(num-1);					
