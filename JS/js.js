@@ -481,9 +481,14 @@
 
         /* Exercise's */
 
-
-
-
+// var frutita = [
+//     ["Banana","Mansanita","Manguito","Melocotonsito"],
+//     ["platanito","perita","ceresita","melonsito"],
+//     ["paraguayito","tomatito","sandiita","piñita"]
+// ]
+// 
+// frutita[2][3]
+// /* piñita */
 
 
 
