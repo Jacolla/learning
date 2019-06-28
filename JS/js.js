@@ -505,25 +505,24 @@
               /* |  */
 /* Version Colt  V  */
 
-var todos = ["Compra una tortuga nueva"];
+var todos = ["Compra una tortuga nueva"];           /* Variable 1 */
 
-var input = prompt("Que te gustaria hacer?");
+var input = prompt("Que te gustaria hacer?");       /* Variable 2 */
 
-while (input !== "quit"){
-    if(input == "list"){
-        console.log(todos)
+while (input !== "quit"){                           /* bucle, si la respuesta NO es "quiet" */
+    if(input == "list"){                            /* si es "lista" */
+        console.log(todos)                          /* imprime Variable 1 */
     }
 
-
-else if(input == "new"){
-    var newTodo = prompt ("Enter new todo")
-    todos.push(newTodo);
+else if(input == "new"){                            /* sí escribe "new"... */
+    var newTodo = prompt ("Enter new todo")         /* nueva Variable 3 con prompt  */
+    todos.push(newTodo);                            /* empuja la respuesta de Variable 3 a Variable 1  (creo) */
 }
 
-input = prompt ("Que te gustaria hacer? 2.0")
+input = prompt ("Que te gustaria hacer? 2.0")       /* pregunta para cerrar el bucle */
 }
 
-console.log("okay, you are leaving us alone... it's okay")
+console.log("okay, you are leaving us alone... it's okay")      /* Cuando escriba "quit" */
 
 
 
