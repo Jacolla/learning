@@ -499,30 +499,43 @@
 
 
 
+var variable1 =["Deberia de... "]
 
+var variable2 = prompt("Que es lo que deberias hacer? ");
+    while(variable2 !=="salir"){
+        if(variable2 =="lista"){
+            console.log(variable1)
+        }
+        else if(variable2 == "nuevo"){
+            var variable3 = prompt ("Para añadir a la lista")
+            variable1.push(variable3)
+        }
+    variable2 = prompt("Seguro que es eso?")
+    }
+console.log("Ah... vale... que te vas... no pasa nada...")
 
               /* |  */
               /* |  */
 /* Version Colt  V  */
 
-var todos = ["Estudiar"];                                       /* Variable 1 */
-
-var input = prompt("Que te gustaria hacer?");                   /* Variable 2 */
-            
-while (input !== "quit"){                                       /* bucle, si la respuesta NO es "quiet" */
-    if(input == "list"){                                        /* condicional, si es "lista" */
-        console.log(todos)                                      /* accion, imprime Variable 1 */
-    }           
-            
-else if(input == "new"){                                        /* condicional 2, sí escribe "new"... */
-    var newTodo = prompt ("Enter new todo")                     /* crea nueva Variable 3 con prompt  */
-    todos.push(newTodo);                                        /* empuja la respuesta de Variable 3 a Variable 1  (creo) */
-}           
-            
-input = prompt ("Que te gustaria hacer? 2.0")                   /* pregunta para cerrar el bucle */
-}
-
-console.log("okay, you are leaving us alone... it's okay")      /* Cuando escriba "quit" */
+// var todos = ["Estudiar"];                                       /* Variable 1 */
+// 
+// var input = prompt("Que te gustaria hacer?");                   /* Variable 2 */
+//             
+// while (input !== "quit"){                                       /* bucle, si la respuesta NO es "quiet" */
+//     if(input == "list"){                                        /* condicional, si es "lista" */
+//         console.log(todos)                                      /* accion, imprime Variable 1 */
+//     }           
+//             
+// else if(input == "new"){                                        /* condicional 2, sí escribe "new"... */
+//     var newTodo = prompt ("Enter new todo")                     /* crea nueva Variable 3 con prompt  */
+//     todos.push(newTodo);                                        /* empuja la respuesta de Variable 3 a Variable 1  */
+// }           
+//             
+// input = prompt ("Que te gustaria hacer? 2.0")                   /* pregunta para cerrar el bucle */
+// }
+// 
+// console.log("okay, you are leaving us alone... it's okay")      /* Cuando escriba "quit" */
 
 
 
