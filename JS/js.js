@@ -509,10 +509,10 @@ var variable2 = prompt("Que es lo que deberias hacer? ");
         else if(variable2 == "nuevo"){
             var variable3 = prompt ("Para añadir a la lista")
             variable1.push(variable3)
-        }
+        }   
     variable2 = prompt("Seguro que es eso?")
     }
-console.log("Ah... vale... que te vas... no pasa nada...")
+console.log("Ale, DD formateado y todo ya listo para volver a trabajá squeroso!")
 
               /* |  */
               /* |  */
