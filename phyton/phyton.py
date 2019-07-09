@@ -81,13 +81,15 @@
 
 #                  -- Diccionario --
   
-pruebaDicc={"Espania": "Mallorca", "England":"Manchester", "Russia": "Moscow"}
-pruebaDicc["Latvia"]="Riga"
-print(pruebaDicc["Latvia"])
+pruebaDicc = {"Espania": "Mallorca", "England":"Manchester", "Russia": "Moscow"}
+pruebaDicc ["Latvia"] = "Riga"
+
+print (pruebaDicc["Latvia"])
                                                                                 # Se le puede reasignar solo con meterlo en la "lista"
-pruebaDicc["Polonia"]="Varsovia"
-print(pruebaDicc["Polonia"])
+pruebaDicc ["Polonia"] = "Varsovia"
+print (pruebaDicc["Polonia"])
 
-del pruebaDicc["England"]
-print(pruebaDicc["Espania"])
+del pruebaDicc["England"]                                                       # Con el Del se elimina de la tupla
 
+print (pruebaDicc ["Espania"])
+print (pruebaDicc)                                          
