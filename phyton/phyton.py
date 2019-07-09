@@ -81,7 +81,7 @@
 
 #                  -- Diccionario --
   
-pruebaDicc = {"Espania": "Mallorca", "England":"Manchester", "Russia": "Moscow"}
+pruebaDicc = {"Espania": "Mallorca", "England":"Manchester", "Russia": "Moscow", 2:"Puto amo"}
 pruebaDicc ["Latvia"] = "Riga"
 
 print (pruebaDicc["Latvia"])
@@ -92,4 +92,6 @@ print (pruebaDicc["Polonia"])
 del pruebaDicc["England"]                                                       # Con el Del se elimina de la tupla
 
 print (pruebaDicc ["Espania"])
-print (pruebaDicc)                                          
+print (pruebaDicc [2])  
+
+print(pruebaDicc)
