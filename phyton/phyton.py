@@ -1,4 +1,3 @@
-
 #Todo en phyton es un objeto
 #Las variables son marcadas por el contenido, no el contenedor.
 
@@ -82,7 +81,7 @@
 #                  -- Diccionario --
   
 pruebaDicc = {"Espania": "Mallorca", "England":"Manchester", "Russia": "Moscow", 2:"Puto amo"}
-pruebaDicc ["Latvia"] = "Riga"
+pruebaDicc["Latvia"] = "Riga"
 
 print (pruebaDicc["Latvia"])
                                                                                 # Se le puede reasignar solo con meterlo en la "lista"
@@ -95,3 +94,14 @@ print (pruebaDicc ["Espania"])
 print (pruebaDicc [2])  
 
 print(pruebaDicc)
+print(pruebaDicc.keys())                                                        # Seleccionas la "pregunta"
+print(pruebaDicc.values())                                                      # selecciona la "respuesta"
+print(len(pruebaDicc))
+
+# _______________________________________________
+
+#                  -- Condicionales --
+
+
+
+
