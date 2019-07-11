@@ -514,6 +514,7 @@ var variable2 = prompt("Que es lo que deberias hacer? ");
     }
 console.log("Ale, DD formateado y todo ya listo para volver a trabajá squeroso!")
 
+
               /* |  */
               /* |  */
 /* Version Colt  V  */
