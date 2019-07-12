@@ -123,7 +123,7 @@ def evaluacion(nota):
 
 print(evaluacion(nota_Alumno))
 
-print("Vamos a hacer dinerito")
+print("Finish")
 
 
 
