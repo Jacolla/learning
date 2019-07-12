@@ -80,28 +80,75 @@
 
 #                  -- Diccionario --
   
-pruebaDicc = {"Espania": "Mallorca", "England":"Manchester", "Russia": "Moscow", 2:"Puto amo"}
-pruebaDicc["Latvia"] = "Riga"
-
-print (pruebaDicc["Latvia"])
-                                                                                # Se le puede reasignar solo con meterlo en la "lista"
-pruebaDicc ["Polonia"] = "Varsovia"
-print (pruebaDicc["Polonia"])
-
-del pruebaDicc["England"]                                                       # Con el Del se elimina de la tupla
-
-print (pruebaDicc ["Espania"])
-print (pruebaDicc [2])  
-
-print(pruebaDicc)
-print(pruebaDicc.keys())                                                        # Seleccionas la "pregunta"
-print(pruebaDicc.values())                                                      # selecciona la "respuesta"
-print(len(pruebaDicc))
+#  pruebaDicc = {"Espania": "Mallorca", "England":"Manchester", "Russia": "Moscow", 2:"Puto amo"}
+#  pruebaDicc["Latvia"] = "Riga"
+#  
+#  print (pruebaDicc["Latvia"])
+#                                                                                  # Se le puede reasignar solo con meterlo en la "lista"
+#  pruebaDicc ["Polonia"] = "Varsovia"
+#  print (pruebaDicc["Polonia"])
+#  
+#  del pruebaDicc["England"]                                                       # Con el Del se elimina de la tupla
+#  
+#  print (pruebaDicc ["Espania"])
+#  print (pruebaDicc [2])  
+#  
+#  print(pruebaDicc)
+#  print(pruebaDicc.keys())                                                        # Seleccionas la "pregunta"
+#  print(pruebaDicc.values())                                                      # selecciona la "respuesta"
+#  print(len(pruebaDicc))
 
 # _______________________________________________
 
 #                  -- Condicionales --
 
+print("Probando el python")
+
+nota_Alumno=int(input("Cual crees que tienes? "))
+
+def evaluacion(nota):
+
+    valoracion="-.-"
+
+    if nota<5:
+        print("Este es el if, condicion que abre canal de flujo, up")
+
+    elif nota>6:
+        print("este es el elif, acompaña al if, middle")
+
+    else:
+        print("esto es el else, tiene que ir al final de todo, down")
+
+    return valoracion
+
+print(evaluacion(nota_Alumno))
+
+print("Vamos a hacer dinerito")
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+#  def moto(nota):
+#      cilindrada = "250", "650", "1000"
+#      if cilindrada > 250:
+#          nota("eso no es ná...");
+#      if cilindrada >= 250:
+#          nota("Eso no empieza a estar mal");
+#      if cilindrada >= 650:
+#          nota("Uff... eso ya empieza a dar miedo de verdad");
+#      if cilindrada >= 1000:
+#          nota("Tu ya viajas al futuro");
+#  
+#  print(moto(890))
