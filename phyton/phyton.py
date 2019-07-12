@@ -140,15 +140,3 @@ print("Finish")
 
 
 
-#  def moto(nota):
-#      cilindrada = "250", "650", "1000"
-#      if cilindrada > 250:
-#          nota("eso no es ná...");
-#      if cilindrada >= 250:
-#          nota("Eso no empieza a estar mal");
-#      if cilindrada >= 650:
-#          nota("Uff... eso ya empieza a dar miedo de verdad");
-#      if cilindrada >= 1000:
-#          nota("Tu ya viajas al futuro");
-#  
-#  print(moto(890))
