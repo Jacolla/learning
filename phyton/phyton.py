@@ -137,7 +137,7 @@ if cilindrada < 250:
     print("eso no es ná...")
 
 elif cilindrada >= 250:
-    print("Eso no empieza a estar mal")
+    print("Empieza a no estar mal")             # Fallo, como pasa de 250, siempre se quedara aqui...
 
 elif cilindrada >= 650:
     print("Uff... eso ya empieza a dar miedo de verdad")
