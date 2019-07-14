@@ -133,14 +133,19 @@ print("Verificacion de acceso")
 
 cilindrada=int(input("Selecciona una cilindrada... : "))
 
-if cilindrada < 250:
-    print("eso no es ná...")
 
-elif cilindrada >= 250:
+if cilindrada <= 250:
     print("Empieza a no estar mal")             # Fallo, como pasa de 250, siempre se quedara aqui...
+
+elif cilindrada <= 650:
+    print("Eso empiezan a ser palabras mayores")
 
 elif cilindrada >= 650:
     print("Uff... eso ya empieza a dar miedo de verdad")
+
+
+elif cilindrada <= 1000:
+    print("Tu ya viajas al futuro")
 
 elif cilindrada >= 1000:
     print("Tu ya viajas al futuro")
