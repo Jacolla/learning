@@ -102,41 +102,49 @@
 
 #                  -- Condicionales --
 
-print("Probando el python")
-
-nota_Alumno=int(input("Cual crees que tienes? "))
-
-def evaluacion(nota):
-
-    valoracion="-.-"
-
-    if nota<5:
-        print("Este es el if, condicion que abre canal de flujo, up")
-
-    elif nota>6:
-        print("este es el elif, acompaña al if, middle")
-
-    else:
-        print("esto es el else, tiene que ir al final de todo, down")
-
-    return valoracion
-
-print(evaluacion(nota_Alumno))
-
-print("Finish")
-
-
+#  print("Probando el python")
+#  
+#  nota_Alumno=int(input("Cual crees que tienes? "))
+#  
+#  def evaluacion(nota):
+#  
+#      valoracion="-.-"
+#  
+#      if nota<5:
+#          print("Este es el if, condicion que abre canal de flujo, up")
+#  
+#      elif nota>6:
+#          print("este es el elif, acompaña al if, middle")
+#  
+#      else:
+#          print("esto es el else, tiene que ir al final de todo, down")
+#  
+#      return valoracion
+#  
+#  print(evaluacion(nota_Alumno))
+#  
+#  print("Finish")
 
 
 
 
 
+print("Verificacion de acceso")
 
+cilindrada=int(input("Selecciona una cilindrada... : "))
 
+if cilindrada < 250:
+    print("eso no es ná...")
 
+elif cilindrada >= 250:
+    print("Eso no empieza a estar mal")
 
+elif cilindrada >= 650:
+    print("Uff... eso ya empieza a dar miedo de verdad")
 
+elif cilindrada >= 1000:
+    print("Tu ya viajas al futuro")
 
-
-
+else:
+    print("Ni idea")
 
