@@ -497,23 +497,22 @@
 //   window.setTimeout(function() {  }, 250);
 //       //  para darle 500 milisegundos a que se carge el html antes que el js, y asi no tener el prompt sin nada detras
 
+//      --/ Mi version \--
 
-
-var variable1 =["Deberia de... "]
-
-var variable2 = prompt("Que es lo que deberias hacer? ");
-    while(variable2 !=="salir"){
-        if(variable2 =="lista"){
-            console.log(variable1)
-        }
-        else if(variable2 == "nuevo"){
-            var variable3 = prompt ("Para añadir a la lista")
-            variable1.push(variable3)
-        }   
-    variable2 = prompt("Seguro que es eso?")
-    }
-console.log("Ale, DD formateado y todo ya listo para volver a trabajá squeroso!")
-
+ var variable1 =["Deberia de... "]
+ 
+ var variable2 = prompt("Que es lo que deberias hacer? ");
+     while(variable2 !=="salir"){
+         if(variable2 =="lista"){
+             console.log(variable1)
+         }
+         else if(variable2 == "nuevo"){
+             var variable3 = prompt ("Para añadir a la lista")
+             variable1.push(variable3)
+         }   
+     variable2 = prompt("Seguro que es eso?")
+     }
+ console.log("Ale, DD formateado y todo ya listo para volver a trabajá squeroso!")
 
               /* |  */
               /* |  */
@@ -539,7 +538,8 @@ console.log("Ale, DD formateado y todo ya listo para volver a trabajá squeroso!
 // console.log("okay, you are leaving us alone... it's okay")      /* Cuando escriba "quit" */
 
 
-// Esta noche vuelvo a darle, que he estado un poco distraido con otro project. //
+
+
 
 
 

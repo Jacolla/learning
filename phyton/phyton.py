@@ -125,31 +125,46 @@
 #  
 #  print("Finish")
 
+#----------------
 
 
 
+#  print("Verificacion de acceso")
+#  
+#  cilindrada=int(input("Selecciona una cilindrada... : "))
+#  
+#  
+#  if cilindrada <= 250:
+#      print("Empieza a no estar mal")             
+#  
+#  elif cilindrada <= 650:
+#      print("Eso empiezan a ser palabras mayores")
+#  
+#  elif cilindrada >= 650:
+#      print("Uff... eso ya empieza a dar miedo de verdad")
+#  
+#  else:
+#      print("Ni idea")
+#  
+#  print("Finish")
 
-print("Verificacion de acceso")
-
-cilindrada=int(input("Selecciona una cilindrada... : "))
+#----------------
 
 
-if cilindrada <= 250:
-    print("Empieza a no estar mal")             # Fallo, como pasa de 250, siempre se quedara aqui...
+edad=int(input("Que edad tienes? : "))
 
-elif cilindrada <= 650:
-    print("Eso empiezan a ser palabras mayores")
-
-elif cilindrada >= 650:
-    print("Uff... eso ya empieza a dar miedo de verdad")
-
-
-elif cilindrada <= 1000:
-    print("Tu ya viajas al futuro")
-
-elif cilindrada >= 1000:
-    print("Tu ya viajas al futuro")
-
+if 18<edad<100:                                         # concatenación de operadores 
+    print("Puedes pasar, pero no te lo bebas todo, borrachin")
 else:
-    print("Ni idea")
+    print("No puedes pasar, ffffflipao!")
 
+
+
+#  if edad < 18:
+#      print("Tira pa tu casa")
+#  
+#  elif edad < 100:
+#      print("Puedes entrar")
+#  
+#  else:
+#      print("Stás to flipao") 
