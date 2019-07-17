@@ -151,15 +151,7 @@
 #----------------
 
 
-edad=int(input("Que edad tienes? : "))
-
-if 18<edad<100:                                         # concatenación de operadores 
-    print("Puedes pasar, pero no te lo bebas todo, borrachin")
-else:
-    print("No puedes pasar, ffffflipao!")
-
-
-
+# edad=int(input("Que edad tienes? : "))
 #  if edad < 18:
 #      print("Tira pa tu casa")
 #  
@@ -167,4 +159,30 @@ else:
 #      print("Puedes entrar")
 #  
 #  else:
-#      print("Stás to flipao") 
+#      print("Stás to flipao")
+
+
+#           --/ version corta \--
+# edad=int(input("Que edad tienes? : "))
+# 
+# if 18<edad<100:                                         # concatenación de operadores 
+#     print("Puedes pasar, pero no te lo bebas todo, borrachin")
+#     
+# else:
+#     print("No puedes pasar, ffffflipao!")
+
+
+
+#----------------
+
+salario_Presidente = int(input("Introduce salario presidente: "))
+print("Salario presidente: " + str(salario_Presidente))
+
+salario_director = int(input("Introduce salario director: "))
+print("Salario director: " + str(salario_director))
+
+salario_Jefe_area = int(input("Introduce salario Jefe area: "))
+print("Salario Jefe area: " + str(salario_Jefe_area))
+
+salario_administrativo = int(input("Introduce salario administrativo: "))
+print("Salario administrativo: " + str(salario_administrativo))

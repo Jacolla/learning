@@ -160,7 +160,7 @@
 //
 
 //------------------------
-//  /* Para que te cuente la palabra metida en el "str */ 
+//  /* Para que te cuente la palabra metida en el "str" */ 
 //
 // var str = "hello";
 // var count = 0;
@@ -173,7 +173,7 @@
 
 //------------------------
 //
-//      /*Para sacar numeros (var identificada) entre
+//      /*Para sacar numeros (var cuenta) entre
 //      /* los numeros dados (los datos que queremos que busque)    
 //      
 //     var cuenta = -10;
@@ -201,8 +201,12 @@
 //      
 //          var pregunta = prompt("Hemos llegado ya?");                                               /* Se reactiva la pregunta */
 //      }
-//  alert("Bingoo!");                                                                                 /* Cuando se cierra el bucle */
-// //                                VERSION 2 
+//  alert("Bingoo!");                
+                                                                 /* Cuando se cierra el bucle */
+// 
+
+
+//                               VERSION 2 
 //  var pregunta = prompt("Hemos llegado?")
 //     
 //      while(pregunta.indexOf("si") ===-1){                                                          /* Con esto, aceptas que la respuesta cuando incluye un SI */
@@ -226,9 +230,9 @@
 //   Otro tipo de bucle es el "for", basicamente es lo mismo que el "while", pero mas sencillo
 //   y directo.
     
-// for (var cuenta = 0; cuenta < 10; cuenta++){
-//     console.log("Esta es la linea numero " + cuenta)
-// }
+//  for (var cuenta = 0; cuenta < 10; cuenta++){
+//      console.log("Esta es la linea numero " + cuenta)
+//  }
 
 //---
 
@@ -465,7 +469,7 @@
 // calzoncillos.indexOf("Los clasicos")                                                               /* Le dices cual quieres encontrar  */
 // calzoncillos.indexOf("Los de follar")                                                              /* devuelve -1, porque no existen... */
  
-
+// calzoncillos[]                                                                                    
 
 //-----------------
 
@@ -495,25 +499,25 @@
 //-----------------------------------------------
 
 //   window.setTimeout(function() {  }, 250);
-//       //  para darle 500 milisegundos a que se carge el html antes que el js, y asi no tener el prompt sin nada detras
+//       //  para darle 250 milisegundos a que se carge el html antes que el js, y asi no tener el prompt sin nada detras
 
 //      --/ Mi version \--
 
- var variable1 =["Deberia de... "]
- 
- var variable2 = prompt("Que es lo que deberias hacer? ");
-     while(variable2 !=="salir"){
-         if(variable2 =="lista"){
-             console.log(variable1)
-         }
-         else if(variable2 == "nuevo"){
-             var variable3 = prompt ("Para añadir a la lista")
-             variable1.push(variable3)
-         }   
-     variable2 = prompt("Seguro que es eso?")
-     }
- console.log("Ale, DD formateado y todo ya listo para volver a trabajá squeroso!")
-
+/////////////////////////////////////////////var variable1 =["Deberia de... "]
+/////////////////////////////////////////////
+/////////////////////////////////////////////var variable2 = prompt("Que es lo que deberias hacer? ");
+/////////////////////////////////////////////    while(variable2 !=="salir"){
+/////////////////////////////////////////////        if(variable2 =="lista"){
+/////////////////////////////////////////////            console.log(variable1)
+/////////////////////////////////////////////        }
+/////////////////////////////////////////////        else if(variable2 == "nuevo"){
+/////////////////////////////////////////////            var variable3 = prompt ("Para añadir a la lista")
+/////////////////////////////////////////////            variable1.push(variable3)
+/////////////////////////////////////////////        }   
+/////////////////////////////////////////////    variable2 = prompt("Seguro que es eso?")
+/////////////////////////////////////////////    }
+/////////////////////////////////////////////console.log("Ale, DD formateado y todo ya listo para volver a trabajá squeroso!")
+/////////////////////////////////////////////
               /* |  */
               /* |  */
 /* Version Colt  V  */
