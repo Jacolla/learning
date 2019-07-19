@@ -175,14 +175,49 @@
 
 #----------------
 
-salario_Presidente = int(input("Introduce salario presidente: "))
-print("Salario presidente: " + str(salario_Presidente))
+# salario_Presidente = int(input("Introduce salario presidente: "))
+# print("Salario presidente: " + str(salario_Presidente))
+# 
+# salario_director = int(input("Introduce salario director: "))
+# print("Salario director: " + str(salario_director))
+# 
+# salario_Jefe_area = int(input("Introduce salario Jefe area: "))
+# print("Salario Jefe area: " + str(salario_Jefe_area))
+# 
+# salario_administrativo = int(input("Introduce salario administrativo: "))
+# print("Salario administrativo: " + str(salario_administrativo))
+# 
+# if salario_Presidente>salario_director>salario_Jefe_area>salario_administrativo:
+#     print("Todo va bien")
+# else:
+#     print("No va tan bien")
+# 
+#     
+#
+#----------------
 
-salario_director = int(input("Introduce salario director: "))
-print("Salario director: " + str(salario_director))
+# <-- Operadores and,or & in -->
+# print("Requisitos Becas")
+# 
+# distancia_escuela=int(input("Distancia colegio: "))
+# print( distancia_escuela)
+# 
+# numero_hermanos=int(input("Cuantos hermanos tienes? "))
+# print(numero_hermanos)
+# 
+# salario_familiar=int(input("Cual es el salario anual bruto? "))
+# print(salario_familiar)
+# 
+# if distancia_escuela>= 30 and numero_hermanos>= 2 or salario_familiar<= 10000:
+#     print("Merece beca")
+# else:
+#     print("No cumple los requisitos")
 
-salario_Jefe_area = int(input("Introduce salario Jefe area: "))
-print("Salario Jefe area: " + str(salario_Jefe_area))
+print("Asignaturas optativas")
+print("Asignaturas optativas: Informatica grafica - Prueba de software - Desarrollo web")
+asignatura=input("Escribe la optativa deseada: ")
 
-salario_administrativo = int(input("Introduce salario administrativo: "))
-print("Salario administrativo: " + str(salario_administrativo))
+if asignatura in ("Informatica grafica","Prueba de software", "Desarrollo web"):
+    print("Asignatura elegida: " + asignatura)
+else:
+    print("No has entendido nada...")
