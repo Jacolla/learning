@@ -196,28 +196,52 @@
 #
 #----------------
 
-# <-- Operadores and,or & in -->
+#<-- Operadores and,or & in -->
 # print("Requisitos Becas")
-# 
+#  
 # distancia_escuela=int(input("Distancia colegio: "))
 # print( distancia_escuela)
-# 
+#  
 # numero_hermanos=int(input("Cuantos hermanos tienes? "))
 # print(numero_hermanos)
-# 
+#  
 # salario_familiar=int(input("Cual es el salario anual bruto? "))
 # print(salario_familiar)
-# 
+#  
 # if distancia_escuela>= 30 and numero_hermanos>= 2 or salario_familiar<= 10000:
-#     print("Merece beca")
+#      print("Merece beca")
 # else:
-#     print("No cumple los requisitos")
+#      print("No cumple los requisitos")
 
-print("Asignaturas optativas")
-print("Asignaturas optativas: Informatica grafica - Prueba de software - Desarrollo web")
-asignatura=input("Escribe la optativa deseada: ")
 
-if asignatura in ("Informatica grafica","Prueba de software", "Desarrollo web"):
-    print("Asignatura elegida: " + asignatura)
-else:
-    print("No has entendido nada...")
+
+#----------------
+
+# print("Asignaturas optativas")
+# print("Asignaturas optativas: Informatica grafica - Prueba de software - Desarrollo web")
+# opcion=input("Escribe la optativa deseada: ")
+# asignatura=opcion.lower()
+# # asignatura=opcion.upper()                      # El .upper/.lower, cambia el str recibido a mayusculas/minusculas #
+# 
+# 
+# if asignatura in ("informatica grafica","prueba de software", "desarrollo web"):
+#     print("Asignatura elegida: " + asignatura + " , esta es la elegida...")
+# else:
+#     print("No has entendido nada...")
+
+
+# print("Que moto vas a querer?")
+# motos={1:"CB650R",2:"STREET TRIPLE",3:"GSX750",4:"AFRICA TWIN",}
+# #eleccion=motos.lower()
+# 
+# print("1- Honda CBR 650 R")
+# print("2- Triumph street triple")
+# print("3- Suzuki GSX750")
+# print("4- Honda Africa Twin, CRF1000L")
+# 
+# select=int(input("Numero de la afortunada? "))
+# 
+# if select in (1,2,3,4):
+#  print("La escogida es " + motos[select])
+# else:
+#     print("Tio... una de estas...")
