@@ -1,9 +1,9 @@
 
 // ejercicio de preguntar al usuario cuatro mierdas y luego juntarlas en una frase, pero OJO, solo en la consola.
 // 
-// var nombre=prompt("Que pasa, como te llamas? ")
-// var apellido=prompt ("y apellidos por favor ")
-// var edad= prompt (" y ya para completarlo todo, que edad tienes? ")
+// let nombre=prompt("Que pasa, como te llamas? ")
+// let apellido=prompt ("y apellidos por favor ")
+// let edad= prompt (" y ya para completarlo todo, que edad tienes? ")
 //
 // esto es lo que deja el mensaje en la consola "console.log"
 // console.log ("Este usuario se llama " + nombre + ", dice que su apellido es " + apellido )
@@ -16,8 +16,8 @@
 // Esto es "una calculadora" ( multiplicas la edad por 365.25)
 // es decir, solo multiplicas la edad por 365,25, no los dias que has vivido, solo cambiará si cambia el numero de entrada. 
 //
-// var edad = prompt ("Dime que edad tienes y te dire cuantos dias has vivido.")
-// var year = edad * 365.25
+// let edad = prompt ("Dime que edad tienes y te dire cuantos dias has vivido.")
+// let year = edad * 365.25
 // alert(edad + " years are, more or less, " + year + " days")
 // console.log ("el tio ha vivido " + year + " dias" )
 //
@@ -25,8 +25,8 @@
 //
 //-----------------------------------------------
 //
-// var x = 10;
-// var y = "a"
+// let x = 10;
+// let y = "a"
 // 
 //  y==="b"||x>=10    /*--> true, "b" no es "a" pero (( || )or) x si es mayor o igual que 10, por lo tanto, TRUE bitch */
 //
@@ -36,8 +36,8 @@
 //      
 //  Comparativos
 
-// var x = 3;
-// var y = 8;
+// let x = 3;
+// let y = 8;
 // !(x == "3" || x === y)/* false */  && !(y !=8 && x <=y)/* true */   
 //
 //  false, porque al ser el &&(and) tiene que tener los dos lados positivos (o negativos) y como es el caso, solo 1 de ellos es positivo,
@@ -56,9 +56,9 @@
 //
 //  Todo lo demas... Truly bro
 //  
-//  var msj1 = " "                                                                                      /* Espacio vacio, no equivale a nada... es False bitch */
-//  var msj2 = "que pasó"                                                                               /* No es un False value... por lo tanto, true bro */
-//  var ndah = "false"                                                                                  /* Es un mensaje normal, con la triquiñuela del False dentro del mensaje... True bro then */
+//  let msj1 = " "                                                                                      /* Espacio vacio, no equivale a nada... es False bitch */
+//  let msj2 = "que pasó"                                                                               /* No es un False value... por lo tanto, true bro */
+//  let ndah = "false"                                                                                  /* Es un mensaje normal, con la triquiñuela del False dentro del mensaje... True bro then */
 //                                                          
 //  !(( msj1 || msj2) && ndah)                                                                          /* Farzo por er ! der prinsipio zupare */         
 //
@@ -68,7 +68,7 @@
 //
 //  Vamos con los if, else if y los else
 //
-//     var edad = prompt("Que edad tienes?")
+//     let edad = prompt("Que edad tienes?")
 //                      
 //  if (edad < 18){               
 //        alert("tira pa tu casa, squeroso!")                                                         /*      Este actua primero  */
@@ -116,10 +116,10 @@
 //
 // function preguntas(){                                                                              /*   Y con esta maravillosa "funcion", podemos unir el boton con todo el 
 //                                                                                                    /*   rollo este, 'function + id'. */
-//   var numeroSecreto = 33;
+//   let numeroSecreto = 33;
 //   
-//   var stringGuess = prompt("Adivina el numero")
-//   var guess =Number(stringGuess);                                                                  /*   prompt para hacer la pregunta */
+//   let stringGuess = prompt("Adivina el numero")
+//   let guess =Number(stringGuess);                                                                  /*   prompt para hacer la pregunta */
 //       if(guess=== numeroSecreto){                                                                  /*   En caso de que acierte el numero secreto */  
 //          alert("Ou yeahhhh asertahte");                                                            /*   Respuesta para el caso de que se acierte el numero secreto */ 
 //          console.log("Ou yeeah, acertaste!, no hace falta que busques más. ")                                          
@@ -152,7 +152,7 @@
 //
 // 
 //
-//  var count = 1;
+//  let count = 1;
 //        while (count <=3){
 //	        console.log("No volvere a llegar tarde " + count);
 //	        count++;
@@ -162,8 +162,8 @@
 //------------------------
 //  /* Para que te cuente la palabra metida en el "str" */ 
 //
-// var str = "hello";
-// var count = 0;
+// let str = "hello";
+// let count = 0;
 //
 //    while(count<str.length){                                                                        /* El while es lo que mueve el circuito, "el propulsor" */    
 //           console.log(str[count]); 
@@ -173,10 +173,10 @@
 
 //------------------------
 //
-//      /*Para sacar numeros (var cuenta) entre
+//      /*Para sacar numeros (let cuenta) entre
 //      /* los numeros dados (los datos que queremos que busque)    
 //      
-//     var cuenta = -10;
+//     let cuenta = -10;
 //     while (cuenta<=20){
 //         console.log(cuenta);
 //         cuenta++;                                                                                  /* con en "++", le va sumando */
@@ -190,7 +190,7 @@
 //   /* Annoy-omatic  (que te salta todo el rato, utilizando el "while") */
 
 
-//  var pregunta =("Ha salido bien ya?")
+//  let pregunta =("Ha salido bien ya?")
 //  
 //      while(pregunta !== "si"  && pregunta !== "vaya"){                                             /* El while crea el bucle hasta que obtenga la respuesta deseada, si no es "si" o "vaya" */
 //  
@@ -199,7 +199,7 @@
 //              alert("tio cabron, echale ganas");                                                    /* Mensajito para animar a la respuesta NO deseada */
 //          }
 //      
-//          var pregunta = prompt("Hemos llegado ya?");                                               /* Se reactiva la pregunta */
+//          let pregunta = prompt("Hemos llegado ya?");                                               /* Se reactiva la pregunta */
 //      }
 //  alert("Bingoo!");                
                                                                  /* Cuando se cierra el bucle */
@@ -207,7 +207,7 @@
 
 
 //                               VERSION 2 
-//  var pregunta = prompt("Hemos llegado?")
+//  let pregunta = prompt("Hemos llegado?")
 //     
 //      while(pregunta.indexOf("si") ===-1){                                                          /* Con esto, aceptas que la respuesta cuando incluye un SI */
 //                                                                                                    /* Aunque la respusta sea un, Sisumeo, si dentro del texto hay un SI, se da por valido */
@@ -218,7 +218,7 @@
 //              
 //              alert("Como sigas asi, doy la vuelta y no hay playa")
 //          }
-//          var pregunta = prompt("Hemos llegado ya?");                                               /* pregunta dentro del bucle */
+//          let pregunta = prompt("Hemos llegado ya?");                                               /* pregunta dentro del bucle */
 //      }
 //  alert("Bingoo!");                                    
 
@@ -230,22 +230,22 @@
 //   Otro tipo de bucle es el "for", basicamente es lo mismo que el "while", pero mas sencillo
 //   y directo.
     
-//  for (var cuenta = 0; cuenta < 10; cuenta++){
+//  for (let cuenta = 0; cuenta < 10; cuenta++){
 //      console.log("Esta es la linea numero " + cuenta)
 //  }
 
 //---
 
-//  var str= "Pontenza";
+//  let str= "Pontenza";
 // 
-//  for(var i = 0 ; i < str.length; i++){
+//  for(let i = 0 ; i < str.length; i++){
 //     console.log(str[i])
 //  }
 
 // ---
 
-// var variable = "Ohsotloa"
-// for(var i= 1; i<variable.length; i+=2){
+// let variable = "Ohsotloa"
+// for(let i= 1; i<variable.length; i+=2){
 //     console.log(variable[i])
 // }
 
@@ -261,13 +261,13 @@
 
 // /* Para los de entre los -10 y 20*/ 
 // console.log("Para los de entre los -10 y 20 ")
-// for(var cuenta = -10; cuenta < 20; cuenta++)
+// for(let cuenta = -10; cuenta < 20; cuenta++)
 //     {console.log("esta es la linea " + cuenta) 
 //     }
 //   
 // /* Para los INCLUIDOS 10 y 40 */
 // console.log("Para los INCLUIDOS 10 y 40")
-// for(var cuenta = 10; cuenta <= 40; cuenta++)
+// for(let cuenta = 10; cuenta <= 40; cuenta++)
 //     if( cuenta % 2 ===0){
 //         console.log("estos son los pares " + cuenta) 
 //     
@@ -275,7 +275,7 @@
 //   
 // /* Para los odd(impares) numeros entre 300 y 333 */
 // console.log("Para los odd numeros entre 300 y 333")
-// for(var cuenta = 300; cuenta < 334; cuenta++)
+// for(let cuenta = 300; cuenta < 334; cuenta++)
 //   if(cuenta % 2 !== 0)
 //     {console.log("estos son los impares " +cuenta)
 //     }
@@ -283,7 +283,7 @@
 //   
 // /* Para los divisibles entre 5 y 3, entre 5 y 50 */
 // console.log("Divisibles entre 3 y 5")
-// for(var cuenta = 5; cuenta <= 50; cuenta++)
+// for(let cuenta = 5; cuenta <= 50; cuenta++)
 //     if(cuenta % 5 === 0 && cuenta % 3 === 0){
 //     console.log("estos son los divisibles entre 3 y 5: "+ cuenta);
 // }
@@ -375,7 +375,7 @@
 //      /* Para reemplazar 'replace'  */
 //  
 //  function prueba(x){
-//  	var nuevaX = x.replace(/es grande/g, "no es tan grande");                                     /* / <-- dentro va lo que quieres corregir  /i ' la 'g' es de global ', luego lo que va a reemplazarlo */
+//  	let nuevaX = x.replace(/es grande/g, "no es tan grande");                                     /* / <-- dentro va lo que quieres corregir  /i ' la 'g' es de global ', luego lo que va a reemplazarlo */
 //  
 //  return nuevaX
 //  }     
@@ -390,7 +390,7 @@
 //       Si defines algo dentro de una funcion, no puedes llamarla desde fuera de la funcion,
 //       pero, si la defines fuera de la funcion, luego puedes llamarla desde dentro la funcion
 //  */
-//  var pruebaUno = 33
+//  let pruebaUno = 33
 //  
 //  
 //  function pruebaDos(){
@@ -431,7 +431,7 @@
 //      son los []
 
 
-//  var motos = ["Jonda", "Yahama","Kasita","Triumph","Susuki"]
+//  let motos = ["Jonda", "Yahama","Kasita","Triumph","Susuki"]
 //  motos[0] = "Honda";          /* llamando a la variable y seleccionando el que deseamos actualizar */
 //  motos[1] = "Yamaha";
 //  motos[2] = "Kawasaki";
@@ -445,7 +445,7 @@
 //              
 //                  /* push/pop arrays  */                                                            /* Para añadir/quitar a final de array */
 //  
-//  var colores = ["Azul","Rojo","Verde"]
+//  let colores = ["Azul","Rojo","Verde"]
 //  colores.push("Morado")                                                                            /* Lo empuja(push) al final de la variable, tambien devuelve la cantidad de arrays que hay dentro  */
 //  
 //  colores.pop()                                                                                     /* Borra lo que esta al final del array y devuelve elemento borrado */
@@ -454,7 +454,7 @@
 //  
 //              /* Shift/Unshift */                                                                   /* Para añadir/quitar a principio de array */
 //  
-//  var colorines = ["Azul","Rojo","Verde"]
+//  let colorines = ["Azul","Rojo","Verde"]
 //  colorines.unshift("Cian")                                                                         /* Con el UNSHIFT se le añade a primero de array */
 //  
 //  colorines.shift()                                                                                 /* Con el SHIFT se le quita a primero de array */
@@ -465,7 +465,7 @@
 
             /* IndexOf */                                                                             /* Para buscar dentro del array */
 
-// var calzoncillos =["los rojos","Los de aviones","Los de la suerte","Los clasicos"]
+// let calzoncillos =["los rojos","Los de aviones","Los de la suerte","Los clasicos"]
 // calzoncillos.indexOf("Los clasicos")                                                               /* Le dices cual quieres encontrar  */
 // calzoncillos.indexOf("Los de follar")                                                              /* devuelve -1, porque no existen... */
  
@@ -475,8 +475,8 @@
 
 //              /* Slice */                                                                           /* Para copiar arrays o partes de ella */
 //  
-//  var frutita = ["Banana","Mansanita","Manguito","Melocotonsito"]
-//  var platofruta = frutita.slice(2,4)                                                               /* Desde donde empieza el corte y donde lo termina sin incluir el ultimo */
+//  let frutita = ["Banana","Mansanita","Manguito","Melocotonsito"]
+//  let platofruta = frutita.slice(2,4)                                                               /* Desde donde empieza el corte y donde lo termina sin incluir el ultimo */
 //  platofruta
 
 
@@ -485,7 +485,7 @@
 
         /* Exercise's */
 
-// var frutita = [
+// let frutita = [
 //     ["Banana","Mansanita","Manguito","Melocotonsito"],
 //     ["platanito","perita","ceresita","melonsito"],
 //     ["paraguayito","tomatito","sandiita","piñita"]
@@ -503,28 +503,28 @@
 
 //      --/ Mi version \--
 
-/////////////////////////////////////////////var variable1 =["Deberia de... "]
-/////////////////////////////////////////////
-/////////////////////////////////////////////var variable2 = prompt("Que es lo que deberias hacer? ");
-/////////////////////////////////////////////    while(variable2 !=="salir"){
-/////////////////////////////////////////////        if(variable2 =="lista"){
-/////////////////////////////////////////////            console.log(variable1)
-/////////////////////////////////////////////        }
-/////////////////////////////////////////////        else if(variable2 == "nuevo"){
-/////////////////////////////////////////////            var variable3 = prompt ("Para añadir a la lista")
-/////////////////////////////////////////////            variable1.push(variable3)
-/////////////////////////////////////////////        }   
-/////////////////////////////////////////////    variable2 = prompt("Seguro que es eso?")
-/////////////////////////////////////////////    }
-/////////////////////////////////////////////console.log("Ale, DD formateado y todo ya listo para volver a trabajá squeroso!")
-/////////////////////////////////////////////
+let variable1 =["Deberia de... "]
+
+let variable2 = prompt("Que es lo que deberias hacer? ");
+    while(variable2 !=="salir"){
+        if(variable2 =="lista"){
+            console.log(variable1)
+        }
+        else if(variable2 == "nuevo"){
+            let variable3 = prompt ("Para añadir a la lista")
+            variable1.push(variable3)
+        }   
+    variable2 = prompt("Seguro que es eso?")
+    }
+
+
               /* |  */
               /* |  */
 /* Version Colt  V  */
 
-// var todos = ["Estudiar"];                                       /* Variable 1 */
+// let todos = ["Estudiar"];                                       /* Variable 1 */
 // 
-// var input = prompt("Que te gustaria hacer?");                   /* Variable 2 */
+// let input = prompt("Que te gustaria hacer?");                   /* Variable 2 */
 //             
 // while (input !== "quit"){                                       /* bucle, si la respuesta NO es "quiet" */
 //     if(input == "list"){                                        /* condicional, si es "lista" */
@@ -532,7 +532,7 @@
 //     }           
 //             
 // else if(input == "new"){                                        /* condicional 2, sí escribe "new"... */
-//     var newTodo = prompt ("Enter new todo")                     /* crea nueva Variable 3 con prompt  */
+//     let newTodo = prompt ("Enter new todo")                     /* crea nueva Variable 3 con prompt  */
 //     todos.push(newTodo);                                        /* empuja la respuesta de Variable 3 a Variable 1  */
 // }           
 //             

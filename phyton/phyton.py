@@ -230,19 +230,30 @@
 #     print("No has entendido nada...")
 
 
-print("Que moto vas a querer?")
-motos={1:"CB650R",2:"STREET TRIPLE",3:"GSX750",4:"AFRICA TWIN",}
-#eleccion=motos.lower()
+# print("Que moto vas a querer?")
+# motos={1:"CB650R",2:"STREET TRIPLE",3:"GSX750",4:"AFRICA TWIN",}
+# #eleccion=motos.lower()
+# 
+# print("1- Honda CBR 650 R")
+# print("2- Triumph street triple")
+# print("3- Suzuki GSX750")
+# print("4- Honda Africa Twin, CRF1000L")
+# 
+# select=int(input("Numero de la afortunada? "))
+# if select in (1,2,3,4):
+#  print("La escogida es " + motos[select])
+# else:
+#     print("Tio... una de estas...")
+# 
 
-print("1- Honda CBR 650 R")
-print("2- Triumph street triple")
-print("3- Suzuki GSX750")
-print("4- Honda Africa Twin, CRF1000L")
 
-select=int(input("Numero de la afortunada? "))
+# _______________________________________________
 
-if select in (1,2,3,4):
- print("La escogida es " + motos[select])
-else:
-    print("Tio... una de estas...")
-#punto verde +1
+
+#       <-- Bucles -->
+
+for i in ["solo","cuenta","valor",]:
+     print("bucle(?)")
+ 
+for i in ["bucle(?)","bucle(?)2","bucle(?)3",]:
+    print(i)
