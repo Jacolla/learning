@@ -242,9 +242,11 @@
 # select=int(input("Numero de la afortunada? "))
 # if select in (1,2,3,4):
 #  print("La escogida es " + motos[select])
+#  
+# 
 # else:
 #     print("Tio... una de estas...")
-# 
+
 
 
 # _______________________________________________
@@ -252,8 +254,15 @@
 
 #       <-- Bucles -->
 
-for i in ["solo","cuenta","valor",]:
-     print("bucle(?)")
- 
-for i in ["bucle(?)","bucle(?)2","bucle(?)3",]:
-    print(i)
+# for i in ["solo","cuenta","valor",]:
+#      print("bucle(?)")
+#  
+# for i in ["bucle(?)","bucle(?)2","bucle(?)3",]:
+#     print(i)
+
+i=1
+while i < 5:
+    print("Esta es la cuenta: "+str(i))
+    i = i + 1
+
+# botonsito verde github
