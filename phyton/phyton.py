@@ -260,9 +260,14 @@
 # for i in ["bucle(?)","bucle(?)2","bucle(?)3",]:
 #     print(i)
 
-i=1
-while i < 5:
-    print("Esta es la cuenta: "+str(i))
-    i = i + 1
+# i=1
+# while i < 5:
+#     print("Esta es la cuenta: "+str(i))
+#     i = i + 1
 
 # botonsito verde github
+
+base = int(input("base:"))
+altura = int(input("altura:"))
+base_x_altura = base * altura / 2
+print("El area es: " + str(base_x_altura))
