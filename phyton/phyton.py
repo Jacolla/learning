@@ -265,9 +265,32 @@
 #     print("Esta es la cuenta: "+str(i))
 #     i = i + 1
 
-# botonsito verde github
 
-base = int(input("base:"))
-altura = int(input("altura:"))
-base_x_altura = base * altura / 2
-print("El area es: " + str(base_x_altura))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# _______________________________________________
+#   <---  Juegueteo --->
+
+
+# base = int(input("base:"))
+# altura = int(input("altura:"))
+# base_x_altura = base * altura / 2
+# print("El area es: " + str(base_x_altura))
+
+
+pi = (355/113)
+radio = input("Cual es el radio? ")
+resultado = pi * int(radio) * 2
+print(resultado)
