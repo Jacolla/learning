@@ -308,18 +308,20 @@
 
 # |/////////////////////////////////////////|
 # |///////                           ///////|
-# |//  seguro = input("Estas seguro? ") ////|
-# |//  while seguro != "si":           /////|
-# |//      print("uf no se yo eh...")  /////|
+# |//  seguro = input("Estas seguro? ")    /|
+# |//  while seguro != "si":               /|
+# |//      print("uf no se yo eh...")      /|
 # |//      seguro = input("Estas seguro? ")/|
-# |//  print("Finish")               ///////|
+# |//  print("Finish")                     /|
 # |///////                           ///////|
 # |/////////////////////////////////////////|
 
+                    
 
 
-
-
+for i in ["bucle(?)","bucle(?)2","bucle(?)3",]:
+    print(i)
+i=1
 
 
 
