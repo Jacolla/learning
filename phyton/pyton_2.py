@@ -14,22 +14,37 @@ print("2- Triumph street triple")
 print("3- Suzuki GSX750")
 print("4- Honda Africa Twin, CRF1000L")
 
-select=int(input("Numero de la afortunada? "))
+select = int(input("Numero de la afortunada? "))
 
 if select in (1,2,3,4):
- print("La escogida es " + motos[select] + "... buen bicho")
+ print("Tu moto escogida es la " + motos[select] + "... buen bicho")
 
 
-select_2=int(input("Y ahora cual?  "))
-if select_2 == (5):
-    print("Nope")
-while select_2 != (1,2,3,4):
-    select_2=int(input("Cual es la afortunada? "))
-    print("No esta mal... una " + motos[select_2])
+while select != (1,2,3,4):
+    print("Tio... elige una por favor...")
+    select_2 = int(input("Numero de la afortunada? "))
+
+while select_2 == (1,2,3,4):
+    print("Ou yeah, otra mas? ")
+    motos_2 = int(input("cual? "))
+
+if select_2 == "no":
+    print("Pues nada... ayá tu... PAyaso")
 
 
 
 
+
+
+#  while select_2 != (1,2,3,4):
+#      select_3 = input("Tio... elige una de las que hay... por favor... ")
+#      print("Bien... por fin te has decidido... es una " + motos[select])
+#  
+#  if select_2 == "5":
+#      select_2 = int(input("En serio... la 5?.. si no hay... elige entre el 1 y 4 por favor... "))
+#      print("No esta mal... una " + motos[select_2])
+#  
+print("Finish")
 # seguro = input("Estas seguro? ")    
 # while seguro != "si":               
 #     print("uf no se yo eh...")      
