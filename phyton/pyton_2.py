@@ -16,21 +16,16 @@ print("4- Honda Africa Twin, CRF1000L")
 
 select = int(input("Numero de la afortunada? "))
 
-if select in (1,2,3,4):
- print("Tu moto escogida es la " + motos[select] + "... buen bicho")
+while select != (1,2,3,4) :
+    select = int(input("Elige una de las que hay... : "))
+    print("Tu moto escogida es la " + motos[select] + "... buen bicho")
+    
 
-
-while select != (1,2,3,4):
+if select not in (1,2,3,4):
     print("Tio... elige una por favor...")
-    select_2 = int(input("Numero de la afortunada? "))
-
-while select_2 == (1,2,3,4):
-    print("Ou yeah, otra mas? ")
-    motos_2 = int(input("cual? "))
-
-if select_2 == "no":
-    print("Pues nada... ayá tu... PAyaso")
-
+    print("No esta mal... una " + motos[select])
+      
+ 
 
 
 
