@@ -306,6 +306,12 @@
 #         i=i+1
 # print("Finish")
 
+# seguro = input("Estas seguro? ")    
+# while seguro != "enga":               
+#     print("venga que sii, se puede!")      
+#     seguro = input("¿Estas seguro, seguro? ")
+# print("Finish")                     
+
 # |/////////////////////////////////////////|
 # |///////                           ///////|
 # |//  seguro = input("Estas seguro? ")    /|
@@ -320,12 +326,39 @@
 #     print(i)
 # i=1
 
+# _______________________________________________
+
+# import math
+# 
+# print("Vamos a contar...")
+# numero=int(input("Dime un numero chavá: "))
+# 
+# intentos=0
+# 
+# 
+# while numero<0:
+#     print("No puedo encontrar ese... dame otro")
+# 
+#     if intentos == 2:
+#         print("Ya van muchas veces y... esto no... no va")
+#         break
+# 
+#     numero = int(input("Dame un numero tio... "))
+#     if numero < 0:
+#         intentos=intentos +1
+# 
+# if intentos <2:
+#     solucion=math.sqrt(numero)
+#     print("pues no va el chaval y acierta... : " + str(numero))
+# 
+
+# _______________________________________________
 
 
 
 
 # _______________________________________________
-#   <---  Juegueteo --->
+""" <---  Juegueteo ---> """   
 
 
 # base = int(input("base:"))
@@ -338,3 +371,7 @@
 # resultado = pi * int(radio) * 2
 # print(resultado)
 
+for letra in input("Dime algo: "):
+    print(letra)
+
+    """ hola """
