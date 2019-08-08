@@ -328,29 +328,29 @@
 
 # _______________________________________________
 
-# import math
-# 
-# print("Vamos a contar...")
-# numero=int(input("Dime un numero chavá: "))
-# 
-# intentos=0
-# 
-# 
-# while numero<0:
-#     print("No puedo encontrar ese... dame otro")
-# 
-#     if intentos == 2:
-#         print("Ya van muchas veces y... esto no... no va")
-#         break
-# 
-#     numero = int(input("Dame un numero tio... "))
-#     if numero < 0:
-#         intentos=intentos +1
-# 
-# if intentos <2:
-#     solucion=math.sqrt(numero)
-#     print("pues no va el chaval y acierta... : " + str(numero))
-# 
+import math
+
+print("Vamos a contar...")
+numero=int(input("Dime un numero chavá: "))
+
+intentos=0
+
+
+while numero<0:
+    print("No puedo encontrar ese... dame otro")
+
+    if intentos == 2:
+        print("Ya van muchas veces y... esto no... no va")
+        break
+
+    numero = int(input("Dame un numero tio... "))
+    if numero < 0:
+        intentos=intentos +1
+
+if intentos <2:
+    solucion=math.sqrt(numero)
+    print("pues no va el chaval y acierta... : " + str(numero))
+
 
 # _______________________________________________
 
