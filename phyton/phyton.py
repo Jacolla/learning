@@ -334,17 +334,15 @@ print("Vamos a contar...")
 numero=int(input("Dime un numero chavá: "))
 
 intentos=0
-
-
-while numero<0:
+while numero != 5:
     print("No puedo encontrar ese... dame otro")
 
-    if intentos == 2:
+    if intentos == 10:
         print("Ya van muchas veces y... esto no... no va")
         break
 
     numero = int(input("Dame un numero tio... "))
-    if numero < 0:
+    if numero != 5:
         intentos=intentos +1
 
 if intentos <2:
@@ -358,7 +356,7 @@ if intentos <2:
 
 
 # _______________________________________________
-""" <---  Juegueteo ---> """   
+# """ <---  Juegueteo ---> """   
 
 
 # base = int(input("base:"))
@@ -371,7 +369,6 @@ if intentos <2:
 # resultado = pi * int(radio) * 2
 # print(resultado)
 
-for letra in input("Dime algo: "):
-    print(letra)
-
-    """ hola """
+# for letra in input("Dime algo: "):
+#     print(letra)
+# 

@@ -12,15 +12,15 @@ print("3- Suzuki GSX750")
 print("4- Honda Africa Twin, CRF1000L")
 
 
+contador=0
 select = input("Te gustaria elegir una? ")
-contador=6
 
 while select != "si":
     select_3 = int(input("Elige una de las que hay por favor... : "))
     
-    if select != [1,2,3,4]  :
+    if select != [1,2,3,4]:
         print("Tio por favor... elige una... sino este bucle no acabara...")
-        select_2 = int(input("Di un numero del 1 al 4 : "))
+        select_2 = int(input("Di un numero del 1 al 5? "))
         print("Una " + motos[select_2] + "... buen bicho")
         
         
