@@ -328,34 +328,86 @@
 
 # _______________________________________________
 
-import math
-
-print("Vamos a contar...")
-numero=int(input("Dime un numero chavá: "))
-
-intentos=0
-while numero != 5:
-    print("No puedo encontrar ese... dame otro")
-
-    if intentos == 10:
-        print("Ya van muchas veces y... esto no... no va")
-        break
-
-    numero = int(input("Dame un numero tio... "))
-    if numero != 5:
-        intentos=intentos +1
-
-if intentos <2:
-    solucion=math.sqrt(numero)
-    print("pues no va el chaval y acierta... : " + str(numero))
-
-
-# _______________________________________________
-
-
+# import math
+# 
+# print("Vamos a contar...")
+# numero=int(input("Dime un numero chavá: "))
+# 
+# intentos=0
+# while numero != 5:
+#     print("No puedo encontrar ese... dame otro")
+# 
+#     if intentos == 10:
+#         print("Ya van muchas veces y... esto no... no va")
+#         break
+# 
+#     numero = int(input("Dame un numero tio... "))
+#     if numero != 5:
+#         intentos=intentos +1
+# 
+# if intentos <2:
+#     solucion=math.sqrt(numero)
+#     print("pues no va el chaval y acierta... : " + str(numero))
 
 
 # _______________________________________________
+
+# email=input("Introduce email: ")
+# 
+# for i in email:
+#     if i !="@":
+#         arroba=True
+# 
+# else: arroba=False
+# print(arroba)
+# 
+# _______________________________________________
+#   <-- Generadores -->
+
+# def generadorPrimero(limite):
+#     num=1
+#     
+#     while num<limite:
+#         yield num*2
+# 
+#         num=num+1
+# 
+# devuelvePares=generadorPrimero(10)
+# 
+# for i in devuelvePares:
+#     print(i)
+# ___________________
+
+
+# def generadorSegundo(limite):
+#     num=1
+#     while num<limite:
+#         yield num*2
+#         num=num*2
+#     
+# devuelvePares=generadorSegundo(10)
+# 
+# print("texto vacio simple sencillo sin ná")
+# print(next(devuelvePares))
+# 
+# print("texto vacio simple sencillo sin ná")
+# print(next(devuelvePares))
+# 
+# print("texto vacio simple sencillo sin ná")
+# print(next(devuelvePares))
+
+# ___________________
+
+
+
+
+
+
+
+
+
+
+# ____________________________
 # """ <---  Juegueteo ---> """   
 
 

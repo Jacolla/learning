@@ -17,7 +17,7 @@ select = input("Te gustaria elegir una? ")
 
 while select != "si":
     select_3 = int(input("Elige una de las que hay por favor... : "))
-    
+
     if select != [1,2,3,4]:
         print("Tio por favor... elige una... sino este bucle no acabara...")
         select_2 = int(input("Di un numero del 1 al 5? "))
