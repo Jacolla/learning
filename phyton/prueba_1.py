@@ -1,6 +1,6 @@
 
 
-pregunta = print("Que moto vas a querer?")
+print("Que moto vas a querer?")
 motos={1:"CB650R",
        2:"STREET TRIPLE",
        3:"GSX750",

@@ -399,6 +399,18 @@
 # ___________________
 
 
+def devuelveMotos(*motos):
+    for elemento in motos:
+#        for subElemento in elemento:
+#            yield from elemento
+           yield elemento
+
+motosDevueltas=devuelveMotos("Honda", "Gilera", "Gas Gas", "Triumph")
+
+print(next(motosDevueltas))
+print(next(motosDevueltas))
+print(next(motosDevueltas))
+print(next(motosDevueltas))
 
 
 
