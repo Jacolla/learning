@@ -498,24 +498,27 @@
 
 //-----------------------------------------------
 
-//   window.setTimeout(function() {  }, 250);
-//       //  para darle 250 milisegundos a que se carge el html antes que el js, y asi no tener el prompt sin nada detras
+//   
+//   window.setTimeout(function() {250);   //  para darle 250 milisegundos a que se carge el html antes que el js, y asi no tener el prompt sin nada detras
 
 //      --/ Mi version \--
-
-let variable1 =["Deberia de... "]
-
-let variable2 = prompt("Que es lo que deberias hacer? ");
-    while(variable2 !=="salir"){
-        if(variable2 =="lista"){
-            console.log(variable1)
-        }
-        else if(variable2 == "nuevo"){
-            let variable3 = prompt ("Para añadir a la lista")
-            variable1.push(variable3)
-        }   
-    variable2 = prompt("Seguro que es eso?")
-    }
+// window.setTimeout(function() {
+// 
+// let variable1 =["Deberia de... "]
+// 
+// let variable2 = prompt("Que es lo que deberias hacer? ");
+//     while(variable2 !=="salir"){
+//         if(variable2 =="lista"){
+//             console.log(variable1)
+//         }
+//         else if(variable2 == "nuevo"){
+//             let variable3 = prompt ("Para incluir a la lista")
+//             variable1.push(variable3)
+//         }   
+//     variable2 = prompt("Seguro que es eso?")
+//     }
+//   },
+// 250);
 
 
               /* |  */
@@ -542,6 +545,16 @@ let variable2 = prompt("Que es lo que deberias hacer? ");
 // console.log("okay, you are leaving us alone... it's okay")      /* Cuando escriba "quit" */
 
 
+
+//-----------------------------------------------
+let todos = ["Compra una tortuga nueva"];
+
+let input = prompt("Que quieres hacer?");
+while(input !== "salir"){
+    if (input== "lista"){
+        
+    }
+}
 
 
 
