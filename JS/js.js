@@ -547,25 +547,108 @@
 
 
 //-----------------------------------------------
-let todos = ["Compra una tortuga nueva"];
+// let todos = ["Compra una tortuga nueva"];
+// 
+// let input = prompt("Que quieres hacer?");
+// 
+// while(input !== "salir"){
+//     // Empieza el bucle
+//     if (input == "lista"){
+//         listaTodos();
+//     }
+// 
+//     else if (input=="nuevo"){
+//         incluirTodos();
+//     }
+// 
+//     else if (input === "borrar" ){
+//         borrarTodos();
+//     }
+// 
+//     input=prompt("Que te gustaria hacer?");
+// }
+// console.log("Vale... te vas...")
+// 
+//     <-- Funciones -->
+// 
+// //  <-- para mostrar la array -->
+// function listaTodos(){
+//     // Decorativo para el console log
+//     console.log("**********")
+//     todos.forEach(function(todos, j){
+//         console.log(j + ": " + todos)
+//     });
+//    console.log("**********")
+// 
+// }
+// //  <-- Para añadir en la array -->
+// function incluirTodos(){
+//     // Preguntar por una nueva tarea
+//     let nuevoTodos=prompt("Introducir nueva tarea");
+//     // Añadir respuesta a la array de "todos"
+//     todos.push(nuevoTodos);
+//     console.log("Tarea incluida, grasias buena hente")
+// }
+// 
+// //  <-- Para borrar de la array -->
+// function borrarTodos(){
+//     // Por si se quierer borrar una pieza del array
+//     let index = prompt("Introducir index de lo que desea borrar")
+//     // Borrar esa pieza
+//     todos.splice(index, 1);
+//     console.log("Seccion array borrada");
+// }
 
-let input = prompt("Que quieres hacer?");
-while(input !== "salir"){
-    if (input== "lista"){
-        
-    }
-}
 
 
+//-----------------------------------------------
 
-
-
-
-
-
-
-
-
+// Para sacarlo pero al reves, desde el final hasta el principio
+// 
+// function printReverse(arr){
+//     console.log("**********")
+//     for ( let i = arr.length -1; i>= 0; i--){
+//         console.log(arr[i])
+//         
+//     }
+// }
+// printReverse([1,2,3,4,5])
+// console.log("**********");
+// 
+// // Comprueba si es uniforme ( igual )
+// //  <-- isUniform -->
+// 
+// function isUniform(arr){
+//     let first=arr[0];
+//     for(let i = 1; i < arr.length; i++){
+//         if(arr[i] !== first){
+//             return false
+//         }
+//     }
+//     return true
+// }
+// 
+// // <-- sumArray -->
+// 
+// function sumArray(arr){
+//     let total=0;
+//     arr.forEach(function(element){
+//         total += element;
+//     });
+//     return total;
+// }
+// 
+// // <-- max() -->
+// 
+// function max(arr){
+//     let max = arr[0];
+//     for (let i = 1; i < arr.length; i++)
+//     if(arr[i] > max){
+//         max=arr[i];
+//     return max;
+//     }
+// }
+// 
 
 // COSAS QUE NO SON DEL CURSO. Puro jugueteo
 
