@@ -547,57 +547,59 @@
 
 
 //-----------------------------------------------
-// let todos = ["Compra una tortuga nueva"];
-// 
-// let input = prompt("Que quieres hacer?");
-// 
-// while(input !== "salir"){
-//     // Empieza el bucle
-//     if (input == "lista"){
-//         listaTodos();
-//     }
-// 
-//     else if (input=="nuevo"){
-//         incluirTodos();
-//     }
-// 
-//     else if (input === "borrar" ){
-//         borrarTodos();
-//     }
-// 
-//     input=prompt("Que te gustaria hacer?");
-// }
-// console.log("Vale... te vas...")
-// 
-//     <-- Funciones -->
-// 
-// //  <-- para mostrar la array -->
-// function listaTodos(){
-//     // Decorativo para el console log
-//     console.log("**********")
-//     todos.forEach(function(todos, j){
-//         console.log(j + ": " + todos)
-//     });
-//    console.log("**********")
-// 
-// }
-// //  <-- Para añadir en la array -->
-// function incluirTodos(){
-//     // Preguntar por una nueva tarea
-//     let nuevoTodos=prompt("Introducir nueva tarea");
-//     // Añadir respuesta a la array de "todos"
-//     todos.push(nuevoTodos);
-//     console.log("Tarea incluida, grasias buena hente")
-// }
-// 
-// //  <-- Para borrar de la array -->
-// function borrarTodos(){
-//     // Por si se quierer borrar una pieza del array
-//     let index = prompt("Introducir index de lo que desea borrar")
-//     // Borrar esa pieza
-//     todos.splice(index, 1);
-//     console.log("Seccion array borrada");
-// }
+let todos = ["Suiza es un buen lugar"];
+
+let input = prompt("Que quieres hacer?");
+
+while(input !== "salir"){
+    // Empieza el bucle
+    if (input == "lista"){
+        listaTodos();
+    }
+
+    else if (input=="nuevo"){
+        incluirTodos();
+    }
+
+    else if (input === "borrar" ){
+        borrarTodos();
+    }
+
+    input=prompt("Que te gustaria hacer?");
+}
+console.log("Vale... te vas...")
+
+
+
+    //<-- Funciones -->
+
+//  <-- para mostrar la array -->
+function listaTodos(){
+    // Decorativo para el console log
+    console.log("**********")
+    todos.forEach(function(todos, j){
+        console.log(j + ": " + todos)
+    });
+   console.log("**********")
+
+}
+//  <-- Para añadir en la array -->
+function incluirTodos(){
+    // Preguntar por una nueva tarea
+    let nuevoTodos=prompt("Introducir nueva tarea");
+    // Añadir respuesta a la array de "todos"
+    todos.push(nuevoTodos);
+    console.log("Tarea incluida, grasias buena hente")
+}
+
+//  <-- Para borrar de la array -->
+function borrarTodos(){
+    // Por si se quierer borrar una pieza del array
+    let index = prompt("Introducir index de lo que desea borrar")
+    // Borrar esa pieza
+    todos.splice(index, 1);
+    console.log("Seccion array borrada");
+}
 
 
 
@@ -655,7 +657,7 @@
 // ----------------------------------------------
 
 // esto es una funcion que se llama a si misma, se llama recursion.
-// Recursion is a process ( a function, en este caso ) that calls itself, el pez que se muerde la cola... hasta colapsar.
+// Recursion is a process ( a function, en este caso )
 // Un torbellino!!
 //
 //  function countdown(num){
@@ -686,55 +688,28 @@
 // sumRange(3)
 //
 //-----------------------------------------------  
+function ingles(){
+    alert("Ou yeah baby, you did it")
+}
 
 function moto(){
     alert("Que te crees? hasta que no la tengas no le des al tick")
+}
+function lenguaje(){
+    alert("Que te crees? hasta que no los tengas no le des al tick")
 }
 
 function trabajo(){
     alert("Que te crees? hasta que no lo tenga no le des al tick")
 }
 
-function lenguaje(){
-    alert("Que te crees? hasta que no los tengas no le des al tick")
-}
-
 function remoto(){
     alert("Que te crees? hasta que no lo tenga no le des al tick")
 }
 
-function ingles(){
-    alert("Ou yeah baby, you did it")
+function life(){
+    alert("Not yet man... not yet")
 }
-
-//---------------
-
-
-// function recordar(estudiar, trabajar, fumar){
-//     alert("You should" + estudiar )
-//     alert("Deja de fumar ya!" + fumar)
-//     alert("Deberia trabajar?" + trabajar)
-// }
-
-// function preguntas(){                                   /* No se por qué, solo salta el ultimo */
-// 	prompt("Que te parece todo esto?")
-// 		
-// 		if(prompt == "bien"){
-// 			return "pues no va el tio y lo sabe"
-// 			}
-// 		 
-// 		else if (prompt == "mal" ){
-// 			return "esta todo mal, squeroso"
-//         	}
-// 
-// 		else if (prompt == null){
-// 			return "aqui no hay ná"
-// 			}		
-// 
-// 		else {
-// 			return "cagon dios!"				
-// 			}
-// 	}
 
 
 
