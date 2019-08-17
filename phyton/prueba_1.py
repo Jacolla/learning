@@ -25,8 +25,6 @@ while select != "si":
         
         
 
-# put a counter
-# almacenar respuestas para hacer estadistica de favorita
-
+# Empezarlo de nuevo, esta to fatá
 print("Finish")
 

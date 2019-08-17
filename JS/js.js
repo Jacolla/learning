@@ -547,59 +547,59 @@
 
 
 //-----------------------------------------------
-let todos = ["Suiza es un buen lugar"];
-
-let input = prompt("Que quieres hacer?");
-
-while(input !== "salir"){
-    // Empieza el bucle
-    if (input == "lista"){
-        listaTodos();
-    }
-
-    else if (input=="nuevo"){
-        incluirTodos();
-    }
-
-    else if (input === "borrar" ){
-        borrarTodos();
-    }
-
-    input=prompt("Que te gustaria hacer?");
-}
-console.log("Vale... te vas...")
-
-
-
-    //<-- Funciones -->
-
-//  <-- para mostrar la array -->
-function listaTodos(){
-    // Decorativo para el console log
-    console.log("**********")
-    todos.forEach(function(todos, j){
-        console.log(j + ": " + todos)
-    });
-   console.log("**********")
-
-}
-//  <-- Para añadir en la array -->
-function incluirTodos(){
-    // Preguntar por una nueva tarea
-    let nuevoTodos=prompt("Introducir nueva tarea");
-    // Añadir respuesta a la array de "todos"
-    todos.push(nuevoTodos);
-    console.log("Tarea incluida, grasias buena hente")
-}
-
-//  <-- Para borrar de la array -->
-function borrarTodos(){
-    // Por si se quierer borrar una pieza del array
-    let index = prompt("Introducir index de lo que desea borrar")
-    // Borrar esa pieza
-    todos.splice(index, 1);
-    console.log("Seccion array borrada");
-}
+// let todos = ["Suiza es un buen lugar"];
+// 
+// let input = prompt("Que quieres hacer?");
+// 
+// while(input !== "salir"){
+//     // Empieza el bucle
+//     if (input == "lista"){
+//         listaTodos();
+//     }
+// 
+//     else if (input=="nuevo"){
+//         incluirTodos();
+//     }
+// 
+//     else if (input === "borrar" ){
+//         borrarTodos();
+//     }
+// 
+//     input=prompt("Que te gustaria hacer?");
+// }
+// console.log("Vale... te vas...")
+// 
+// 
+// 
+//     //<-- Funciones -->
+// 
+// //  <-- para mostrar la array -->
+// function listaTodos(){
+//     // Decorativo para el console log
+//     console.log("**********")
+//     todos.forEach(function(todos, j){
+//         console.log(j + ": " + todos)
+//     });
+//    console.log("**********")
+// 
+// }
+// //  <-- Para añadir en la array -->
+// function incluirTodos(){
+//     // Preguntar por una nueva tarea
+//     let nuevoTodos=prompt("Introducir nueva tarea");
+//     // Añadir respuesta a la array de "todos"
+//     todos.push(nuevoTodos);
+//     console.log("Tarea incluida, grasias buena hente")
+// }
+// 
+// //  <-- Para borrar de la array -->
+// function borrarTodos(){
+//     // Por si se quierer borrar una pieza del array
+//     let index = prompt("Introducir index de lo que desea borrar")
+//     // Borrar esa pieza
+//     todos.splice(index, 1);
+//     console.log("Seccion array borrada");
+// }
 
 
 
@@ -642,15 +642,25 @@ function borrarTodos(){
 // 
 // // <-- max() -->
 // 
-// function max(arr){
-//     let max = arr[0];
-//     for (let i = 1; i < arr.length; i++)
-//     if(arr[i] > max){
-//         max=arr[i];
-//     return max;
-//     }
-// }
-// 
+
+// No compara con toda la array, solo con el que esta a su izquierda
+
+function max(arr){
+    let max = arr[0];
+    for (let i = 1; i < arr.length; i++)
+    if(arr[i] > max){
+        max=arr[i];
+    return max;
+    }
+}
+
+
+
+
+
+
+
+
 
 // COSAS QUE NO SON DEL CURSO. Puro jugueteo
 
