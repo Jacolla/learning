@@ -686,9 +686,6 @@
 
 // (function(){
 //     console.log("soy una funsion");
-// })
-// (function(){
-//     console.log("soy una funsion");
 // })()                                    /* Con los () al final, se invoca a la funcion */
 
 //output: soy una funsion
@@ -715,7 +712,8 @@
 
 
 
-//----------------------------------------------
+//-----------------------------------------------
+
 
 
 
