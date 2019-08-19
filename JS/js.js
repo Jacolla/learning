@@ -713,6 +713,38 @@
 
 
 //-----------------------------------------------
+//              <-- Objetos -->
+
+let motitos= {
+	Honda: "CB650R",
+	Triumph: "Street Triple 675",
+	Yamaha: "XSR900",
+	Kawasaki: "H2R"
+}
+/* Para cambiar valor */
+motitos.Kawasaki= "ER6N"         /* Esta es la buena ;) */
+
+/* Para añadir nuevo objeto */
+motitos.edad=25; 
+
+/* Para modificarle el valor */
+motitos.edad += 1   /* ("Le añade 1 al objeto añadido edad, teniendo en cuenta su valor anterior") */
+motitos.edad+1  /* Le suma uno al valor edad, pero no lo almacena, solo le suma uno y lo devuelve */
+
+
+//input: motitos
+//output: {Honda: "CB650R", Triumph: "Street Triple 675", Yamaha: "XSR900", Kawasaki: "H2R", edad: 25}
+
+
+
+
+let Jaime={}
+
+Jaime.estado="Pues aqui",
+Jaime.salud="Mas sano que una mazorca" ,
+Jaime.palpecho="Nah, cuando este en mi casa bien agustito" ,
+Jaime.estudia=("Ya, joder ya lo se osstia")
+
 
 
 
