@@ -645,20 +645,77 @@
 
 // No compara con toda la array, solo con el que esta a su izquierda
 
-function max(arr){
-    let max = arr[0];
-    for (let i = 0; i < arr.length; i++)
-    if(arr[i] > max){
-        max=arr[i];
-    return max;
-    }
-}
+// function max(arr){
+//     let max = arr[0];
+//     for (let i = 0; i < arr.length; i++)
+//     if(arr[i] > max){
+//         max=arr[i];
+//     return max;
+//     }
+// }
 
 
 
+//-----------------------------------------------
+// Creando mi propia ForEach, amos payá
+
+// function miForEach(arr, func){
+//     // loop a traves de la array
+//     for(let i=0; i<arr.length; i++){
+//         // llamar a la funcion para cada objeto de la array
+//         func(arr[i])            // la i "es" el objeto de la array
+//     }
+// }
+//                 //  |   Objetos de   |
+//                 //  v    la array    v
+// let colorines = ["azul","perro","mansana",]
+// 
+// // para invocarla: miForEach(colorines, alert)
+// 
+// miForEach(colorines, function(colorines){
+//     console.log(colorines);
+//     });
+
+//output: azul
+//        perro
+//        mansana        
 
 
 
+//-----------------
+
+// (function(){
+//     console.log("soy una funsion");
+// })
+// (function(){
+//     console.log("soy una funsion");
+// })()                                    /* Con los () al final, se invoca a la funcion */
+
+//output: soy una funsion
+
+
+//-----------------
+
+// let motos = ["Kawasaki","Triumph","Honda",]
+// 
+// 
+// Array.prototype.miForEach = function(func){
+//     for(let i=0; i<this.length; i++){
+//         func(this[i]);
+//     }
+//     }
+// 
+//     motos.miForEach(function(motoNombre){
+//         console.log("Me gustan mucho las " + motoNombre)
+//     })
+// 
+//output: Me gustan mucho las Kawasaki
+//        Me gustan mucho las Triumph
+//        Me gustan mucho las Honda
+
+
+
+//----------------------------------------------
 
 
 

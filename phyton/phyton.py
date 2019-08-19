@@ -405,7 +405,7 @@ def devuelveMotos(*motos):
 #            yield from elemento
            yield elemento
 
-motosDevueltas=devuelveMotos("Jonda", "Yilera", "Gas! Gas!", "Triumf")
+motosDevueltas=devuelveMotos("Honda", "Gilera", "GasGas", "Triumph")
 
 print(next(motosDevueltas))
 print(next(motosDevueltas))
