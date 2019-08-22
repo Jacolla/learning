@@ -729,7 +729,7 @@ motitos.edad=25;
 
 /* Para modificarle el valor */
 motitos.edad += 1   /* ("Le añade 1 al objeto añadido edad, teniendo en cuenta su valor anterior") */
-motitos.edad+1  /* Le suma uno al valor edad, pero no lo almacena, solo le suma uno y lo devuelve */
+motitos.edad+1  /* Le suma uno al valor edad, pero no lo almacena, solo le suma uno y ya stá */
 
 
 //input: motitos
