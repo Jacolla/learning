@@ -737,13 +737,15 @@ motitos.edad+1  /* Le suma uno al valor edad, pero no lo almacena, solo le suma 
 
 
 
+let pegatinas = {}
+pegatinas.hola = new Object();
+pegatinas.hola = "que tal? ";
 
-let Jaime={}
+pegatinas.bien = new Object();
+pegatinas.bien = "todo bien entonces. ";
 
-Jaime.estado="Pues aqui",
-Jaime.salud="Mas sano que una mazorca" ,
-Jaime.palpecho="Nah, cuando este en mi casa bien agustito" ,
-Jaime.estudia=("Ya, joder ya lo se osstia")
+pegatinas.si = new Object();
+pegatinas.si = "no? ";
 
 
 
