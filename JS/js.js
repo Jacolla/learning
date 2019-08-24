@@ -715,37 +715,79 @@
 //-----------------------------------------------
 //              <-- Objetos -->
 
-let motitos= {
-	Honda: "CB650R",
-	Triumph: "Street Triple 675",
-	Yamaha: "XSR900",
-	Kawasaki: "H2R"
-}
-/* Para cambiar valor */
-motitos.Kawasaki= "ER6N"         /* Esta es la buena ;) */
-
-/* Para añadir nuevo objeto */
-motitos.edad=25; 
-
-/* Para modificarle el valor */
-motitos.edad += 1   /* ("Le añade 1 al objeto añadido edad, teniendo en cuenta su valor anterior") */
-motitos.edad+1  /* Le suma uno al valor edad, pero no lo almacena, solo le suma uno y ya stá */
-
+// let motitos= {
+// 	Honda: "CB650R",
+// 	Triumph: "Street Triple 675",
+// 	Yamaha: "XSR900",
+// 	Kawasaki: "H2R"
+// }
+// /* Para cambiar valor */
+// motitos.Kawasaki= "ER6N"         /* Esta es la buena ;) */
+// 
+// /* Para añadir nuevo objeto */
+// motitos.edad=25; 
+// 
+// /* Para modificarle el valor */
+// motitos.edad += 1   /* ("Le añade 1 al objeto añadido edad, teniendo en cuenta su valor anterior") */
+// motitos.edad+1  /* Le suma uno al valor edad, pero no lo almacena, solo le suma uno y ya stá */
+// 
 
 //input: motitos
 //output: {Honda: "CB650R", Triumph: "Street Triple 675", Yamaha: "XSR900", Kawasaki: "H2R", edad: 25}
 
 
+//-----------------
 
-let pegatinas = {}
-pegatinas.hola = new Object();
-pegatinas.hola = "que tal? ";
+// let pegatinas = {}
+// pegatinas.hola = new Object();
+// pegatinas.hola = "que tal? ";
+// 
+// pegatinas.bien = "todo bien entonces. ";
+// 
+// pegatinas.si = "no? ";
+// 
 
-pegatinas.bien = new Object();
-pegatinas.bien = "todo bien entonces. ";
 
-pegatinas.si = new Object();
-pegatinas.si = "no? ";
+
+// ----------------------------------------------
+
+/*   <-- Navegar por arrays/Objetos  -->    */
+// let posts = [{
+//         title: "Los perros son muy guays",
+//         author: "Goofy",
+//         coments: ["Quien es un buen chico!?", "Malo, perro malo"],
+//     },
+// 
+//     {
+//         title: "Los perros son una mierda",
+//         author: "GatoConBotas",
+//         coments: ["Garfield esta sobrevalorado", "Los gatos dominaran el mundo"],
+// 
+//     }
+// ]
+
+
+
+/*//-----------------
+
+input: posts[0].coments[1]
+output: Malo, perro malo
+*/
+
+// let algunosObjectos = {
+// 	friends:[
+//         {nombre: "Malfoy"},
+// 		{nombre: "Crabbe"},
+// 		{nombre: "Goyle"}
+// ],
+// 	color: "baby blue",
+// 	isEvil:true
+// };
+// 
+/* 
+input: algunosObjectos.friends[0].nombre
+output: "Malfoy"
+*/
 
 
 
