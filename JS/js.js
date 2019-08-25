@@ -611,7 +611,6 @@
 //     console.log("**********")
 //     for ( let i = arr.length -1; i>= 0; i--){
 //         console.log(arr[i])
-//         
 //     }
 // }
 // printReverse([1,2,3,4,5])
@@ -706,7 +705,7 @@
 //         console.log("Me gustan mucho las " + motoNombre)
 //     })
 // 
-//output: Me gustan mucho las Kawasaki
+// output: Me gustan mucho las Kawasaki
 //        Me gustan mucho las Triumph
 //        Me gustan mucho las Honda
 
@@ -765,30 +764,120 @@
 // 
 //     }
 // ]
-
-
-
-/*//-----------------
-
+/*
 input: posts[0].coments[1]
 output: Malo, perro malo
 */
 
-// let algunosObjectos = {
+//-----------------
+
+
+
+// let algunosObjetos = {
 // 	friends:[
-//         {nombre: "Malfoy"},
+//      {nombre: "Malfoy"},
 // 		{nombre: "Crabbe"},
 // 		{nombre: "Goyle"}
 // ],
 // 	color: "baby blue",
 // 	isEvil:true
 // };
-// 
+ 
 /* 
 input: algunosObjectos.friends[0].nombre
 output: "Malfoy"
 */
 
+
+// ----------------------------------------------
+
+ /* <--  Array de objetos --> */
+
+// let pelis = [
+//     {
+//      titulo: "Hellboy",
+//      vista: true,
+//      nota: 7.5,
+//     },
+// 
+//     {
+//      titulo: "El indomable Will Hunter",
+//      vista: true,
+//      nota: 9,
+//     },
+// 
+//     {
+//      titulo: "Anabelle",
+//      vista: false,
+//      nota: 2,
+//     },
+// 
+//     {
+//      titulo: "Pocahontas",
+//      vista: true,
+//      nota: 7,
+//     },
+// 
+//     {
+//         titulo: "La noche de Halloween",
+//         vista: false,
+//         nota: 4,
+//        }
+// ]
+// 
+// // pelis.forEach(function(pelis){
+// //     let resultado = "La pelicula ";
+// //     if (pelis.vista){
+// //         resultado += "ha sido vista ";
+// //     }
+// //     else{
+// //         resultado+= "no ha sido vista ";
+// //     }
+// //     resultado+= "\"" + pelis.titulo + "\" - ";
+// //     resultado += pelis.nota + " de valoracion..."
+// //     console.log(resultado)
+// // })
+// // 
+// //-----------------
+// 
+// /* El forEach metido en una funcion, cual "boton" */
+// function construyeFrase(pelis){
+//     let resultado = "La pelicula ";
+//     if (pelis.vista){
+//         resultado += "ha sido vista ";
+//     }
+//     else{
+//         resultado+= "no ha sido vista ";
+//     }
+//     resultado+= "\"" + pelis.titulo + "\" - ";
+//     resultado += pelis.nota + " de valoracion..."
+//     return resultado
+// };
+// 
+// /* Esta es la funcion que crea las frases */
+// pelis.forEach(function(peli){
+//     console.log(construyeFrase(peli));
+// });
+
+
+
+// ----------------------------------------------
+
+/* <-- JS methods (funciones que es una propiedad dentro de un objeto) --> */
+
+// let objetos = {
+//     nombre: "Er Pepe",
+//     edad: 25,
+//     add: function(x,y){
+//         return x + y;
+//     }
+// }
+ 
+
+
+// ----------------------------------------------
+
+/* <-- Manipulando HTML con JS (DOM) --> */
 
 
 

@@ -152,13 +152,13 @@
 
 
 # edad=int(input("Que edad tienes? : "))
-#  if edad < 18:
+# if edad < 18:
 #      print("Tira pa tu casa")
 #  
-#  elif edad < 100:
+# elif edad < 100:
 #      print("Puedes entrar")
 #  
-#  else:
+# else:
 #      print("Stás to flipao")
 
 

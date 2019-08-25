@@ -31,7 +31,7 @@ def generadorSegundo(limite):
     num=1
     while num<limite:
         yield num*1
-        num=num*1.00001
+        num=num*1.2
     
 devuelvePares=generadorSegundo(1000000)
 print(next(devuelvePares))
@@ -54,27 +54,14 @@ print(next(devuelvePares))
 print(next(devuelvePares))
 print(next(devuelvePares))
 print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
+# print(next(devuelvePares))
+# print(next(devuelvePares))
+# print(next(devuelvePares))
+
+
+
+
+
+
+
+
