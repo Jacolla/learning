@@ -879,6 +879,13 @@ output: "Malfoy"
 
 /* <-- Manipulando HTML con JS (DOM) --> */
 
+/* Para seleccionar cosas del html */
+let cogelo = document.getElementById("palJS");  /* para engancharlo desde su id */ 
+
+let cogelo2 = document.getElementsByClassName("ioquese"); /* Para cogerlo desde class */
+
+let cogelo3 = document.getElementsByTagName("h2");
+// y la clasica, para navegar entre mas de 1 seleccionado, palJS[]
 
 
 
