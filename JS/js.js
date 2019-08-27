@@ -880,6 +880,8 @@ output: "Malfoy"
 /* <-- Manipulando HTML con JS (DOM) --> */
 
 // /* Para seleccionar cosas del html */
+
+
 // let cogelo = document.getElementById("palJS");  /* para engancharlo desde su id */ 
 // 
 // let cogelo2 = document.getElementsByClassName("ioquese"); /* Para cogerlo desde class */
