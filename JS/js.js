@@ -793,50 +793,50 @@ output: "Malfoy"
 
  /* <--  Array de objetos --> */
 
-let pelis = [
-    {
-     titulo: "Hellboy",
-     vista: true,
-     nota: 7.5,
-    },
-
-    {
-     titulo: "El indomable Will Hunter",
-     vista: true,
-     nota: 9,
-    },
-
-    {
-     titulo: "Anabelle",
-     vista: false,
-     nota: 2,
-    },
-
-    {
-     titulo: "Pocahontas",
-     vista: true,
-     nota: 7,
-    },
-
-    {
-        titulo: "La noche de Halloween",
-        vista: false,
-        nota: 2,
-       }
-]
-
-pelis.forEach(function(pelis){
-    let resultado = "La pelicula ";
-    if (pelis.vista){
-        resultado += "ha sido vista ";
-    }
-    else{
-        resultado+= "no ha sido vista ";
-    }
-    resultado+= "\"" + pelis.titulo + "\" - ";
-    resultado += pelis.nota + " de valoracion..."
-    console.log(resultado)
-})
+// let pelis = [
+//     {
+//      titulo: "Hellboy",
+//      vista: true,
+//      nota: 7.5,
+//     },
+// 
+//     {
+//      titulo: "El indomable Will Hunter",
+//      vista: true,
+//      nota: 9,
+//     },
+// 
+//     {
+//      titulo: "Anabelle",
+//      vista: false,
+//      nota: 2,
+//     },
+// 
+//     {
+//      titulo: "Pocahontas",
+//      vista: true,
+//      nota: 7,
+//     },
+// 
+//     {
+//         titulo: "La noche de Halloween",
+//         vista: false,
+//         nota: 2,
+//        }
+// ]
+// 
+// pelis.forEach(function(pelis){
+//     let resultado = "La pelicula ";
+//     if (pelis.vista){
+//         resultado += "ha sido vista ";
+//     }
+//     else{
+//         resultado+= "no ha sido vista ";
+//     }
+//     resultado+= "\"" + pelis.titulo + "\" - ";
+//     resultado += pelis.nota + " de valoracion..."
+//     console.log(resultado)
+// })
 // 
 //-----------------
 // 
@@ -872,7 +872,7 @@ pelis.forEach(function(pelis){
 //         return x + y;
 //     }
 // }
- 
+
 
 
 // ----------------------------------------------
@@ -880,16 +880,16 @@ pelis.forEach(function(pelis){
 /* <-- Manipulando HTML con JS (DOM) --> */
 
 // /* Para seleccionar cosas del html */
+// y la clasica, para navegar entre mas de 1 seleccionado, "seleccionado"[]
 
+let cogelo = document.getElementById("palJS");  /* para engancharlo desde su id */ 
 
-// let cogelo = document.getElementById("palJS");  /* para engancharlo desde su id */ 
-// 
-// let cogelo2 = document.getElementsByClassName("ioquese"); /* Para cogerlo desde class */
-// 
-// let cogelo3 = document.getElementsByTagName("h2");
-//// y la clasica, para navegar entre mas de 1 seleccionado, palJS[]
+let cogelo2 = document.getElementsByClassName("ioquese");  /* Para cogerlo desde class */
 
+let cogelo3 = document.getElementsByTagName("h5");
+let cogelo4 = document.querySelector("h5") 
 
+let cogelo5 = document.querySelector("#bolded") /* Para pillar cosas del CSS */
 
 
 

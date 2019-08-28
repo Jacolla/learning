@@ -54,9 +54,7 @@ print(next(devuelvePares))
 print(next(devuelvePares))
 print(next(devuelvePares))
 print(next(devuelvePares))
-# print(next(devuelvePares))
-# print(next(devuelvePares))
-# print(next(devuelvePares))
+
 
 
 
