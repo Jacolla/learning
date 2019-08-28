@@ -793,52 +793,52 @@ output: "Malfoy"
 
  /* <--  Array de objetos --> */
 
-// let pelis = [
-//     {
-//      titulo: "Hellboy",
-//      vista: true,
-//      nota: 7.5,
-//     },
+let pelis = [
+    {
+     titulo: "Hellboy",
+     vista: true,
+     nota: 7.5,
+    },
+
+    {
+     titulo: "El indomable Will Hunter",
+     vista: true,
+     nota: 9,
+    },
+
+    {
+     titulo: "Anabelle",
+     vista: false,
+     nota: 2,
+    },
+
+    {
+     titulo: "Pocahontas",
+     vista: true,
+     nota: 7,
+    },
+
+    {
+        titulo: "La noche de Halloween",
+        vista: false,
+        nota: 2,
+       }
+]
+
+pelis.forEach(function(pelis){
+    let resultado = "La pelicula ";
+    if (pelis.vista){
+        resultado += "ha sido vista ";
+    }
+    else{
+        resultado+= "no ha sido vista ";
+    }
+    resultado+= "\"" + pelis.titulo + "\" - ";
+    resultado += pelis.nota + " de valoracion..."
+    console.log(resultado)
+})
 // 
-//     {
-//      titulo: "El indomable Will Hunter",
-//      vista: true,
-//      nota: 9,
-//     },
-// 
-//     {
-//      titulo: "Anabelle",
-//      vista: false,
-//      nota: 2,
-//     },
-// 
-//     {
-//      titulo: "Pocahontas",
-//      vista: true,
-//      nota: 7,
-//     },
-// 
-//     {
-//         titulo: "La noche de Halloween",
-//         vista: false,
-//         nota: 4,
-//        }
-// ]
-// 
-// // pelis.forEach(function(pelis){
-// //     let resultado = "La pelicula ";
-// //     if (pelis.vista){
-// //         resultado += "ha sido vista ";
-// //     }
-// //     else{
-// //         resultado+= "no ha sido vista ";
-// //     }
-// //     resultado+= "\"" + pelis.titulo + "\" - ";
-// //     resultado += pelis.nota + " de valoracion..."
-// //     console.log(resultado)
-// // })
-// // 
-// //-----------------
+//-----------------
 // 
 // /* El forEach metido en una funcion, cual "boton" */
 // function construyeFrase(pelis){
