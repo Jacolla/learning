@@ -882,33 +882,43 @@ output: "Malfoy"
 // /* Para seleccionar cosas del html */
 // y la clasica, para navegar entre mas de 1 seleccionado, "seleccionado"[]
 
-let cogelo = document.getElementById("palJS");  /* para engancharlo desde su id */ 
+// let cogelo = document.getElementById("palJS");   
+// 
+// let cogelo2 = document.getElementsByClassName("ioquese");  
+// 
+// let cogelo3 = document.getElementsByTagName("h5");
+// 
+// let cogelo4 = document.querySelector("h5") 
+// let lis = document.querySelectorAll("li")  /* Selecciona todos los li */
+// 
+// let cogelo5 = document.querySelector("#bolded") /* #CSS */
+// let cogelo6 = document.querySelector("li a.special")  /* Elementos del li con a.special CSS */
 
-let cogelo2 = document.getElementsByClassName("ioquese");  /* Para cogerlo desde class */
+//-----------------
 
-let cogelo3 = document.getElementsByTagName("h5");
-let cogelo4 = document.querySelector("h5") 
+/* Exercise, 4 ways to select the first <p> */
+// let cogelo = document.getElementById ("first");
+// let cogelo1 = document.getElementsByTagName("p")[0];
+// let cogelo2 = document.getElementsByClassName ("special")[0];
+// let cogelo3 = document.querySelector("p#first.special");
+// let cogelo4 = document.querySelectorAll("p")[0];
+// let cogelo5 = document.querySelector("h5 + p");  /* cogiendo el que va justo despues del h5 */
 
-let cogelo5 = document.querySelector("#bolded") /* Para pillar cosas del CSS */
+//-----------------
+//-----------------
 
+/*          <-- DOM manipulation -->         */
 
+// let cogelo = document.getElementById ("first");
 
+/* Tipos de manipulacion del CSS desde el JS */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// let cogelo4 = document.querySelectorAll("p")
+// cogelo4[0].style.color = "Red";
+// cogelo4[0].style.border = "10px solid green";
+// cogelo4[0].style.fontSize = "20px";
+// cogelo4[0].style.background = "black";
+// cogelo4[0].style.marginTop = "15px";
 
 
 

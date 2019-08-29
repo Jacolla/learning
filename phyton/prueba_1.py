@@ -27,39 +27,83 @@
 # # Empezarlo de nuevo, esta to fatá
 # print("Finish")
 
+
+
 def generadorSegundo(limite):
-    num=1
+    num=87
     while num<limite:
-        yield num*1
-        num=num*1.2
-    
-devuelvePares=generadorSegundo(1000000)
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
-print(next(devuelvePares))
+        yield num/7
+        num=num/1000000
+
+    # 22/7 = max reach 5e-324
+    # 44/7 = max reach 5e-324
+    # 87/7 = max reach 1.5e-323
+
+    # 44/5 = max reach 1e-323
+    # 26/5 = max reach 1e-323
+
+    # 33/2 = max reach 2e-323
+    # 44/2 = max reach 2e-323
 
 
-
-
-
-
-
-
-
+devuelveImpares=generadorSegundo(100000)
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
+print(next(devuelveImpares))
