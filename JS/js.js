@@ -570,7 +570,9 @@
 // console.log("Vale... te vas...")
 // 
 // 
-// 
+//-----------------------------------------------
+//
+//
 //     //<-- Funciones -->
 // 
 // //  <-- para mostrar la array -->
@@ -660,13 +662,13 @@
 
 // function miForEach(arr, func){
 //     // loop a traves de la array
-//     for(let i=0; i<arr.length; i++){
+//     for(let i = 0; i < arr.length; i++){
 //         // llamar a la funcion para cada objeto de la array
 //         func(arr[i])            // la i "es" el objeto de la array
 //     }
 // }
-//                 //  |   Objetos de   |
-//                 //  v    la array    v
+                  //  |   Objetos de   |
+                  //  v    la array    v
 // let colorines = ["azul","perro","mansana",]
 // 
 // // para invocarla: miForEach(colorines, alert)
@@ -696,7 +698,7 @@
 // 
 // 
 // Array.prototype.miForEach = function(func){
-//     for(let i=0; i<this.length; i++){
+//     for(let i = 0; i < this.length; i++){
 //         func(this[i]);
 //     }
 //     }
@@ -706,8 +708,8 @@
 //     })
 // 
 // output: Me gustan mucho las Kawasaki
-//        Me gustan mucho las Triumph
-//        Me gustan mucho las Honda
+//         Me gustan mucho las Triumph
+//         Me gustan mucho las Honda
 
 
 
@@ -913,12 +915,12 @@ output: "Malfoy"
 
 /* Tipos de manipulacion del CSS desde el JS */
 
-// let cogelo4 = document.querySelectorAll("p")
-// cogelo4[0].style.color = "Red";
-// cogelo4[0].style.border = "10px solid green";
-// cogelo4[0].style.fontSize = "20px";
-// cogelo4[0].style.background = "black";
-// cogelo4[0].style.marginTop = "15px";
+let cogelo4 = document.querySelectorAll("p")
+cogelo4[0].style.color = "Red";
+cogelo4[0].style.border = "10px solid green";
+cogelo4[0].style.fontSize = "20px";
+cogelo4[0].style.background = "black";
+cogelo4[0].style.marginTop = "15px";
 
 
 
