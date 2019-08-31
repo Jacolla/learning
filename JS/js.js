@@ -915,12 +915,12 @@ output: "Malfoy"
 
 /* Tipos de manipulacion del CSS desde el JS */
 
-let cogelo4 = document.querySelectorAll("p")
-cogelo4[0].style.color = "Red";
-cogelo4[0].style.border = "10px solid green";
-cogelo4[0].style.fontSize = "20px";
-cogelo4[0].style.background = "black";
-cogelo4[0].style.marginTop = "15px";
+// let cogelo4 = document.querySelectorAll("p")     /* Solo funciona desde la consola, desde el cuaderno no lo coge */
+// cogelo4[0].style.color = "Red";
+// cogelo4[0].style.border = "10px solid green";
+// cogelo4[0].style.fontSize = "20px";
+// cogelo4[0].style.background = "black";
+// cogelo4[0].style.marginTop = "15px";
 
 
 
