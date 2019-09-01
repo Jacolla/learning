@@ -298,7 +298,7 @@
 //      console.log("probando las function");
 //  }
 //  
-//  jaime();                                                                                          /* Importante llamar a la funcion con los "()", sinó, no llamas a la funcion en crudo, sin ejecutar */
+//  jaime();                                                                                          /* Importante llamar a la funcion con los "()", sinó, llamas a la funcion en crudo, sin ejecutar */
 //  jaime();                                                                                          /* con los "()", llamas a ejecutar la funcion */        
 //  jaime();
 //---------------
@@ -896,6 +896,8 @@ output: "Malfoy"
 // let cogelo5 = document.querySelector("#bolded") /* #CSS */
 // let cogelo6 = document.querySelector("li a.special")  /* Elementos del li con a.special CSS */
 
+
+
 //-----------------
 
 /* Exercise, 4 ways to select the first <p> */
@@ -906,7 +908,8 @@ output: "Malfoy"
 // let cogelo4 = document.querySelectorAll("p")[0];
 // let cogelo5 = document.querySelector("h5 + p");  /* cogiendo el que va justo despues del h5 */
 
-//-----------------
+
+
 //-----------------
 
 /*          <-- DOM manipulation -->         */
@@ -924,12 +927,76 @@ output: "Malfoy"
 
 
 
+//-----------------
+
+//   <-- NOTA: solo funciona desde la consola, no desde el cuaderno, se tiene que arrancar primero -->
+// let p = document.querySelector("p");
+// 
+// // Añadir una class al elemento seleccionado
+// p.classList.add("classCSS");
+// 
+// // Quitar una class
+// p.classList.remove("classCSS");
+// 
+// // Tipo pulsador
+// p.classList.toggle("classCSS")
 
 
 
+//-----------------
+
+/* Manipulando textos */
+
+// let ul = document.getElementsByTagName("ul")[1] /* Seleccionado primero los 'ul' */
+// let li = ul.getElementsByTagName("li");         /* Seleccionado los 'il' dentro del 'ul' */
+// let li = ul.querySelector("li");                /*  otro tipo de seleccion  */
+
+// li[0].textContent = "Modificando HTML desde JS"  /* Modificando HTML desde JS, pero sustituye todo lo que habia antes */
+
+/*  ul.innerHTML, lo cambia sigueindo pautas del HTML  */
+/*  ul.textContent, lo cambia literalmente como se le dice, no entiende de HTML tag's */
+
+//document.querySelector("h5").textContent = "Manipulando la sona de pruebas"
 
 
 
+//-----------------
+
+/* Manipulando atributos */
+
+// let link = document.querySelector("a")      /* Selecciona el 'a' del HTML  */
+// link.getAttribute("href")                   /* Te da la direccion del href */
+// link.setAttribute("href","https://www.meneame.net")  /* Cambiar link desde JS */
+
+
+
+//-----------------
+
+/* loop to manipulate html links */
+
+// let links = document.getElementsByTagName ("a")
+
+// for (let i = 0; i<links.length; i++){
+// 	console.log(links[i].textContent);          /* selecciona todos los elementos de 'links' */
+// }
+
+// for (let i = 0; i<links.length; i++){
+// 	links[i].style.background = "purple"        /* Modifica los fondos de 'link' */
+// }
+
+// for (let i = 0; i<links.length; i++){
+// 	console.log(links[i].getAttribute ("href"));/* Saca en consola todos los links de 'links' */
+// }
+
+// for (let i = 0; i<links.length; i++){
+// 	links[i].setAttribute ("href","https://www.meneame.net");   /* Cambia todos los links a 'https://www.meneame.net' */
+// }
+
+
+
+//-----------------
+
+/* DOM events, making things interactive */
 
 
 
