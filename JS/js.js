@@ -1037,12 +1037,12 @@ output: "Malfoy"
 
 //-----------------------------------------------
 //
-// function sumRange(num){ 
-// 		if(num === 1) return 1;
-// 		return num + sumRange(num-1);					
-// }
-// 
-// sumRange(3)
+function bucleMortal(num){ 
+		if(num === 1) return 1;
+		return num + bucleMortal(num-1);					
+}
+
+
 //
 //-----------------------------------------------  
 function ingles(){
@@ -1074,5 +1074,4 @@ function life(){
 
 //   window.setTimeout(function() {  }, 250);
 //       //  para darle 500 milisegundos a que se carge el html antes que el js, y asi no tener el prompt sin nada detras
-
 
