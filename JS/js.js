@@ -933,13 +933,13 @@ output: "Malfoy"
 // let p = document.querySelector("p");
 // 
 // // Añadir una class al elemento seleccionado
-// p.classList.add("classCSS");
+// p.classList.add("classCSS");                    /* para meterle la propiedad del css */ 
 // 
 // // Quitar una class
-// p.classList.remove("classCSS");
+// p.classList.remove("classCSS");                 /* para quitarle la propiedad */
 // 
 // // Tipo pulsador
-// p.classList.toggle("classCSS")
+// p.classList.toggle("classCSS")                  /* No me acuerdo, recordarlo! */ 
 
 
 
@@ -1000,6 +1000,15 @@ output: "Malfoy"
 
 
 
+
+
+
+
+
+
+
+
+
 // COSAS QUE NO SON DEL CURSO.  Jugueteo
 
 // ----------------------------------------------
@@ -1008,21 +1017,21 @@ output: "Malfoy"
 // Recursion is a process ( a function, en este caso )
 // Un torbellino!!
 //
-//  function countdown(num){
-//  	if (num <=-1) {
-//  		console.log("   Free me!   ")
-//  		return;
-//  	}
-//  	console.log(num);
-//  	num++;
-//  	countdown(num);
-//   }
+// function countdown(num){
+// 	if (num <=-1) {
+// 		console.log("   Free me!   ")
+// 		return;
+// 	}
+// 	console.log(num);
+// 	num++;
+// 	countdown(num);
+//  }
 // 
-//  	countdown(2);
-//  		
-//  		countdown(1);
-//  			
-//   		countdown(0);
+// 	countdown(2);
+// 		
+// 		countdown(1);
+// 			
+//  		countdown(0);
  				 	
 
 
