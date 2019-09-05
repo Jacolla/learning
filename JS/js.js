@@ -1037,10 +1037,10 @@ output: "Malfoy"
 
 //-----------------------------------------------
 //
-function bucleMortal(num){ 
-		if(num === 1) return 1;
-		return num + bucleMortal(num-1);					
-}
+// function bucleMortal(num){ 
+// 		if(num === 1) return 1;
+// 		return num + bucleMortal(num-1);					
+// }
 
 
 //
