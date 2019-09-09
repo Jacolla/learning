@@ -399,18 +399,18 @@
 # ___________________
 
 
-def devuelveMotos(*motos):
-    for elemento in motos:
-#        for subElemento in elemento:
-#            yield from elemento
-           yield elemento
-
-motosDevueltas=devuelveMotos("Honda", "Gilera", "GasGas", "Triumph")
-
-print(next(motosDevueltas))
-print(next(motosDevueltas))
-print(next(motosDevueltas))
-print(next(motosDevueltas))
+# def devuelveMotos(*motos):
+#     for elemento in motos:
+# #        for subElemento in elemento:
+# #            yield from elemento
+#            yield elemento
+# 
+# motosDevueltas=devuelveMotos("Honda", "Gilera", "GasGas", "Triumph")
+# 
+# print(next(motosDevueltas))
+# print(next(motosDevueltas))
+# print(next(motosDevueltas))
+# print(next(motosDevueltas))
 
 
 
@@ -436,3 +436,28 @@ print(next(motosDevueltas))
 # for letra in input("Dime algo: "):
 #     print(letra)
 # 
+# ____________________________
+
+# v0
+# sabores = ["Chocochoco ", "Vanella ", "Mint "] 
+# for s1 in sabores:
+#     for s2 in sabores:
+#         print("Helado de " + s1 + "con " + s2)
+
+# v1
+# sabores = ["Chocolata ", "Vainilla ", "Almendra "]
+# for s1 in range(len(sabores)):
+#    for s2 in range(s1+1, len(sabores)):
+#        print("Heladito de", str(sabores[s1]) + "con " + str(sabores[s2]) )
+
+
+# ____________________________
+
+# for d in range (1,31):
+#     print("----")
+#     print("dia", d)
+#     if d % 7 == 6 or d % 7 == 0:
+#         print("Descansito gueno")
+#         continue
+#     print("Levantarse a desayunar")
+#     print("A tudial hueputa")
