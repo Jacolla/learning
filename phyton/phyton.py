@@ -1,3 +1,4 @@
+# _______________________________________________
 #Todo en phyton es un objeto
 #Las variables son marcadas por el contenido, no el contenedor.
 
@@ -6,7 +7,6 @@
 
 
 # _______________________________________________
-#
 # numero1=10
 # numero2=20
 # if numero1>numero2:
@@ -19,9 +19,7 @@
 #     print("Pues no tanto")
 # 
 #
-#
 # _______________________________________________
-# 
 # def mensajito():                    # Defines 
 #     print("Mensaje 1")              # |  
 #     print("Mensaje 2")              # | --> Cuerpo de la definicion
@@ -35,7 +33,6 @@
 
 
 # _______________________________________________
- 
 # def suma(num1, num2):
 # 
 #     resultado=num1 + num2
@@ -48,7 +45,6 @@
 
 
 # _______________________________________________
-
 # Lista0=["Marta", True, 30, "False?"]
 # Lista0.append("Sandra")
 # Lista0.insert(1,"Jesusito")
@@ -62,13 +58,10 @@
 
 
 # _______________________________________________
-
- #  -- Tuplas --
-
+#  -- Tuplas --
 #  Es como una lista, pero no es modificable, es decir, se pueden coger fracciones de la tupla, pero
 #  no puedes quitar/añadir componentes de la tupla, util cuando se quiere mirar la tupla o comprobar si hay algo en la tupla.
 #  Ocupan menos espacio, son mas rapidas de ejecutar, formatean strings(?)
-#  
 #  Diferencia entre tupla y lista a efectos reales?, las listas utilizan los [] y en las tuplas se utilizan  () (que no son obligatorios)
 
 #  tuplaPrueba=("Marta", 30, "Alia", 25, "Janet", 23 )
@@ -77,9 +70,8 @@
 
 
 # _______________________________________________
-
 #                  -- Diccionario --
-  
+
 #  pruebaDicc = {"Espania": "Mallorca", "England":"Manchester", "Russia": "Moscow", 2:"Puto amo"}
 #  pruebaDicc["Latvia"] = "Riga"
 #  
@@ -98,8 +90,8 @@
 #  print(pruebaDicc.values())                                                      # selecciona la "respuesta"
 #  print(len(pruebaDicc))
 
-# _______________________________________________
 
+# _______________________________________________
 #                  -- Condicionales --
 
 #  print("Probando el python")
@@ -125,10 +117,8 @@
 #  
 #  print("Finish")
 
+
 #----------------
-
-
-
 #  print("Verificacion de acceso")
 #  
 #  cilindrada=int(input("Selecciona una cilindrada... : "))
@@ -148,9 +138,8 @@
 #  
 #  print("Finish")
 
+
 #----------------
-
-
 # edad=int(input("Que edad tienes? : "))
 # if edad < 18:
 #      print("Tira pa tu casa")
@@ -172,9 +161,7 @@
 #     print("No puedes pasar, ffffflipao!")
 
 
-
 #----------------
-
 # salario_Presidente = int(input("Introduce salario presidente: "))
 # print("Salario presidente: " + str(salario_Presidente))
 # 
@@ -195,7 +182,6 @@
 #     
 #
 #----------------
-
 #<-- Operadores and,or & in -->
 # print("Requisitos Becas")
 #  
@@ -214,9 +200,7 @@
 #      print("No cumple los requisitos")
 
 
-
 #----------------
-
 # print("Asignaturas optativas")
 # print("Asignaturas optativas: Informatica grafica - Prueba de software - Desarrollo web")
 # opcion=input("Escribe la optativa deseada: ")
@@ -252,12 +236,7 @@
 #  seguro = input("Estas seguro? ")
 
 
-
-
-
 # _______________________________________________
-
-
 #       <-- Bucles -->
 
 # for i in ["solo","cuenta","valor",]:
@@ -290,15 +269,11 @@
 # else:
 #         print("Email NO correcto")
 
+
 # _______________________________________________
-#
-#
-#
 # for i in range(2,10,2):
-#         print(f"valor de la variable {i}")
+#         print("valor de la variable {i}")
 # 
-
-
 # i=1
 # 
 # while i<=10:
@@ -326,8 +301,8 @@
 #     print(i)
 # i=1
 
-# _______________________________________________
 
+# _______________________________________________
 # import math
 # 
 # print("Vamos a contar...")
@@ -351,7 +326,6 @@
 
 
 # _______________________________________________
-
 # email=input("Introduce email: ")
 # 
 # for i in email:
@@ -361,9 +335,9 @@
 # else: arroba=False
 # print(arroba)
 # 
+#
 # _______________________________________________
 #   <-- Generadores -->
-
 # def generadorPrimero(limite):
 #     num=1
 #     
@@ -376,9 +350,9 @@
 # 
 # for i in devuelvePares:
 #     print(i)
+#
+#
 # ___________________
-
-
 # def generadorSegundo(limite):
 #     num=1
 #     while num<limite:
@@ -396,9 +370,8 @@
 # print("texto vacio simple sencillo sin ná")
 # print(next(devuelvePares))
 
+
 # ___________________
-
-
 # def devuelveMotos(*motos):
 #     for elemento in motos:
 # #        for subElemento in elemento:
@@ -419,35 +392,36 @@
 
 
 
-# ____________________________
+
+# ____________________________________________________________________________________
 # """ <---  Juegueteo ---> """   
-
-
 # base = int(input("base:"))
 # altura = int(input("altura:"))
 # base_x_altura = base * altura / 2
 # print("El area es: " + str(base_x_altura))
 
+
+# ____________________________
 # pi = (355/113)
 # radio = input("Cual es el radio? ")
 # resultado = pi * int(radio) * 2
 # print(resultado)
 
-# for letra in input("Dime algo: "):
-#     print(letra)
-# 
-# 
+# <---------->
 # import math
 # pi = math.pi
 # print (pi)
-# ____________________________
 
+
+# ____________________________
 # v0
 # sabores = ["Chocochoco ", "Vanella ", "Mint "] 
 # for s1 in sabores:
 #     for s2 in sabores:
 #         print("Helado de " + s1 + "con " + s2)
 
+
+# <---------->
 # v1
 # sabores = ["Chocolata ", "Vainilla ", "Almendra "]
 # for s1 in range(len(sabores)):
@@ -456,14 +430,13 @@
 
 
 # ____________________________
-
-# for d in range (1,31):
-#     print("----")
-#     print("dia", d)
-#     if d % 7 == 6 or d % 7 == 0:
-#         print("Descansito gueno")
-#         continue
-#     print("Levantarse a desayunar")
-#     print("A tudial hueputa")
+for d in range (1,31):
+    print("----")
+    print("dia", d)
+    if d % 7 == 1 or d % 7 == 0:
+        print("Descansito gueno")
+        continue
+    print("Levantarse a desayunar")
+    print("A tudial hueputa")
 
 # green dot GitHub
