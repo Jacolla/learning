@@ -68,8 +68,11 @@ import math
 pedro = 25
 paco = math.pi
 pepe = paco*pedro
-joja = pepe*math.pi
-jajo = joja*256 + int(250+250)
+josito = pepe*math.pi
+mamo = josito + int(250*50/(1750-33.33+(150+250-math.pi)))
 
-print(jajo)
+print("Esto es paco: " + str(paco))
+print("Esto es pepe: " + str(pepe))
+print("Esto es josi: " + str(josito))
+print("Esto es mamo: " + str(mamo))
 
