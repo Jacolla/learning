@@ -1068,6 +1068,10 @@ function life(){
     alert("Not yet man... not yet")
 }
 
+function greenDot(){
+    alert("Mentirosillo...")
+}
+
 
 // (  .) )
 //-----------------------------------------------
