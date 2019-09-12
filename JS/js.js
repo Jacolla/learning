@@ -1042,6 +1042,9 @@ output: "Malfoy"
 // 		return num + bucleMortal(num-1);					
 // }
 
+for (i=0; i<10; i++){
+    console.log("Numero " + i)
+}
 
 //
 //-----------------------------------------------  
@@ -1069,13 +1072,11 @@ function life(){
 }
 
 function greenDot(){
-    alert("Mentirosillo...")
+    alert("Mentirosillo")
 }
 
 
-// (  .) )
 //-----------------------------------------------
 
 //   window.setTimeout(function() {  }, 250);
-//       //  para darle 500 milisegundos a que se carge el html antes que el js, y asi no tener el prompt sin nada detras
-
+//       //  para darle 500 milisegundos a que se carge la hoja

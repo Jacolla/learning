@@ -430,13 +430,31 @@
 
 
 # ____________________________
-for d in range (1,31):
-    print("----")
-    print("dia", d)
-    if d % 7 == 1 or d % 7 == 0:
-        print("Descansito gueno")
-        continue
-    print("Levantarse a desayunar")
-    print("A tudial hueputa")
+# for d in range (1,31):
+#     print("----")
+#     print("dia", d)
+#     if d % 7 == 1 or d % 7 == 0:
+#         print("Descansito gueno")
+#         continue
+#     print("Levantarse a desayunar")
+#     print("A tudial hueputa")
 
-# green dot GitHub
+
+# ____________________________
+# bucle
+pregunta = (input("Nombre: "))
+for i in range(10):
+        print("Tienes 10 oportunidades")
+        pregunta2 = input("Cual es tu nombre: ")        
+        while pregunta2 != str():
+                print("No tio no... NOMBRE: ")
+                print(str(pregunta))
+# BarraProgreso
+
+# import time
+# import progressbar
+# 
+# for i in progressbar.progressbar(range(5)):
+#     time.sleep(0.15)
+
+# input("")
