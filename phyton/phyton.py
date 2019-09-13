@@ -441,16 +441,18 @@
 
 
 # ____________________________
-# bucle
+
 pregunta = (input("Nombre: "))
 for i in range(10):
         print("Tienes 10 oportunidades")
-        pregunta2 = input("Cual es tu nombre: ")        
-        while pregunta2 != str():
-                print("No tio no... NOMBRE: ")
-                print(str(pregunta))
-# BarraProgreso
+        pregunta2 = input("Cual es tu nombre: ")
+# bucle mal cerrado               
+while pregunta != str():
+        print("No tio no... NOMBRE: ")
+        print(str(pregunta))
 
+
+# <-- BarraProgreso -->
 # import time
 # import progressbar
 # 
