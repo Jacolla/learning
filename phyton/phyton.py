@@ -456,6 +456,7 @@
 #         print(str(pregunta))
 
 print("Pues ahora un saludito")
+print("Pues ahora un saludito")
 # <-- BarraProgreso -->
 import time
 import progressbar
