@@ -1055,6 +1055,7 @@ function ingles(){
 function moto(){
     alert("Que te crees? hasta que no la tengas no le des al tick")
 }
+
 function lenguaje(){
     alert("Que te crees? hasta que no los tengas no le des al tick")
 }

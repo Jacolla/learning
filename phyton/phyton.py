@@ -442,21 +442,21 @@
 
 # ____________________________
 
-pregunta = (input("Nombre: "))
-for i in range(10):
-        print("Tienes 10 oportunidades")
-        pregunta2 = input("Cual es tu nombre: ")
-# bucle mal cerrado               
-while pregunta != str():
-        print("No tio no... NOMBRE: ")
-        print(str(pregunta))
+# pregunta = (input("Nombre: "))
+# for i in range(10):
+#         print("Tienes 10 oportunidades")
+#         pregunta2 = input("Cual es tu nombre: ")
+# # bucle NO cerrado               
+# while pregunta != str():
+#         print("No tio no... NOMBRE: ")
+#         print(str(pregunta))
 
 
 # <-- BarraProgreso -->
-# import time
-# import progressbar
-# 
-# for i in progressbar.progressbar(range(5)):
-#     time.sleep(0.15)
+import time
+import progressbar
+
+for i in progressbar.progressbar(range(50)):
+    time.sleep(0.1)
 
 # input("")
