@@ -449,11 +449,8 @@
 # for i in range(10):
 #         print("Tienes 10 oportunidades")
 #         pregunta2 = input("Cual es tu nombre: ")
-<<<<<<< HEAD
 # # bucle NO cerrado               
-=======
 # # bucle mal cerrado               
->>>>>>> bc3793a9e41b38761ec6622443c0bda33ceaa00f
 # while pregunta != str():
 #         print("No tio no... NOMBRE: ")
 #         print(str(pregunta))
