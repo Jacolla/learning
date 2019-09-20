@@ -76,3 +76,5 @@ print("Esto es pepe: " + str(pepe))
 print("Esto es josi: " + str(josito))
 print("Esto es mamo: " + str(mamo))
 
+# mas pruebas 
+# mensaje escrito desde VSC
