@@ -372,18 +372,23 @@
 
 
 # ___________________
-# def devuelveMotos(*motos):
-#     for elemento in motos:
-# #        for subElemento in elemento:
-# #            yield from elemento
-#            yield elemento
-# 
-# motosDevueltas=devuelveMotos("Honda", "Gilera", "GasGas", "Triumph")
-# 
-# print(next(motosDevueltas))
-# print(next(motosDevueltas))
-# print(next(motosDevueltas))
-# print(next(motosDevueltas))
+import time
+import progressbar
+for i in progressbar.progressbar(range(25)):
+    time.sleep(0.1)
+
+def devuelveMotos(*motos):
+    for elemento in motos:
+#        for subElemento in elemento:
+#            yield from elemento
+           yield elemento
+
+motosDevueltas=devuelveMotos("Honda", "Gilera", "GasGas", "Triumph")
+
+print(next(motosDevueltas))
+print(next(motosDevueltas))
+print(next(motosDevueltas))
+print(next(motosDevueltas))
 
 
 # _______________________________________________
@@ -444,7 +449,6 @@
 
 
 # ____________________________
-
 # pregunta = (input("Nombre: "))
 # for i in range(10):
 #         print("Tienes 10 oportunidades")
@@ -455,13 +459,11 @@
 #         print("No tio no... NOMBRE: ")
 #         print(str(pregunta))
 
-print("Pues ahora un saludito")
-print("Pues ahora un saludito")
-# <-- BarraProgreso -->
-import time
-import progressbar
 
-for i in progressbar.progressbar(range(50)):
-    time.sleep(0.1)
-
-# input("")
+# # <-- BarraProgreso -->
+# import time
+# import progressbar
+# 
+# for i in progressbar.progressbar(range(50)):
+#     time.sleep(0.1)
+# 
