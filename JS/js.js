@@ -1042,7 +1042,7 @@ output: "Malfoy"
 // 		return num + bucleMortal(num-1);					
 // }
 
-for (i=0; i<10; i++){
+for (i=1; i<6; i++){
     console.log("Numero " + i)
 }
 
