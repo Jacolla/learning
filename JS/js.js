@@ -1042,9 +1042,9 @@ output: "Malfoy"
 // 		return num + bucleMortal(num-1);					
 // }
 
-for (i=1; i<11; i++){
-    console.log("Numero " + i)
-}
+// for (i=1; i<11; i++){
+//     console.log("Numero " + i)
+// }
 greenDot()
 //
 //-----------------------------------------------  
