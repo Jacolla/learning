@@ -1046,6 +1046,7 @@ output: "Malfoy"
 //     console.log("Numero " + i)
 // }
 greenDot()
+greenDot()
 //
 //-----------------------------------------------  
 function ingles(){
