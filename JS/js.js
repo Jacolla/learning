@@ -1049,21 +1049,15 @@ output: "Malfoy"
 // 		return num + bucleMortal(num-1);					
 // }
 
-<<<<<<< HEAD
 // for (i=0; i<10; i++){
 //     console.log("Numero " + i)
 // }
 
-=======
 // for (i=1; i<11; i++){
 //     console.log("Numero " + i)
 // }
-<<<<<<< HEAD
-=======
 greenDot()
 greenDot()
->>>>>>> bdc12a943e075158381480b4d22a770eb1321284
->>>>>>> fa1b6467fd077cc5b0768b3689c14e523b5b3866
 //
 //-----------------------------------------------  
 function ingles(){
