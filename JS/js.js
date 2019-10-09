@@ -1034,7 +1034,6 @@ output: "Malfoy"
 //  		countdown(0);
  				 	
 
-
 //-----------------------------------------------
 //
 // function bucleMortal(num){ 
@@ -1045,8 +1044,6 @@ output: "Malfoy"
 // for (i=1; i<11; i++){
 //     console.log("Numero " + i)
 // }
-greenDot()
-greenDot()
 //
 //-----------------------------------------------  
 function ingles(){
@@ -1076,7 +1073,6 @@ function life(){
 function greenDot(){
     alert("Mentirosillo")
 }
-
 
 //-----------------------------------------------
 

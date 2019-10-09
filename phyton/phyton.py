@@ -402,7 +402,7 @@ print(next(motosDevueltas))
 
 
 # ____________________________________________________________________________________
-# """ <---  Juegueteo ---> """   
+# """ <---  Jugueteo ---> """   
 # base = int(input("base:"))
 # altura = int(input("altura:"))
 # base_x_altura = base * altura / 2
