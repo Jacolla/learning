@@ -12,7 +12,6 @@
 //
 //
 //-----------------------------------------------
-//
 // Esto es "una calculadora" ( multiplicas la edad por 365.25)
 // es decir, solo multiplicas la edad por 365,25, no los dias que has vivido, solo cambiará si cambia el numero de entrada. 
 //
@@ -24,7 +23,6 @@
 //
 //
 //-----------------------------------------------
-//
 // let x = 10;
 // let y = "a"
 // 
@@ -33,7 +31,6 @@
 //
 //
 //-----------------------------------------------
-//      
 //  Comparativos
 
 // let x = 3;
@@ -65,7 +62,6 @@
 //
 //
 //-----------------------------------------------
-//
 //  Vamos con los if, else if y los else
 //
 //     let edad = prompt("Que edad tienes?")
@@ -111,7 +107,6 @@
 //
 //
 //-----------------------------------------------
-//
 // Vamos a hacer filtros a las respuestas del prompt, "comprobar la respuesta".
 //
 // function preguntas(){                                                                              /*   Y con esta maravillosa "funcion", podemos unir el boton con todo el 
@@ -149,9 +144,6 @@
 //
 //
 //-----------------------------------------------
-//
-// 
-//
 //  let count = 1;
 //        while (count <=3){
 //	        console.log("No volvere a llegar tarde " + count);
@@ -172,7 +164,6 @@
 //    
 
 //------------------------
-//
 //      /*Para sacar numeros (let cuenta) entre
 //      /* los numeros dados (los datos que queremos que busque)    
 //      
@@ -186,7 +177,6 @@
 
 
 //-----------------------------------------------
-
 //   /* Annoy-omatic  (que te salta todo el rato, utilizando el "while") */
 
 
@@ -226,7 +216,6 @@
 
 
 //-----------------------------------------------
-     
 //   Otro tipo de bucle es el "for", basicamente es lo mismo que el "while", pero mas sencillo
 //   y directo.
     
@@ -252,7 +241,6 @@
 
 
 //----------------------- Exercise -----------------------
-
 //  Print all number between -10 and 19
 //  Print all even number between 10 and 40
 //  Print all odd number between 300 and 333
@@ -291,9 +279,7 @@
 
 
 //-----------------------------------------------
-
-//                          /* ------ FUNCTIONS ------ */
-//  
+//           /* ------ FUNCTIONS ------ */
 //  function jaime(){
 //      console.log("probando las function");
 //  }
@@ -301,8 +287,9 @@
 //  jaime();                                                                                          /* Importante llamar a la funcion con los "()", sinó, llamas a la funcion en crudo, sin ejecutar */
 //  jaime();                                                                                          /* con los "()", llamas a ejecutar la funcion */        
 //  jaime();
+
+
 //---------------
-// 
 // function saySomething(algo){
 //     console.log("Que pasa " + algo + "?");
 // }
@@ -312,7 +299,6 @@
 //
 
 // //---------------
-// 
 // function notaFinal(nota1, nota2, nota3){
 //     console.log("Estas con un " + nota3 + ", disfruta");
 //     console.log("Bueno... lo importante es participar, tu nota es... un " + nota2)
@@ -323,7 +309,6 @@
 
 
 //-----------------------------------------------
-
 // function multiplica(x) {
 //     console.log("El resultado es: " + x);
 //     return x * 2;
@@ -334,9 +319,6 @@
 
 //-----------------------------------------------
         /* Exercise's */
-
-
-
   /* Para sacar los pares/impartes */
 
 //  function isEven (x){
@@ -384,7 +366,6 @@
 
 
 //-----------------------------------------------
-
 //                                      <--- JS Scope --->
 // /*  <--- JS Scope, contexto que algun codigo esta ejecutando, en una funcion.  
 //       Si defines algo dentro de una funcion, no puedes llamarla desde fuera de la funcion,
@@ -405,7 +386,6 @@
 
 
 //-----------------------------------------------
-
 // Pass function to another function ( que una funcion llame a otra funcion )
 
 
@@ -427,9 +407,7 @@
 
 //-----------------------------------------------
             /* Arrays */
-
 //      son los []
-
 
 //  let motos = ["Jonda", "Yahama","Kasita","Triumph","Susuki"]
 //  motos[0] = "Honda";          /* llamando a la variable y seleccionando el que deseamos actualizar */
@@ -442,7 +420,6 @@
 //  moto[3]  /* Estas son las empepinás */
 //  
 //  //-----------------
-//              
 //                  /* push/pop arrays  */                                                            /* Para añadir/quitar a final de array */
 //  
 //  let colores = ["Azul","Rojo","Verde"]
@@ -451,7 +428,6 @@
 //  colores.pop()                                                                                     /* Borra lo que esta al final del array y devuelve elemento borrado */
 //  
 //  //-----------------
-//  
 //              /* Shift/Unshift */                                                                   /* Para añadir/quitar a principio de array */
 //  
 //  let colorines = ["Azul","Rojo","Verde"]
@@ -462,7 +438,6 @@
 
 
 //-----------------  
-
             /* IndexOf */                                                                             /* Para buscar dentro del array */
 
 // let calzoncillos =["los rojos","Los de aviones","Los de la suerte","Los clasicos"]
@@ -472,7 +447,6 @@
 // calzoncillos[]                                                                                    
 
 //-----------------
-
 //              /* Slice */                                                                           /* Para copiar arrays o partes de ella */
 //  
 //  let frutita = ["Banana","Mansanita","Manguito","Melocotonsito"]
@@ -482,7 +456,6 @@
 
 
 //-----------------------------------------------
-
         /* Exercise's */
 
 // let frutita = [
@@ -497,7 +470,6 @@
 
 
 //-----------------------------------------------
-
 //   
 //   window.setTimeout(function() {250);   //  para darle 250 milisegundos a que se carge el html antes que el js, y asi no tener el prompt sin nada detras
 
@@ -521,9 +493,9 @@
 // 250);
 
 
-              /* |  */
-              /* |  */
-/* Version Colt  V  */
+                 /* |  */
+                 /* |  */
+/* Version Colt  /* V  */
 
 // let todos = ["Estudiar"];                                       /* Variable 1 */
 // 
@@ -571,8 +543,6 @@
 // 
 // 
 //-----------------------------------------------
-//
-//
 //     //<-- Funciones -->
 // 
 // //  <-- para mostrar la array -->
@@ -606,7 +576,6 @@
 
 
 //-----------------------------------------------
-
 // Para sacarlo pero al reves, desde el final hasta el principio
 // 
 // function printReverse(arr){
@@ -684,7 +653,6 @@
 
 
 //-----------------
-
 // (function(){
 //     console.log("soy una funsion");
 // })()                                    /* Con los () al final, se invoca a la funcion */
@@ -693,7 +661,6 @@
 
 
 //-----------------
-
 // let motos = ["Kawasaki","Triumph","Honda",]
 // 
 // 
@@ -715,7 +682,6 @@
 
 //-----------------------------------------------
 //              <-- Objetos -->
-
 // let motitos= {
 // 	Honda: "CB650R",
 // 	Triumph: "Street Triple 675",
@@ -738,7 +704,6 @@
 
 
 //-----------------
-
 // let pegatinas = {}
 // pegatinas.hola = new Object();
 // pegatinas.hola = "que tal? ";
@@ -751,7 +716,6 @@
 
 
 // ----------------------------------------------
-
 /*   <-- Navegar por arrays/Objetos  -->    */
 // let posts = [{
 //         title: "Los perros son muy guays",
@@ -772,9 +736,6 @@ output: Malo, perro malo
 */
 
 //-----------------
-
-
-
 // let algunosObjetos = {
 // 	friends:[
 //      {nombre: "Malfoy"},
@@ -792,7 +753,6 @@ output: "Malfoy"
 
 
 // ----------------------------------------------
-
  /* <--  Array de objetos --> */
 
 // let pelis = [
@@ -841,7 +801,6 @@ output: "Malfoy"
 // })
 // 
 //-----------------
-// 
 // /* El forEach metido en una funcion, cual "boton" */
 // function construyeFrase(pelis){
 //     let resultado = "La pelicula ";
@@ -864,7 +823,6 @@ output: "Malfoy"
 
 
 // ----------------------------------------------
-
 /* <-- JS methods (funciones que es una propiedad dentro de un objeto) --> */
 
 // let objetos = {
@@ -878,7 +836,6 @@ output: "Malfoy"
 
 
 // ----------------------------------------------
-
 /* <-- Manipulando HTML con JS (DOM) --> */
 
 // /* Para seleccionar cosas del html */
@@ -899,7 +856,6 @@ output: "Malfoy"
 
 
 //-----------------
-
 /* Exercise, 4 ways to select the first <p> */
 // let cogelo = document.getElementById ("first");
 // let cogelo1 = document.getElementsByTagName("p")[0];
@@ -911,7 +867,6 @@ output: "Malfoy"
 
 
 //-----------------
-
 /*          <-- DOM manipulation -->         */
 
 // let cogelo = document.getElementById ("first");
@@ -928,7 +883,6 @@ output: "Malfoy"
 
 
 //-----------------
-
 //   <-- NOTA: solo funciona desde la consola, no desde el cuaderno, se tiene que arrancar primero -->
 // let p = document.querySelector("p");
 // 
@@ -944,7 +898,6 @@ output: "Malfoy"
 
 
 //-----------------
-
 /* Manipulando textos */
 
 // let ul = document.getElementsByTagName("ul")[1] /* Seleccionado primero los 'ul' */
@@ -961,7 +914,6 @@ output: "Malfoy"
 
 
 //-----------------
-
 /* Manipulando atributos */
 
 // let link = document.querySelector("a")      /* Selecciona el 'a' del HTML  */
@@ -971,7 +923,6 @@ output: "Malfoy"
 
 
 //-----------------
-
 /* loop to manipulate html links */
 
 // let links = document.getElementsByTagName ("a")
@@ -995,24 +946,83 @@ output: "Malfoy"
 
 
 //-----------------
-
 /* DOM events, making things interactive */
 
+//<--- Solo funciona desde la terminal --->
+
+//-----------------
+// let botonsito = document.querySelector ("button")
+// botonsito.addEventListener ("click", function(){
+//     alert("BOOOOOOOOMM!!");
+//     botonsito.style.background = "red"
+// 
+// })
+
+//-----------------
+// document.querySelector("ul").addEventListener("click", function(){
+// 	alert("No se te ocurra apretarlo si no esta seguro!")	
+// 
+// })
+
+//-----------------
+// let lis = document.querySelectorAll("li");
+// for (let i=0; i<lis.length; i++){
+// 	lis[i].addEventListener("click", function(){
+// 	this.style.color = "purple";
+// });
+// }
+
+//-----------------
+// let button = document.querySelector ("button");
+// let paragraph = document.querySelector ("p");
+// 
+// function changeText (){
+// 	paragraph.textContent = "Me has apretado!!"
+// }
+// 
+// button.addEventListener ("click", changeText)
+
+//-----------------
+// let lis = document.querySelectorAll("li");
+// 
+// for (let i = 0; i<lis.length; i++){
+//     lis[i].addEventListener("click", function(){ 
+//         this.style.color = this.style.color === "blue" ? "black": "blue";
+//     });
+// }
+
+//-----------------
+//<--- Color toggle exercise --->
+
+// let button = document.querySelector("button");
+// let esRosa = false;
+
+// Version rustica 
+// button.addEventListener("click", function(){
+//     if(esRosa){
+//         document.body.style.background = "white";
+//     }
+//     else{
+//         document.body.style.background = "pink"
+//     }
+//     esRosa = !esRosa
+// })
+
+// button.addEventListener("click", function(){
+//     document.body.classList.toggle("lila")          /* Utilizando el class del HTML */
+// })
+
+//-----------------
+//<--- Score keep project --->
 
 
 
 
-
-
-
-
-
-
-
+//-----------------------------------------------
 // COSAS QUE NO SON DEL CURSO.  Jugueteo
+//-----------------------------------------------
 
-// ----------------------------------------------
-
+//-----------------------------------------------
 // esto es una funcion que se llama a si misma, se llama recursion.
 // Recursion is a process ( a function, en este caso )
 // Un torbellino!!
@@ -1036,15 +1046,14 @@ output: "Malfoy"
 
 
 //-----------------------------------------------
-//
 // function bucleMortal(num){ 
 // 		if(num === 1) return 1;
 // 		return num + bucleMortal(num-1);					
 // }
 
-for (i=0; i<10; i++){
-    console.log("Numero " + i)
-}
+// for (i=0; i<10; i++){
+//     console.log("Numero " + i)
+// }
 
 //
 //-----------------------------------------------  
