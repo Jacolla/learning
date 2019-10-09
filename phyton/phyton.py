@@ -372,6 +372,14 @@
 
 
 # ___________________
+<<<<<<< HEAD
+=======
+import time
+import progressbar
+for i in progressbar.progressbar(range(25)):
+    time.sleep(0.1)
+print("Motos a tener en cuenta")
+>>>>>>> bdc12a943e075158381480b4d22a770eb1321284
 def devuelveMotos(*motos):
     for elemento in motos:
 #        for subElemento in elemento:
@@ -444,22 +452,21 @@ print(next(motosDevueltas))
 
 
 # ____________________________
-
 # pregunta = (input("Nombre: "))
 # for i in range(10):
 #         print("Tienes 10 oportunidades")
 #         pregunta2 = input("Cual es tu nombre: ")
+# # bucle NO cerrado               
 # # bucle mal cerrado               
 # while pregunta != str():
 #         print("No tio no... NOMBRE: ")
 #         print(str(pregunta))
 
 
-# <-- BarraProgreso -->
+# # <-- BarraProgreso -->
 # import time
 # import progressbar
 # 
-# for i in progressbar.progressbar(range(5)):
-#     time.sleep(0.15)
-
-# input("")
+# for i in progressbar.progressbar(range(50)):
+#     time.sleep(0.1)
+# 

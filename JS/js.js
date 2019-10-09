@@ -1051,10 +1051,18 @@ output: "Malfoy"
 // 		return num + bucleMortal(num-1);					
 // }
 
+<<<<<<< HEAD
 // for (i=0; i<10; i++){
 //     console.log("Numero " + i)
 // }
 
+=======
+// for (i=1; i<11; i++){
+//     console.log("Numero " + i)
+// }
+greenDot()
+greenDot()
+>>>>>>> bdc12a943e075158381480b4d22a770eb1321284
 //
 //-----------------------------------------------  
 function ingles(){
@@ -1064,6 +1072,7 @@ function ingles(){
 function moto(){
     alert("Que te crees? hasta que no la tengas no le des al tick")
 }
+
 function lenguaje(){
     alert("Que te crees? hasta que no los tengas no le des al tick")
 }

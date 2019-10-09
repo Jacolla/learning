@@ -69,12 +69,19 @@ pedro = 25
 paco = math.pi
 pepe = paco*pedro
 josito = pepe*math.pi
-mamo = josito + int(250*50/(1750-33.33+(150+250-math.pi)))
+mamo =  paco / 25
+gD = mamo/25
 
 print("Esto es paco: " + str(paco))
 print("Esto es pepe: " + str(pepe))
 print("Esto es josi: " + str(josito))
 print("Esto es mamo: " + str(mamo))
+print("Esto es gD: " + str(gD))
+
+print("<--- --->")
+print("Finish")
+print("<--- --->")
+
 
 # mas pruebas 
 # mensaje escrito desde VSC
