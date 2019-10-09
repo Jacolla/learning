@@ -372,18 +372,18 @@
 
 
 # ___________________
-# def devuelveMotos(*motos):
-#     for elemento in motos:
-# #        for subElemento in elemento:
-# #            yield from elemento
-#            yield elemento
-# 
-# motosDevueltas=devuelveMotos("Honda", "Gilera", "GasGas", "Triumph")
-# 
-# print(next(motosDevueltas))
-# print(next(motosDevueltas))
-# print(next(motosDevueltas))
-# print(next(motosDevueltas))
+def devuelveMotos(*motos):
+    for elemento in motos:
+#        for subElemento in elemento:
+#            yield from elemento
+           yield elemento
+
+motosDevueltas=devuelveMotos("Honda", "Gilera", "GasGas", "Triumph")
+
+print(next(motosDevueltas))
+print(next(motosDevueltas))
+print(next(motosDevueltas))
+print(next(motosDevueltas))
 
 
 # _______________________________________________
