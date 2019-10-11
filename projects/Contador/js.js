@@ -1,3 +1,4 @@
+/* <--- Selecting elements ---> */
 let boton1 = document.getElementById("p1");
 let boton2 = document.getElementById("p2");
 let resetButton= document.getElementById("Reset");
@@ -15,8 +16,7 @@ let numInput=document.querySelector("input")
 let gameOver = false;
 let winScore = 5;
 
-
-
+/*<--- Function counter P1 --->*/
 boton1.addEventListener("click", function(){
     if (!gameOver){
     p1Score ++;
@@ -32,6 +32,7 @@ boton1.addEventListener("click", function(){
     }
 })
 
+/*<--- Function counter P2 --->*/
 boton2.addEventListener("click", function(){
     if (!gameOver){
     p2Score ++;
@@ -47,10 +48,12 @@ boton2.addEventListener("click", function(){
     }
 })
 
+/*<--- Reset button --->*/
 resetButton.addEventListener("click", function(){
     reset();
 });
 
+/* <--- Function reset ---> */
 function reset(){
     p1Score = 0;
     p2Score = 0;
@@ -63,6 +66,7 @@ function reset(){
     gameOver = false;
 }
 
+/* <--- Function when add more rounds ---> */
 numInput.addEventListener("change", function(){
     winningScoreDisplay.textContent = this.value
     winScore = Number(this.value)
