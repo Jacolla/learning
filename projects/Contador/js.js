@@ -26,6 +26,10 @@ boton1.addEventListener("click", function(){
     }
     p1Display.textContent = p1Score;
 }
+    if(gameOver == true){
+    p2Display.classList.add("looser")
+    gameOver=true
+    }
 })
 
 boton2.addEventListener("click", function(){
@@ -37,6 +41,10 @@ boton2.addEventListener("click", function(){
     }
     p2Display.textContent = p2Score;
 }
+    if(gameOver == true){
+        p1Display.classList.add("looser")
+        gameOver=true
+    }
 })
 
 resetButton.addEventListener("click", function(){
@@ -49,10 +57,11 @@ function reset(){
     p1Display.textContent = 0;
     p2Display.textContent = 0;
     p1Display.classList.remove("winner")
+    p1Display.classList.remove("looser")
     p2Display.classList.remove("winner")
+    p2Display.classList.remove("looser")
     gameOver = false;
 }
-
 
 numInput.addEventListener("change", function(){
     winningScoreDisplay.textContent = this.value
