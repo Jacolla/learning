@@ -372,14 +372,11 @@
 
 
 # ___________________
-<<<<<<< HEAD
-=======
 import time
 import progressbar
 for i in progressbar.progressbar(range(25)):
     time.sleep(0.1)
 print("Motos a tener en cuenta")
->>>>>>> bdc12a943e075158381480b4d22a770eb1321284
 def devuelveMotos(*motos):
     for elemento in motos:
 #        for subElemento in elemento:
@@ -405,7 +402,7 @@ print(next(motosDevueltas))
 
 
 # ____________________________________________________________________________________
-# """ <---  Juegueteo ---> """   
+# """ <---  Jugueteo ---> """   
 # base = int(input("base:"))
 # altura = int(input("altura:"))
 # base_x_altura = base * altura / 2
