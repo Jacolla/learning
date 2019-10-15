@@ -23,12 +23,14 @@ boton1.addEventListener("click", function(){
     if(p1Score === winScore){
         p1Display.classList.add("winner")
         gameOver=true;
+        console.log("parte 1--1")
     }
     p1Display.textContent = p1Score;
 }
     if(gameOver == true){
-    p2Display.classList.add("looser")
-    gameOver=true
+        p2Display.classList.add("looser")
+        gameOver=true
+        console.log("parte 2--1")
     }
 })
 
@@ -39,12 +41,14 @@ boton2.addEventListener("click", function(){
     if(p2Score === winScore){
         p2Display.classList.add("winner")
         gameOver=true;
+        console.log("parte 1--2")
     }
     p2Display.textContent = p2Score;
 }
     if(gameOver == true){
         p1Display.classList.add("looser")
         gameOver=true
+        console.log("parte 2--2")
     }
 })
 
