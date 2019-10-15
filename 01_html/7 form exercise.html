@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>practica</title>
+</head>
+<body>
+<h3 align="center">REGISTRATE!</h3>
+<form action="https://www.youtube.com" method="GET">
+<div>
+	<label for="nombre">Nombre:</label>
+	<input name="" type="text" id="nombre" placeholder="James..." required>
+
+	<label for="apellido">Apellido:</label>
+	<input name="apellido"type="text" id="apellido" placeholder="Smith..." required>
+<br>
+	<label for="email">Email</label>
+	<input name="email"type="email" id="email" required placeholder="abc@123.com">
+
+	<label for="password">Password</label>
+	<input name="password"type="password" id="password" required pattern=".{3,}"   required title="3 characters minimum">
+	<!-- con esto haces que haya requisitos minimos para poner una password { pattern=".{3,}"   required title="3 characters minimum" } -->
+</div>
+
+<!-- asi sale para escoger toda la fecha junto -->
+<!--
+<div>	
+	<labe for=" Birthday">Birthday</label>
+	<input type="date" id="bday" required>
+</div>
+-->
+
+<!-- asi haces una pestaña extensible para elegir dia/mes/año -->
+<label>birthday
+	<select>
+		<option>day</option>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+	</select>
+	<select>
+		<option>month</option>
+		<option>january</option>
+		<option>february</option>
+		<option>march</option>
+	</select>
+	<select>
+		<option>year</option>
+		<option>1993</option>
+		<option>1994</option>
+		<option>1995</option>
+	</select>
+</label>
+
+<div>
+	<label for="Macho">Macho</label>
+	<input  name="Genero"type="radio" id="Macho" value="Pollapoderosa">	
+
+	<label for="Hembra">Hembra</label>
+	<input  name="Genero"type="radio" id="Hembra" value="Chochopoderoso">
+
+	<label for="Mixto">Mixto</label>
+	<input  name="Genero"type="radio" id="Mixto" value="Todoenuno">
+</div>
+
+ <div>
+<label for="terminos">Acepto terminos y condiciones.</label>
+<input name="terminos"type="checkbox" id="terminos" required>
+</div>
+
+<div><p>
+ <input type="submit" value="Enviar datos">
+ <input type="reset" value="Restaurar formulario">
+</p>
+</div>
+</form>
+
+<!-- Todo varia en funcion del TYPE, es lo que le cambia el tipo de accion -->
+
+</body>
+</html>

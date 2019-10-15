@@ -1050,18 +1050,13 @@ output: "Malfoy"
 // 		return num + bucleMortal(num-1);					
 // }
 
-<<<<<<< HEAD
 // for (i=0; i<10; i++){
 //     console.log("Numero " + i)
 // }
 
-=======
 // for (i=1; i<11; i++){
 //     console.log("Numero " + i)
 // }
-greenDot()
-greenDot()
->>>>>>> bdc12a943e075158381480b4d22a770eb1321284
 //
 //-----------------------------------------------  
 function ingles(){
@@ -1095,5 +1090,5 @@ function greenDot(){
 
 //-----------------------------------------------
 
-//   window.setTimeout(function() {  }, 250);
+window.setTimeout(function() {  }, 250);
 //       //  para darle 500 milisegundos a que se carge la hoja
