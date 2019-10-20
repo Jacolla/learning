@@ -944,9 +944,9 @@ output: "Malfoy"
 // }
 
 
-
 //-----------------
-/* DOM events, making things interactive */
+/* <<-- DOM EVENTS -->> 
+making things interactive */
 
 //<--- Solo funciona desde la terminal --->
 
@@ -994,19 +994,30 @@ output: "Malfoy"
 //-----------------
 //<--- Color toggle exercise --->
 
-// let button = document.querySelector("button");
-// let esRosa = false;
+let button = document.querySelector("button");
+let esRosa = false;
 
-// Version rustica 
-// button.addEventListener("click", function(){
-//     if(esRosa){
-//         document.body.style.background = "white";
-//     }
-//     else{
-//         document.body.style.background = "pink"
-//     }
-//     esRosa = !esRosa
-// })
+ /* Version rustica */ 
+button.addEventListener("click", function(){
+    if(esRosa){
+        document.body.style.background = "white";
+        lis.style.background = "purple"
+        uno.style.background = "#0099ff";
+        tres.style.background = "#0099ff";
+        cinco.style.background = "#0099ff";
+        siete.style.background = "#0099ff";
+ 
+    }
+    else{
+        document.body.style.background = "#0099ff";
+        lis.style.background = "pink"
+        uno.style.background = "white";
+        tres.style.background = "white";
+        cinco.style.background = "white";
+        siete.style.background = "white";;        
+    }
+    esRosa = !esRosa
+})
 
 // button.addEventListener("click", function(){
 //     document.body.classList.toggle("lila")          /* Utilizando el class del HTML */

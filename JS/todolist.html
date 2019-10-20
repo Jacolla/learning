@@ -3,7 +3,6 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 		<title>To do List</title>
-		<script src="js.js"></script> 
 		<style type="text/css">
 		.classCSS{
 			font-size: x-large;
@@ -20,8 +19,8 @@
 <body>
 	<h2>To do list</h2>
 
-	<ul>
-		<li onclick="ingles()"><input type="checkbox" checked disabled >              
+	<ul id="lis">
+		<li id="uno" onclick="ingles()"><input type="checkbox" checked disabled >              
 			Learn english
 		</li>
 	
@@ -29,7 +28,7 @@
 			Get a motorbike																<!-- "onclick="		 -->
 		</li>												           				
 	
-		<li onclick="lenguaje();"><input type="checkbox">
+		<li id="tres" onclick="lenguaje();"><input type="checkbox">
 			Learn programming lenguajes
 		</li>
 	
@@ -37,7 +36,7 @@
 			Start work as a programer
 		</li>
 	
-		<li onclick="remoto();"><input type="checkbox">
+		<li id="cinco" onclick="remoto();"><input type="checkbox">
 			Work remote
 		</li>
 	
@@ -45,7 +44,7 @@
 			Enjoy
 		</li>
 
-		<li onclick="greenDot();"><input type="checkbox">
+		<li id="siete" onclick="greenDot();"><input type="checkbox">
 			Done
 		</li>
 	</ul>
@@ -54,11 +53,11 @@
 <br><br>
 
 
-<h5 id="palJS" class="ioquese" > Zona pruebas DOM </h5>
-<button>aprietame</button>
-<p>Todavia no me has apretado</p>
-	
+<h5 id="h5Test"> Zona pruebas DOM </h5>
+<button id="button">aprietame</button>
+<p id="textoPruebas">Todavia no me has apretado</p>
 
-</style>
+
+<script src="js.js"></script> 
 </body>
 </html>
