@@ -72,6 +72,7 @@ josito = pepe*math.pi
 mamo =  paco / 25
 gD = mamo/25
 
+print("Esto es pedro: " + str(pedro))
 print("Esto es paco: " + str(paco))
 print("Esto es pepe: " + str(pepe))
 print("Esto es josi: " + str(josito))
