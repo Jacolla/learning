@@ -994,7 +994,6 @@ making things interactive */
 //-----------------
 //<--- Color toggle exercise --->
 
-<<<<<<< HEAD
 // let button = document.querySelector("button");
 // let esRosa = false;
 
@@ -1009,11 +1008,12 @@ making things interactive */
 //     }
 //     esRosa = !esRosa
 // })
-=======
+
+
+
 let button = document.querySelector("button");
 let esRosa = false;
 
- /* Version rustica */ 
 button.addEventListener("click", function(){
     if(esRosa){
         document.body.style.background = "white";
@@ -1034,7 +1034,6 @@ button.addEventListener("click", function(){
     }
     esRosa = !esRosa
 })
->>>>>>> 12e21fe804a15356fab26db9ad41ab4226983838
 
 // button.addEventListener("click", function(){
 //     document.body.classList.toggle("lila")          /* Utilizando el class del HTML */
@@ -1043,12 +1042,12 @@ button.addEventListener("click", function(){
 //-----------------
 //  <<-- More events -->>
 
-let testing = document.getElementById("botonsito");
-
-testing.addEventListener("mouseover", function(){
-    testing.style.color = ("purple")
-
-})
+// let testing = document.getElementById("botonsito");
+// 
+// testing.addEventListener("mouseover", function(){
+//     testing.style.color = ("purple")
+// 
+// })
 
 
 
@@ -1090,10 +1089,7 @@ testing.addEventListener("mouseover", function(){
 
 // for (i=1; i<11; i++){
 //     console.log("Numero " + i)
-<<<<<<< HEAD
-=======
 // }
->>>>>>> 12e21fe804a15356fab26db9ad41ab4226983838
 //
 
 
