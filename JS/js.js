@@ -997,7 +997,8 @@ output: "Malfoy"
 // let button = document.querySelector("button");
 // let esRosa = false;
 
-// Version rustica 
+// <-- Version rustica -->
+
 // button.addEventListener("click", function(){
 //     if(esRosa){
 //         document.body.style.background = "white";
@@ -1013,7 +1014,14 @@ output: "Malfoy"
 // })
 
 //-----------------
+//  <<-- More events -->>
 
+let testing = document.getElementById("botonsito");
+
+testing.addEventListener("mouseover", function(){
+    testing.style.color = ("purple")
+
+})
 
 
 
@@ -1055,13 +1063,9 @@ output: "Malfoy"
 
 // for (i=1; i<11; i++){
 //     console.log("Numero " + i)
-// }
-<<<<<<< HEAD
-=======
-greenDot()
-greenDot()
->>>>>>> abc477320cd579a1751023a9bf5f91fa94cdcca0
 //
+
+
 //-----------------------------------------------  
 function ingles(){
     alert("Ou yeah baby, you did it")
