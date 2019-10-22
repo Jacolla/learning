@@ -1,4 +1,3 @@
-<<<<<<< HEAD:JS/course/js.js
 
 // ejercicio de preguntar al usuario cuatro mierdas y luego juntarlas en una frase, pero OJO, solo en la consola.
 // 
@@ -2252,5 +2251,4 @@ function greenDot(){
 //-----------------------------------------------
 
 window.setTimeout(function() {  }, 250);
->>>>>>> eeffbbca6a87f8ae617eabb3e3ae93fd160d15c1:JS/js.js
 //       //  para darle 500 milisegundos a que se carge la hoja
