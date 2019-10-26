@@ -1,1 +1,1 @@
-alert("enchufao")
+console.log("enchufao!")
