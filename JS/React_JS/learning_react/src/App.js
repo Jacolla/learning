@@ -2,11 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function HolaMundo(nombre, edad){
+function HolaMundo(nombre){
   let present = (
     <div>
       <h3>Hola, soy {nombre}</h3>
-      <h3>Tengo {edad} años</h3>
+      <h3>Tengo 25 años</h3>
       <h3>Y estoy aprendiendo ReactJS</h3>
       </div>
       );
@@ -25,7 +25,7 @@ let nombre = "Jaime"
         <p>
           Learning this demanded lenguage.
         </p>
-        {HolaMundo(nombre, 25)}
+        {HolaMundo(nombre)}
         <a
           className="App-link"
           href="https://reactjs.org"
