@@ -23,7 +23,7 @@ let nombre = "Jaime"
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Learning ReactJS.
+          Learning this demanded lenguage.
         </p>
         {HolaMundo(nombre, 25)}
         <a
