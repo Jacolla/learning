@@ -1,28 +1,43 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from './assets/img/logo.svg';
+import './assets/css/App.css';
+import MiComponentes from './componentes/MiComponentes.js';
+
+/* Aqui comentarios normales de JS */
+
+function HolaMundillo(nombre,edad){
+  let presentacion= (
+    <div>
+      <h2>Hola, soy {nombre}</h2>
+      <h3>Tengo {edad} años</h3>
+    </div>
+  );
+  return presentacion;
+}
+
+
 
 function App() {
+  let nombre="Jaime";
   return (
     <div className="App">
       <header className="App-header">
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Jaime aprendiendo React
+          Aprendiendo React
         </p>
-        <p>
-          Toqueteando React, Node y CMD
-        </p>
+        {HolaMundillo(nombre,25)}
 
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Truquillos React
-        </a>
+        <section className="MiComponentes">
+          <MiComponentes />
+        </section>
+
       </header>
+        
+
+{/* <--  Para hacer comentarios en React  --> */}
+
     </div>
   );
 }
