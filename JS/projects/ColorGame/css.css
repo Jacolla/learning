@@ -1,3 +1,28 @@
-#p{
-    color:blue;
+body{
+    background-color: #232323;
+}
+
+#TopText{
+    color: white;
+}
+
+#ColorDisplay{
+    color: white;
+}
+
+#pista{
+    color: white;
+}
+
+#container{
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.square{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
 }
