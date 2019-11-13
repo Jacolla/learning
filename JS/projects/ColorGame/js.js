@@ -24,7 +24,6 @@ for(let i=0; i<cuadros.length; i++){
         
         // Compararlo con colorElegido
         if(clickeado === colorElegido){
-            alert("Bravo!")
             consejito.textContent = "Ou yeah!";
 
         }
@@ -34,3 +33,5 @@ for(let i=0; i<cuadros.length; i++){
         }
     });
 }
+
+// Only for the green dot in GitHub
