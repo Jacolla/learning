@@ -13,10 +13,6 @@ body{
     color: white;
 }
 
-#pista{
-    color: white;
-}
-
 #container{
     margin: 0 auto;
     max-width: 600px;
@@ -28,4 +24,15 @@ body{
     padding-bottom: 30%;
     float: left;
     margin: 1.66%;
+}
+
+#stripe{
+    background: white;
+    height: 20px;
+    text-align: center;
+    color: black;
+}
+
+.selected{
+    background: blue;
 }
