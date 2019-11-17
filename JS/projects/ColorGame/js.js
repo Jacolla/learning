@@ -1,5 +1,6 @@
 // <-- Selecctions -->
-let color = generateRandomColors(9);
+let numCuadros = 9;
+let color = generateRandomColors(numCuadros);
 let elegidoColor = colorElegido();                  /* Si no pongo los '()' no llama funcion, ¡atontao! */
 let cuadros = document.querySelectorAll(".square");
 let challenge = document.getElementById("ColorDisplay");
@@ -11,16 +12,15 @@ let hardBtn = document.querySelector ("#hardBtn");
 
 ColorDisplay.textContent = elegidoColor; 
 
-
 // <--------- Botonsitos ---------->
 // <-- Easy Buttom -->
 easyBtn.addEventListener("click", function(){
     easyBtn.classList.add ("selected");
     hardBtn.classList.remove ("selected");
-
-    color = generateRandomColors(3);
+    numCuadros = 3;
+    color = generateRandomColors(numCuadros);
     elegidoColor = colorElegido();            
-
+    cabesero.style.background = "steelblue";
     ColorDisplay.textContent = elegidoColor;
 
     for(let i=0; i<cuadros.length; i++){
@@ -37,9 +37,10 @@ easyBtn.addEventListener("click", function(){
 hardBtn.addEventListener("click", function(){
     hardBtn.classList.add ("selected");
     easyBtn.classList.remove ("selected");
-    color = generateRandomColors(9);
+    numCuadros = 9;
+    color = generateRandomColors(numCuadros);
     elegidoColor = colorElegido();            
-
+    cabesero.style.background = "steelblue";
     ColorDisplay.textContent = elegidoColor;
 
     for(let i=0; i<cuadros.length; i++){
@@ -53,19 +54,19 @@ hardBtn.addEventListener("click", function(){
 // <-- Reset Buttom -->
 resetButtom.addEventListener("click", function(){
     // Generar nuevos colores
-    color = generateRandomColors(9);
+    color = generateRandomColors(numCuadros);
 
     // Nuevo color objetivo
     elegidoColor = colorElegido();
 
-    // Cambiar color display
+    // Cambiar colorDisplay
     ColorDisplay.textContent = elegidoColor;    
     
     // Cambiar colores cuadros
     for(i=0; i<cuadros.length; i++){
         cuadros[i].style.background = color[i];
     }
-    cabesero.style.background = "#232323";
+    cabesero.style.background = "steelblue";
     consejito.textContent = "";
     resetButtom.textContent = "Reset";
 })

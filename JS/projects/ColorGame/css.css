@@ -1,16 +1,37 @@
 body{
     background-color: #232323;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#TopText{
-    color: white;
+
+/* Vale la movida, al yo haber seleccionado los 3 textos en diferentes cajas
+ahora sale mal, tengo que agrupar los textos en 1, porque cuando le das al
+la opcion correcta, solo cambia el texto de arriba el TopText y solo el */
+
+
+
+#SuperiorText{
+    background-color: steelblue;
+    text-transform: uppercase;
+    padding:20px 0;
+    
 }
-#BotText{
+
+#TopText, #BotText{
     color: white;
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+    line-height: 1.1;
 }
 
 #ColorDisplay{
     color: white;
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+    font-size: 300%;
 }
 
 #container{
@@ -28,7 +49,7 @@ body{
 
 #stripe{
     background: white;
-    height: 20px;
+    height: 25px;
     text-align: center;
     color: black;
 }
