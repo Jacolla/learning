@@ -26,6 +26,11 @@ la opcion correcta, solo cambia el texto de arriba el TopText y solo el */
     line-height: 1.1;
 }
 
+#pista{
+    display: inline-block;
+    width: 20%;
+}
+
 #ColorDisplay{
     color: white;
     text-align: center;
@@ -35,7 +40,7 @@ la opcion correcta, solo cambia el texto de arriba el TopText y solo el */
 }
 
 #container{
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 600px;
 }
 
@@ -45,6 +50,10 @@ la opcion correcta, solo cambia el texto de arriba el TopText y solo el */
     padding-bottom: 30%;
     float: left;
     margin: 1.66%;
+    border-radius: 15%;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    
 }
 
 #stripe{
@@ -55,5 +64,25 @@ la opcion correcta, solo cambia el texto de arriba el TopText y solo el */
 }
 
 .selected{
-    background: blue;
+    color: white;
+    background-color: steelblue;
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    outline: none;
+}
+
+button:hover{
+    color: white;
+    background-color: steelblue;
 }

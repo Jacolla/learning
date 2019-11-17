@@ -1,7 +1,7 @@
 // <-- Selecctions -->
 let numCuadros = 9;
 let color = generateRandomColors(numCuadros);
-let elegidoColor = colorElegido();                  /* Si no pongo los '()' no llama funcion, ¡atontao! */
+let elegidoColor = colorElegido();                  
 let cuadros = document.querySelectorAll(".square");
 let challenge = document.getElementById("ColorDisplay");
 let consejito = document.querySelector("#pista");
@@ -19,9 +19,12 @@ easyBtn.addEventListener("click", function(){
     hardBtn.classList.remove ("selected");
     numCuadros = 3;
     color = generateRandomColors(numCuadros);
-    elegidoColor = colorElegido();            
-    cabesero.style.background = "steelblue";
+    elegidoColor = colorElegido();    
+    resetButtom.textContent = "Reset";
+    SuperiorText.style.background = "steelblue";
     ColorDisplay.textContent = elegidoColor;
+    consejito.textContent = "";
+
 
     for(let i=0; i<cuadros.length; i++){
         if (color[i]){
@@ -39,9 +42,12 @@ hardBtn.addEventListener("click", function(){
     easyBtn.classList.remove ("selected");
     numCuadros = 9;
     color = generateRandomColors(numCuadros);
-    elegidoColor = colorElegido();            
-    cabesero.style.background = "steelblue";
+    elegidoColor = colorElegido();
+    resetButtom.textContent = "Reset";
+    SuperiorText.style.background = "steelblue";
     ColorDisplay.textContent = elegidoColor;
+    consejito.textContent = "";
+
 
     for(let i=0; i<cuadros.length; i++){
         if (color[i]){
@@ -66,14 +72,14 @@ resetButtom.addEventListener("click", function(){
     for(i=0; i<cuadros.length; i++){
         cuadros[i].style.background = color[i];
     }
-    cabesero.style.background = "steelblue";
+    SuperiorText.style.background = "steelblue";
     consejito.textContent = "";
-    resetButtom.textContent = "Reset";
+    this.textContent = "Reset";
 })
 
 
 
-// <--  Loops  -->
+// <---------  Loops  --------->
 for(let i=0; i<cuadros.length; i++){
     //Colores iniciales cuadros
     cuadros[i].style.backgroundColor = color[i];
@@ -84,11 +90,11 @@ for(let i=0; i<cuadros.length; i++){
         let clickeado = this.style.backgroundColor;
         
         // Compararlo con colorElegido
-        if(clickeado === elegidoColor){             /* olvidé cambiar con cual comparaba, jjjoder */
+        if(clickeado === elegidoColor){             
             consejito.textContent = "Ou yeah!";
-            resetButtom.textContent = "Otra partida?";
+            resetButtom.textContent = "Play again?";
             cambioColor(clickeado);
-            cabesero.style.backgroundColor = clickeado;
+            SuperiorText.style.backgroundColor = clickeado;
         }
         
         else{
@@ -99,12 +105,12 @@ for(let i=0; i<cuadros.length; i++){
 }
 
 
-//      <--  Functions  -->
+// <---------  Functions  --------->
 function cambioColor(color){
     //loop throught all squares
 
-    for(i=0; i<cuadros.length; i++){            /* Antes tenia seleccionado para que cambien  */
-    //Change each color to macht given color    /* los "color" en vez de los cuadros, ya esta arreglao */
+    for(i=0; i<cuadros.length; i++){            
+    //Change each color to macht given color    
         cuadros[i].style.background = color;
     }
 }
