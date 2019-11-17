@@ -4,13 +4,6 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-/* Vale la movida, al yo haber seleccionado los 3 textos en diferentes cajas
-ahora sale mal, tengo que agrupar los textos en 1, porque cuando le das al
-la opcion correcta, solo cambia el texto de arriba el TopText y solo el */
-
-
-
 #SuperiorText{
     background-color: steelblue;
     text-transform: uppercase;
