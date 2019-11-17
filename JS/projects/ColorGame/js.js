@@ -7,12 +7,57 @@ let challenge = document.getElementById("ColorDisplay");
 let consejito = document.querySelector("#pista");
 let cabesero = document.querySelector("#TopText");
 let resetButtom = document.querySelector("#reset");
-let easyBtn = document.querySelector ("#easyBtn");
-let hardBtn = document.querySelector ("#hardBtn");
+let modeButtons = document.querySelectorAll(".mode")
+
+
 
 ColorDisplay.textContent = elegidoColor; 
 
 // <--------- Botonsitos ---------->
+//  <----------------------- New Version ----------------------->     
+//  for(i=0; i<modeButtons.length; i++){
+//      modeButtons[i].addEventListener("click", function(){
+//          modeButtons[0].classList.remove("selected");           
+//          modeButtons[1].classList.remove("selected");            /* NO se esconden los cuadros 4 al 9 */
+//          this.classList.add("selected");
+//          this.textContent === "Easy" ? numCuadros = 3: numCuadros= 9;
+//          reset();
+//      });
+//  }
+//  
+//  
+//  function reset(){
+//      color = generateRandomColors(numCuadros);
+//  
+//      // Nuevo color objetivo
+//      elegidoColor = colorElegido();
+//  
+//      // Cambiar colorDisplay
+//      ColorDisplay.textContent = elegidoColor;    
+//      
+//      // Cambiar colores cuadros
+//      for(i=0; i<cuadros.length; i++){
+//          if(colors[i]){
+//              cuadros[i].style.display= "block";
+//              cuadros[i].style.background = color[i];
+//          }
+//          else{
+//              cuadros[i].style.display ="none";
+//          }
+//      }
+//      SuperiorText.style.background = "steelblue";
+//      consejito.textContent = "";
+//      resetButtom.textContent = "Reset";
+//  }
+
+
+
+
+
+
+
+
+//  <----------------------- Old Version ----------------------->   
 // <-- Easy Buttom -->
 easyBtn.addEventListener("click", function(){
     easyBtn.classList.add ("selected");
@@ -56,6 +101,8 @@ hardBtn.addEventListener("click", function(){
             cuadros[i].style.display = "block"
     }
 });
+//  <----------------------- Old Version ----------------------->   
+
 
 // <-- Reset Buttom -->
 resetButtom.addEventListener("click", function(){
@@ -144,4 +191,28 @@ function RandomColor(){
     // pick a "blue" from 0 - 255
     let b = Math.floor(Math.random() * 256);
      return "rgb(" + r + ", " + g + ", " + b + ")";
+}
+
+function reset(){
+    color = generateRandomColors(numCuadros);
+
+    // Nuevo color objetivo
+    elegidoColor = colorElegido();
+
+    // Cambiar colorDisplay
+    ColorDisplay.textContent = elegidoColor;    
+    
+    // Cambiar colores cuadros
+    for(i=0; i<cuadros.length; i++){
+        if(colors[i]){
+            cuadros[i].style.display= "block";
+            cuadros[i].style.background = color[i];
+        }
+        else{
+            cuadros[i].style.display ="none";
+        }
+    }
+    SuperiorText.style.background = "steelblue";
+    consejito.textContent = "";
+    resetButtom.textContent = "Reset";
 }
