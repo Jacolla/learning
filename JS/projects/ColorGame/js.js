@@ -146,7 +146,7 @@ for(let i=0; i<cuadros.length; i++){
         
         else{
             this.style.backgroundColor = "#232323";
-            consejito.textContent = "Nope, try again";
+            consejito.textContent = "Hell no";
         }
     });
 }
