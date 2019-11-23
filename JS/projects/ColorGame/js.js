@@ -101,7 +101,6 @@ hardBtn.addEventListener("click", function(){
             cuadros[i].style.display = "block"
     }
 });
-//  <----------------------- Old Version ----------------------->   
 
 
 // <-- Reset Buttom -->
@@ -123,6 +122,7 @@ resetButtom.addEventListener("click", function(){
     consejito.textContent = "";
     this.textContent = "Reset";
 })
+//  <----------------------- Old Version ----------------------->   
 
 
 
@@ -146,7 +146,7 @@ for(let i=0; i<cuadros.length; i++){
         
         else{
             this.style.backgroundColor = "#232323";
-            consejito.textContent = "Hell no";
+            consejito.textContent = "Oh jesus no";
         }
     });
 }

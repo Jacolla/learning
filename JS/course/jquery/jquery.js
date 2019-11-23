@@ -16,7 +16,7 @@ let style={
     border: "2px solid blue", 
 }
 
-$("h1").css(style)              /* Se le aplica el style guardado, sin comillas */
+$("h1").css(style)                  /* Se le aplica el style guardado, sin comillas */
 
 ////////////////////////////////////
 
