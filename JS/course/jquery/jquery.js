@@ -21,7 +21,7 @@ $("h1").css(style)                  /* Se le aplica el style guardado, sin comil
 ////////////////////////////////////
 
 $("li").css({                       /* Tambien se puede crear objeto */
-    fontSize: "30px",               /* Se utiliza cameCase */
+    fontSize: "30px",               /* Se utiliza camelCase */
     border: "3px dashed red",
-    background: "blue",             /* RGBA tambien, pero no se por que cojones no me funcionaba */
+    background: "blue",             
 })
