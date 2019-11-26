@@ -376,7 +376,7 @@ import time
 import progressbar
 for i in progressbar.progressbar(range(25)):
     time.sleep(0.05)
-print("Motos a tener en cuenta")
+print("Motos a tener en cuenta: ")
 def devuelveMotos(*motos):
     for elemento in motos:
 #        for subElemento in elemento:

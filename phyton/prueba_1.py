@@ -79,10 +79,6 @@ print("Esto es josi: " + str(josito))
 print("Esto es mamo: " + str(mamo))
 print("Esto es gD: " + str(gD))
 
-print("<--- --->")
+print("-- --")
 print("Finish")
-print("<--- --->")
-
-
-# mas pruebas 
-# mensaje escrito desde VSC
+print("-- --")
