@@ -45,20 +45,13 @@
 //  })
 //
 // ////////////////////////////////////
-
-
-$("li").text("palante")                             /* con el .text , seleccionas el texto, ("con esto le das su nuevo valor") */
-
-
-$("div").last().fadeOut("slow")                     /* con el faceOut() , va desapareciento (el tiempo estandar es; 400 ) */
-
-                                                    /* Habrá que leerse el api.jquery.com */
-
-
-
-
-
-
-
-
-
+//  
+//  
+//  $("li").text("palante")                             /* con el .text , seleccionas el texto, ("con esto le das su nuevo valor") */
+//  
+//  
+//  $("div").last().fadeOut("slow")                     /* con el faceOut() , va desapareciento (el tiempo estandar es; 400 ) */
+//  
+//  $("li").html("<a href='http://cabotjaime.com/'>Aprietame</a>")      /* Para modificar el html, poner despues del selector .html ,  y ya con eso tira palante */   
+                                                        
+                                                        /* Habrá que leerse el api.jquery.com */

@@ -62,7 +62,6 @@
 #  Es como una lista, pero no es modificable, es decir, se pueden coger fracciones de la tupla, pero
 #  no puedes quitar/añadir componentes de la tupla, util cuando se quiere mirar la tupla o comprobar si hay algo en la tupla.
 #  Ocupan menos espacio, son mas rapidas de ejecutar, formatean strings(?)
-#  Diferencia entre tupla y lista a efectos reales?, las listas utilizan los [] y en las tuplas se utilizan  () (que no son obligatorios)
 
 #  tuplaPrueba=("Marta", 30, "Alia", 25, "Janet", 23 )
 #  listaDos=list(tuplaPrueba)
