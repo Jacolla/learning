@@ -32,11 +32,11 @@
 //  	color: "pink",
 //  })
 //  
-//  $("#third").css({
+//  $("#third").css({                               /* "#third " para seleccionar "ID" */
 //  	border: "2px solid orange",
 //  })
 //  
-//  $(".higlight").css({
+//  $(".highlight").css({                            /* ".highlight" para seleccionar "class" */
 //  	width: "200px",
 //  })
 //  
@@ -46,9 +46,7 @@
 //
 // ////////////////////////////////////
 //  
-//  
 //  $("li").text("palante")                             /* con el .text , seleccionas el texto, ("con esto le das su nuevo valor") */
-//  
 //  
 //  $("div").last().fadeOut("slow")                     /* con el faceOut() , va desapareciento (el tiempo estandar es; 400 ) */
 //  
