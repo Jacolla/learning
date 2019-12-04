@@ -74,3 +74,6 @@ $("img").css({
 
 
 $("input").val("tirapayá")                 /* Con el "val()" ,  se le puede mostrar/modificar el valor del atributo*/
+
+
+/* puntito verde github */
