@@ -1,3 +1,10 @@
+//                               ///////////////////////////////////|\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+//                               \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|///////////////////////////////////
+//                                          <---// Habrá que leerse el api.jquery.com  \\--->
+//                               ///////////////////////////////////|\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+//                               \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|///////////////////////////////////
+
+
 // $    /* Para empezar con jQuery */
 // 
 // ////////////////////////////////////
@@ -51,27 +58,23 @@
 //  $("div").last().fadeOut("slow")                                     /* con el faceOut() , va desapareciento (el tiempo estandar es; 400 ) */
 //  
 //  $("li").html("<a href='http://cabotjaime.com/'>Aprietame</a>")      /* Para modificar el html, poner despues del selector .html ,  y ya con eso tira palante */   
-                                                                        /* Habrá que leerse el api.jquery.com */
                                                                         
                                                                         /* el "attr" modifica las propiedades del HTML, pudiendo cambiar el propio html, tambien. */
 //  $("img").last().attr("src", "https://images.unsplash.com/photo-1575096644884-85c5fc58139a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=706&q=80")
  
-//  
-//  $("img").attr({
-//      width: "300px",
-//      height:"400px",
-//  })
-//  
-//  $("img").css({
-//      margin: "2% auto",
-//      border: "2px solid steelblue",
-//  })
+//   Que sino da por culo con los tamaños de las putas fotos, jjjoder
+$("img").css({
+    width: "300px",
+    height:"400px",
+    margin: "2% auto",
+    border: "2px solid steelblue",
+})
 
 //$("input").val("tirapayá")                                            /* Con el "val()" ,  se le puede mostrar/modificar el valor del atributo*/
 
 // ////////////////////////////////////
 //  
-//  Otras herramientas útiles para manipular con jQuery
+//  Otras herramientas útiles para manipular con jQuery, hay mil mas, mirar la pag oficial de jQuery.
 //  
 //  val()                           
 //  attr()                          
@@ -79,4 +82,13 @@
 //  html()                          
 //  addClass()                      
 //  removeClass()                   
-//  toggle()                        
+//  toggleClass()                                                       /* Especie de interruptor */   
+
+// ////////////////////////////////////
+// /* Para hacer funciones en jQuery */
+// ej:
+$("button").click(function(){
+        /* y pues a darle */
+    console.log("Pues no va el tio y me aprieta")
+});
+    
