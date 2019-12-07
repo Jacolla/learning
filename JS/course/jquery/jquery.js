@@ -89,6 +89,9 @@ $("img").css({
 // ej:
 $("button").click(function(){
         /* y pues a darle */
-    console.log("Pues no va el tio y me aprieta")
+        $(this).css("background","pink");
+        let text= $(this).text();
+        console.log("Ha apretado: " + text)
 });
     
+//  Bastante más guapa así
