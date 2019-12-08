@@ -371,24 +371,23 @@
 
 
 # ___________________
-import time
-import progressbar
-for i in progressbar.progressbar(range(25)):
-    time.sleep(0.05)
-print("Motos a tener en cuenta: ")
-def devuelveMotos(*motos):
-    for elemento in motos:
-#        for subElemento in elemento:
-#            yield from elemento
-           yield elemento
-
-motosDevueltas=devuelveMotos("Honda", "Gilera", "GasGas", "Triumph")
-
-print(next(motosDevueltas))
-print(next(motosDevueltas))
-print(next(motosDevueltas))
-print(next(motosDevueltas))
-
+# import time
+# import progressbar
+# for i in progressbar.progressbar(range(25)):
+#     time.sleep(0.05)
+# print("Motos a tener en cuenta: ")
+# def devuelveMotos(*motos):
+#     for elemento in motos:
+# #        for subElemento in elemento:
+# #            yield from elemento
+#            yield elemento
+# 
+# motosDevueltas=devuelveMotos("Honda", "Gilera", "GasGas", "Triumph")
+# 
+# print(next(motosDevueltas))
+# print(next(motosDevueltas))
+# print(next(motosDevueltas))
+# print(next(motosDevueltas))
 
 # _______________________________________________
 # <-- Excepciones -->
@@ -466,3 +465,8 @@ print(next(motosDevueltas))
 # for i in progressbar.progressbar(range(50)):
 #     time.sleep(0.1)
 # 
+
+
+lista = range(10, 40, 5)
+for i in lista:
+    print(i)
