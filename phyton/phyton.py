@@ -436,14 +436,14 @@
 
 
 # ____________________________
-# for d in range (1,31):
-#     print("----")
-#     print("dia", d)
-#     if d % 7 == 1 or d % 7 == 0:
-#         print("Descansito gueno")
-#         continue
-#     print("Levantarse a desayunar")
-#     print("A tudial hueputa")
+for d in range (1,31):
+    print("----")
+    print("dia", d)
+    if d % 7 == 1 or d % 7 == 0:
+        print("Descansito gueno")
+        continue
+    print("Levantarse a desayunar")
+    print("A tudial hueputa")
 
 
 # ____________________________

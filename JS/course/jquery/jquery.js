@@ -94,4 +94,4 @@ $("button").click(function(){
         console.log("Ha apretado: " + text)
 });
     
-//  Bastante más guapa así
+// puntito verdesito al canto
