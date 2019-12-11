@@ -62,7 +62,8 @@
                                                                         /* el "attr" modifica las propiedades del HTML, pudiendo cambiar el propio html, tambien. */
 //  $("img").last().attr("src", "https://images.unsplash.com/photo-1575096644884-85c5fc58139a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=706&q=80")
  
-//   Que sino da por culo con los tamaños de las putas fotos, jjjoder
+// ////////////////////////////////////
+
 $("img").css({
     width: "300px",
     height:"400px",
