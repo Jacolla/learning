@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<title>To do List</title>
+		<style type="text/css">
+			.classCSS{
+				font-size: x-large;
+				color: blueviolet ;
+				border: 5px solid black;
+			}
+			.conClase{
+				font-size: 50px;
+				color: rgb(0, 110, 255) ;
+				border: 5px solid rgb(110, 9, 243);
+			}
+		</style>
+</head>
+<body>
+	<h2>To do list</h2>
+
+	<ul id="lis">
+		<li id="uno" onclick="ingles()" class="pepito"><input type="checkbox" checked disabled >              
+			Learn english
+		</li>
+	
+		<li onclick="moto()"><input type="checkbox">								<!-- Esto es lo que hace que ejecute el botonsito -->
+			Get a motorbike																<!-- "onclick="		 -->
+		</li>												           				
+	
+		<li id="tres" onclick="lenguaje();"><input type="checkbox">
+			Learn programming lenguajes
+		</li>
+	
+		<li onclick="trabajo()"><input type="checkbox">
+			Start work as a programer
+		</li>
+	
+		<li id="cinco" onclick="remoto();"><input type="checkbox">
+			Work remote
+		</li>
+	
+		<li onclick="life()"><input type="checkbox">
+			Enjoy
+		</li>
+
+		<li id="siete" onclick="greenDot()"><input type="checkbox">
+			Done
+		</li>
+	</ul>
+
+
+<br><br>
+
+
+<h2 id="h5"> Zona pruebas DOM </h2>
+<button id="button">aprietame</button>
+<p id="textoPruebas">Todavia no me has apretado</p>
+
+
+<script src="js.js"></script> 
+</body>
+</html>
