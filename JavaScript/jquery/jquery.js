@@ -86,6 +86,7 @@ $("img").css({
 //  toggleClass()                                                       /* Especie de interruptor */   
 
 // ////////////////////////////////////
+// truquillo del greenDot
 // /* Para hacer funciones en jQuery */
 // ej:
 $("button").click(function(){
@@ -95,4 +96,3 @@ $("button").click(function(){
         console.log("Ha apretado: " + text)
 });
     
-// trampillas
