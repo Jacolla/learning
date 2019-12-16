@@ -95,4 +95,4 @@ $("button").click(function(){
         console.log("Ha apretado: " + text)
 });
     
-// truquillo mortal
+// trampillas
