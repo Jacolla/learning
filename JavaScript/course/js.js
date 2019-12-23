@@ -1039,7 +1039,7 @@ let lis = document.querySelectorAll("li");
 for (let i =0; i<lis.length; i++){
     lis[i].addEventListener("mouseover", function(){
         this.style.color ="blue";                       /* I don't have so clear what "this" works for, but it's kind of the ONE you have selected with mouse, */
-    });                                                 /* like, the one wichs is being touched by the mouse, in this case.  */
+    });                                                 /* like, the one wich is being touched by the mouse, in this case.  */
     lis[i].addEventListener("mouseout", function(){
         this.style.color ="black";
     });

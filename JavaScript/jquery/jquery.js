@@ -64,10 +64,10 @@
  
 // ////////////////////////////////////
 
-$("img").css({
-    width: "300px",
-    height:"400px",
-    margin: "2% auto",
+$("ul").css({
+    width: "50px",
+    height:"60px",
+    margin: "2% ",
     border: "2px solid steelblue",
 })
 
