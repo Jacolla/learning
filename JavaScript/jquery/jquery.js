@@ -94,5 +94,6 @@ $("button").click(function(){
         $(this).css("background","pink");
         let text= $(this).text();
         console.log("Ha apretado: " + text)
+        console.log("como te gusta apretar...")
 });
     
