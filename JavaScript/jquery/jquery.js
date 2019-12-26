@@ -136,7 +136,7 @@ $("button").on("click", function(){
 
 
 // Why use on()?
-// More or less both will have the job document, but there is a difference
+// More or less both will have the job done, but there is a difference
 // click(), only adds listeners for existing elements 
 // on(), will add listener for all potential future elements.
 
