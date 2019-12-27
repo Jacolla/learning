@@ -7,15 +7,15 @@
 
 // $    /* Para empezar con jQuery */
 // 
-// ////////////////////////////////////
+////////////////////////////////////////////////////////////
 // 
 // $("ul")     /* Para coger lo que se desée */
 // 
-// ////////////////////////////////////
+////////////////////////////////////////////////////////////
 // 
 // $("ul").css("color","green")                                             /* Para modificarle el CSS, ("property","value") */
 //                                                                          /* Un argumento podria ser un "className" por ejemplo */
-// ////////////////////////////////////
+////////////////////////////////////////////////////////////
 // 
 // let style={
 //     color: "purple",
@@ -25,7 +25,8 @@
 // 
 // $("h1").css(style)                                                       /* Se le aplica el style guardado, sin comillas */
 // 
-// ////////////////////////////////////
+////////////////////////////////////////////////////////////
+
 // 
 // $("li").css({                                                            /* Tambien se puede crear objeto */
 //     fontSize: "30px",                                                    /* Se utiliza camelCase */
@@ -33,8 +34,8 @@
 //     background: "blue",             
 // })
 // 
-// ////////////////////////////////////
-// 
+////////////////////////////////////////////////////////////
+
 //  $("div").first().css({                                                  /* con el .first() , se selecciona el primero  */
 //  	color: "pink",
 //  })
@@ -51,8 +52,8 @@
 //  	background: "purple",
 //  })
 //
-// ////////////////////////////////////
-//  
+////////////////////////////////////////////////////////////
+
 //  $("li").text("palante")                                                 /* con el .text , seleccionas el texto, ("con esto le das su nuevo valor") */
 //  
 //  $("div").last().fadeOut("slow")                                         /* con el faceOut() , va desapareciento (el tiempo estandar es; 400 ) */
@@ -62,7 +63,7 @@
                                                                             /* el "attr" modifica las propiedades del HTML, pudiendo cambiar el propio html, tambien. */
 //  $("img").last().attr("src", "https://images.unsplash.com/photo-1575096644884-85c5fc58139a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=706&q=80")
  
-// ////////////////////////////////////
+////////////////////////////////////////////////////////////
 
 //  $("ul").css({
 //      width: "50px",
@@ -73,8 +74,8 @@
 
 //$("input").val("tirapayá")                                                /* Con el "val()" ,  se le puede mostrar/modificar el valor del atributo*/
 
-// ////////////////////////////////////
-//  
+//////////////////////////////////////////////////////////////  
+
 //  Otras herramientas útiles para manipular con jQuery, hay mil mas, mirar la pag oficial de jQuery.
 //  
 //  val()                           
@@ -85,7 +86,7 @@
 //  removeClass()                   
 //  toggleClass()                                                           /* Especie de interruptor */   
 
-// ////////////////////////////////////
+////////////////////////////////////////////////////////////
 
 //  truquillo del greenDot
 //  /* Para hacer funciones en jQuery */
@@ -102,7 +103,8 @@
 //          console.log("Ha apretado: " + text)
 //  });
     
-// ////////////////////////////////////
+
+////////////////////////////////////////////////////////////
 
 //  $("#texto").keypress(function(event){                                   /* Con el objeto event, capturamos la input en la variable */
 //  	if(event.which === 13){                                             /* Para cuando se aprieta la tecla 13 ( enter en este caso ) */
@@ -128,11 +130,11 @@ $("button").on("mouseleave", function(){                                    /* m
 });
 
 
-$("button").on("click", function(){ 
-	$(this).css({               
-    });
-    alert("Joder, que fuerte has apretado, pues ahora me voy.")
-})
+//  $("button").on("click", function(){ 
+//  	$(this).css({               
+//      });
+//      alert("Button preesed")
+//  })
 
 
 // Why use on()?
@@ -140,9 +142,53 @@ $("button").on("click", function(){
 // click(), only adds listeners for existing elements 
 // on(), will add listener for all potential future elements.
 
-// ////////////////////////////////////
+////////////////////////////////////////////////////////////
+
+
+//  $("button").click(function(){
+//      $(this).fadeOut(400 /* "slow" */, function () {
+//          $(this).remove();                                               /* Si no se "remove" , se quedan ahi invisibles, pero siguen estando en la hoja */
+//      })
+//  })
+//  
+//  $("button").click(function(){
+//      $("#desordenada").fadeIn(400 /* "slow" */, function () {
+//      })
+//  })
+
+
+//  $("button").click(function(){
+//      $("#desordenada").fadeToggle(400 /* "slow" */, function () {        /* fadeToggle = tipo interruptor */
+//      })  
+//  })
+
+//  $("button").click(function(){
+//      $("#desordenada").slideToggle(400 /* "slow" */, function () {             /* Tambien funciona con el toggle */
+//          /* accion deseada */
+//      })  
+//  })
+//  
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////
+
+/* </-- Zona jugueteo --\> */
 
 $("button").click(function(){
-    $(this).fadeOut("slow", function () {
-    })
+    $("#desordenada").slideToggle(400 /* "slow" */, function () {
+        $("ul").css({
+            background: "blue",
+            color: "pink",
+        })
+
+    })  
 })
