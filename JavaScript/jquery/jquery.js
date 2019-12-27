@@ -143,6 +143,6 @@ $("button").on("click", function(){
 // ////////////////////////////////////
 
 $("button").click(function(){
-    $("html").fadeOut("slow", function () {
+    $(this).fadeOut("slow", function () {
     })
 })
