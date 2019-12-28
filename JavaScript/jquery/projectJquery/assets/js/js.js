@@ -1,9 +1,9 @@
+
+        /* Los "li's" */
 $("li").mouseenter(function(){
     $(this).css({
-        color: "green",    
+        color: "pink",    
         background: "blue",
-        height: "50px",
-        width: "150px",
     });
 })
 
@@ -11,17 +11,30 @@ $("li").mouseleave(function(){
     $(this).css({
         color: "black",    
         background: "steelblue",
-        height: "4rem",
-        width: "4rem",
+    });
+})
+    /*------------------------*/
+
+
+        /* Los "buttons" */
+$("button").mouseenter(function(){
+    $(this).css({
+        fontSize: "2em",    
+    });
+
+})
+
+$("button").mouseleave(function(){
+    $(this).css({
+        fontSize: "13px",               /* Tamaño por defecto, en mi PC */
     });
 })
 
 
-$("h2").hover(function(){ 
-    $(this).css({
-        color: "green",    
-        background: "blue",
-        height: "50px",
-        width: "150px",
+
+$(this).click(function(){
+    $("li").css({
+        background: "purple",
     });
- });
+})
+    /*------------------------*/
