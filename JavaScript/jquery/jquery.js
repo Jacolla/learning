@@ -88,7 +88,6 @@
 
 ////////////////////////////////////////////////////////////
 
-//  truquillo del greenDot
 //  /* Para hacer funciones en jQuery */
 //  ej:
 //  $("button").click(function(){
@@ -118,7 +117,7 @@ $("li").on("click", function(){                                             /* E
 		background: "blue",
 		height: "50px",
 		width: "150px",
-});
+    });
 })
 
 $("button").on("mouseenter", function(){                                    /* mouseenter es para cuando el raton pasa por encima del button, en este caso */
