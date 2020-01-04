@@ -1,0 +1,42 @@
+body{
+    background-color: steelblue;
+}
+
+#container1{
+    border: 2px solid gray;
+    width: all;
+    margin: 1rem auto;
+    background-color: antiquewhite;
+}
+#container2{
+    border: 2px solid gray;
+    width: all;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+#contenedor1{
+    width: 40%;
+    margin-left: auto;
+    background-color: brown;
+}
+
+#contenedor2{
+    width: 40%;
+    background-color: blueviolet;
+}
+
+ul{
+    font-size: 1.2rem;
+    background-color: aqua;
+}
+
+.completado{
+    color: grey;
+    background: pink;
+    text-decoration: line-through;
+}
+
+
+
+
