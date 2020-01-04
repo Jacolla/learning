@@ -2,10 +2,25 @@ body{
     background-color: steelblue;
 }
 
-#cabeza{
-    font-size: 2rem;
+#container{
+    border: 2px solid gray;
+    width: 360px;
+    margin: 0 auto;
+    background-color: antiquewhite;
 }
+
 
 ul{
     font-size: 1.2rem;
+    background-color: aqua;
 }
+
+.completado{
+    color: grey;
+    background: pink;
+    text-decoration: line-through;
+}
+
+
+
+
