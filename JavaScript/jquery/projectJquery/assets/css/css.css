@@ -2,47 +2,41 @@ body{
     background-color: steelblue;
 }
 
-/* Contenedor 1  */
 #container1{
-    background-color: aquamarine;
+    border: 2px solid gray;
+    width: all;
+    margin: 1rem auto;
+    background-color: antiquewhite;
 }
-/* inContainer 1  */
-
-#inContainer1{
-    width: 45%;
-    background-color: rgb(165, 87, 42);
-}
-#pruebaIn1{
-    float: right;
-}
-
-
-/* Contenedor 2 */
 #container2{
-    background-color: rgb(255, 202, 132);
+    border: 2px solid gray;
+    width: all;
+    margin: 0 auto;
+    background-color: antiquewhite;
 }
-/* inContainer 1  */
 
-#inContainer2{
-    width: 45%;
+#contenedor1{
+    width: 40%;
     margin-left: auto;
-    background-color: blueviolet;
-    text-align: right;
-}
-#pruebaIn2{
-    float: left;
+    background-color: brown;
 }
 
+#contenedor2{
+    width: 40%;
+    background-color: blueviolet;
+}
 
 ul{
     font-size: 1.2rem;
-    background-color: rgb(218, 246, 253);
+    background-color: aqua;
 }
 
-
-/* jQuery objects */
 .completado{
     color: grey;
     background: pink;
     text-decoration: line-through;
 }
+
+
+
+
