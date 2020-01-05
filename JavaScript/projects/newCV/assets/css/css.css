@@ -1,48 +1,62 @@
 body{
-    background-color: steelblue;
+    background-color: rgb(48, 112, 165);
 }
-
-/* Contenedor 1  */
-#container1{
-    background-color: aquamarine;
-}
-/* inContainer 1  */
-
-#inContainer1{
-    width: 45%;
-    background-color: rgb(165, 87, 42);
-}
-#pruebaIn1{
-    float: right;
-}
-
-
-/* Contenedor 2 */
-#container2{
-    background-color: rgb(255, 202, 132);
-}
-/* inContainer 1  */
-
-#inContainer2{
-    width: 45%;
-    margin-left: auto;
-    background-color: blueviolet;
-    text-align: right;
-}
-#pruebaIn2{
-    float: left;
-}
-
 
 ul{
     font-size: 1.2rem;
     background-color: rgb(218, 246, 253);
 }
+/*------------------- CONTENEDOR 1 -------------------*/
+/* Contenedor 1  */
+#container1{
+    background-color: aquamarine;
+}
+
+    /* prueba caja 1 */
+    #caja1{
+        float: right;
+        width: auto;
+    }
+
+    /* caja 2 */
+    #caja2{
+        width: 45%;
+        margin-right: auto;
+        background-color: rgb(165, 87, 42);
+        text-align: left;
+    }
+
+/*--------------------------------------*/
+
+/*------------------- CONTENEDOR 2 -------------------*/
+
+/* Contenedor 2 */
+#container2{
+    background-color: rgb(255, 202, 132);
+}
+
+    /* prueba caja 2 */
+    #pruebaIn2{
+        float: left;
+        width: auto;
+
+    }
+
+    /* caja 2 */
+    #inContainer2{
+        width: 45%;
+        margin-left: auto;
+        background-color: blueviolet;
+        text-align: right;
+    }
+
+/*--------------------------------------*/
 
 
-/* jQuery objects */
+/* objects */
 .completado{
     color: grey;
     background: pink;
     text-decoration: line-through;
 }
+
