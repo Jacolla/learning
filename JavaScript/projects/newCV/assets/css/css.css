@@ -2,21 +2,31 @@ body{
     background-color: rgb(48, 112, 165);
 }
 
+
+#gif{
+    min-width: 100%;
+    max-width: 100%;
+    height: 6.4rem;
+    max-height: 100%;
+}
+
+
 /*------------------- CONTENEDOR 1 -------------------*/
 /* Contenedor 1  */
 #container1{
-    background-color: aquamarine;
+    background-color: turquoise;
+    margin: 0.8em;
 }
 
-    /* caja 1 */
-    #caja11{
-        float: right;
-        width: auto;
-        margin: right;
-    }
+/* caja 1 */
+#caja11{
+    width: 55%;
+    float: right;
+}
 
-    /* caja 2 */
-    #caja12{
+
+/* caja 2 */
+#caja12{
         width: 45%;
         margin-right: auto;
         background-color: rgb(165, 87, 42);
@@ -30,13 +40,13 @@ body{
 /* Contenedor 2 */
 #container2{
     background-color: rgb(255, 202, 132);
+    margin: 0.8em;
 }
 
     /* caja 1 */
     #caja21{
         float: left;
         width: auto;
-
     }
 
     /* caja 2 */
