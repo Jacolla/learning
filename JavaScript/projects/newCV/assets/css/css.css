@@ -2,7 +2,6 @@ body{
     background-color: rgb(48, 112, 165);
 }
 
-
 /*------------------- CONTENEDOR 1 -------------------*/
 /* Contenedor 1  */
 #container1{
@@ -13,6 +12,7 @@ body{
     #caja11{
         float: right;
         width: auto;
+        margin: right;
     }
 
     /* caja 2 */
