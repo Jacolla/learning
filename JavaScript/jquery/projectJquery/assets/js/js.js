@@ -1,20 +1,4 @@
-        /* Los "buttons" */
-$("button").mouseenter(function(){
-    $(this).css({
-        fontSize: "26px",    
-    });
-
-})
-
-$("button").mouseleave(function(){
-    $(this).css({
-        fontSize: "13.4px",               /* Tamaño por defecto, en mi PC */
-    });
-})
-
-    /*------------------------*/
-
-
+/* selecion (click) de lista */
 /* Método clasico viejo */
 //  $("li").click(function(){
 //      if ($(this).css("color") === "rgb(128, 128, 128)"){
@@ -36,6 +20,22 @@ $("button").mouseleave(function(){
 //  });
 
 /* jQuery en 2 lineas */
-$("li").click(function(){
-    $(this).toggleClass("completado");          /* Aquí es donde se pone el Toggle */
+$("ul").on("click","li", function(){                                                /* Es un poco chungo esto, no lo he pillado del todo */
+    $(this).toggleClass("completado");                                              /* Aquí es donde se pone el Toggle */
  });
+
+ /*------------------------------*/
+ $("ul").on("click", "span",function(event){
+     $(this).parent().fadeOut(200, function(){                                      /* Con el parent, se borra todo lo que engloba el span, like parent itself */
+        $(this).remove()
+    });                  
+    event.stopPropagation();                                                        /* Con el stopPropagation, haces que se ejecute SOLO el span, en este caso, */
+ })                                                                                 /* sin tener que activar el ul, div, body, etc. */ 
+    /* No funciona si cierro ] */
+ $("input[type='text'").keypress(function(event){
+     if(event.which === 13){
+         let gettingText = $(this).val();
+         $(this).val("")
+         $("ul").append("<li><span>X </span>" + gettingText + "</li>")              /* El append introduce el string donde se ha seleccionado con $() */
+     }
+ })
