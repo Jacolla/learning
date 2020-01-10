@@ -32,7 +32,7 @@ $("ul").on("click","li", function(){                                            
     event.stopPropagation();                                                        /* Con el stopPropagation, haces que se ejecute SOLO el span, en este caso, */
  })                                                                                 /* sin tener que activar el ul, div, body, etc. */ 
     /* No funciona si cierro ] */
- $("input[type='text'").keypress(function(event){
+ $("input[type='text']").keypress(function(event){
      if(event.which === 13){
          let gettingText = $(this).val();
          $(this).val("")
