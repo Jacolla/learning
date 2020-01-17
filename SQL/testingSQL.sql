@@ -4,5 +4,5 @@ CREATE TABLE baseDatos (
    probandoSQL3 TEXT NOT NULL,
    probandoSQL4 DEFAULT 'not Applicable',
 
-
+/* puesAqui */
  );
