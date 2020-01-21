@@ -7,12 +7,12 @@
 
  */
 
- CREATE TABLE tiendaClassic(
-   product INTEGER(50),     /* detrás va el tipo de data */
-   workers INTEGER(4),      /* camelCase para el tipo de data */    
-   clientes INTEGER(100),
-   
-);   /* Detrás va el semicolon */
+       CREATE TABLE tiendaClassic(
+/* delante va el nombre del "cajon" */        product INTEGER,     /* detrás va el tipo de data */
+                                            workers INTEGER,      /* camelCase para el tipo de data */    
+                                            clientes INTEGER,
+
+                                            );   /* Detrás va el semicolon */
 
  INSERT INTO tiendaClassic(product, workers, clientes)
  VALUES (2);
