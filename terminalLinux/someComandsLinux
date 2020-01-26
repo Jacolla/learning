@@ -1,0 +1,8 @@
+cd                                  -   Para moverse (<-- cd Desktop/testGitHub/learning/termianlLinux/someComandsLinux -->)
+cd Destop/staff..                   -   Para ir a carpeta conocida
+cd ..                               -   Para volver 1 carpeta atras
+cd ../Desktop/staff                 -   Para volver a carpeta conocida
+ls                                  -   Muestra lo que hay en la ubicacion
+dir                                 -   Mas o menos lo mismo que ls
+mv                                  -   Para mover una carpeta de ubicacion
+mk learning/nuevaCarpeta            -   Para crear una carpeta
