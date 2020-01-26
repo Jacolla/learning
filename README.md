@@ -1,1 +1,1 @@
-No big deal, just playing with this.
+Here you can se the way I learn this.
