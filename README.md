@@ -1,1 +1,6 @@
-No big deal, just playing with this.
+Here you can se the way I learn this.
+
+
+
+The las I'm doing is basics in jQuery, 
+where you can find it in JavaScript/jQuery/jQuery.js
