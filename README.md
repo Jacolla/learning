@@ -1,4 +1,4 @@
-Here you can se the way I learn this.
+Here you can see the way I learn this.
 
 
 
