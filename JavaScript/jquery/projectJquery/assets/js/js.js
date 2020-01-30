@@ -39,3 +39,5 @@ $("ul").on("click","li", function(){                                            
          $("ul").append("<li><span>X </span>" + gettingText + "</li>")              /* El append introduce el string donde se ha seleccionado con $() */
      }
  })
+
+ /* posEnga */
