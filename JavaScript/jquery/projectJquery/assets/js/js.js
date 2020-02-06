@@ -19,7 +19,7 @@
 //      }
 //  });
 
-/* jQuery en 2 lineas */
+/* cambio background "ul" */
 $("ul").on("click","li", function(){                                                /* Es un poco chungo esto, no lo he pillado del todo */
     $(this).toggleClass("completado");                                              /* Aquí es donde se pone el Toggle */
  });
@@ -31,13 +31,11 @@ $("ul").on("click","li", function(){                                            
     });                  
     event.stopPropagation();                                                        /* Con el stopPropagation, haces que se ejecute SOLO el span, en este caso, */
  })                                                                                 /* sin tener que activar el ul, div, body, etc. */ 
-    /* No funciona si cierro ] */
+ 
  $("input[type='text']").keypress(function(event){
      if(event.which === 13){
          let gettingText = $(this).val();
          $(this).val("")
-         $("ul").append("<li><span>X </span>" + gettingText + "</li>")              /* El append introduce el string donde se ha seleccionado con $() */
+         $("ul").append("<li><span> <i class='fa fa-trash'> </i> </span>" + gettingText + "</li>")              /* El append introduce el string donde se ha seleccionado con $() */
      }
  })
-
- /* posEnga */
