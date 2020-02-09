@@ -5,6 +5,13 @@ body{
     font-family: 'Saira Semi Condensed', sans-serif;
 }
 
+#contenedor{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    background-color: #ffff;
+    width: 40%;
+    margin: 100px auto;
+}
+
 h2{
     background: #062133;
     color: rgb(224, 224, 224);
@@ -36,6 +43,11 @@ li:nth-child(2n){
     background: #e0e0e0 ;
 }
 
+li:hover span{
+    width: 40px;
+    opacity: 1.0;
+}
+
 span{
     background: #3ce7b4;
     height: 40px;
@@ -46,12 +58,6 @@ span{
     display: inline-block;
     transition: 0.2s linear;
     opacity: 0;
-}
-
-
-li:hover span{
-    width: 40px;
-    opacity: 1.0;
 }
 
 input{
@@ -70,12 +76,6 @@ input:focus{
     outline: #062133;
 }
 
-#contenedor{
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-    background-color: #ffff;
-    width: 40%;
-    margin: 100px auto;
-}
 
 .completado{
     color: rgb(46, 46, 46);

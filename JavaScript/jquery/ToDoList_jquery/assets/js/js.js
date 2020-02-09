@@ -38,7 +38,7 @@ $("ul").on("click","li", function(){                                            
      if(event.which === 13){
          let gettingText = $(this).val();
          $(this).val("")
-         $("ul").append("<li><span> <i class='fa fa-trash'> </i> </span>" + gettingText + "</li>")              /* El append introduce el string donde se ha seleccionado con $() */
+         $("ul").append("<li><span> <i class='fa fa-trash'> </i></span>" + gettingText + "</li>")              /* El append introduce el string donde se ha seleccionado con $() */
      }
  })
 
