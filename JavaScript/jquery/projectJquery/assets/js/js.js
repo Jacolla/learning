@@ -25,6 +25,7 @@ $("ul").on("click","li", function(){                                            
  });
 
  /*------------------------------*/
+ /* Borrar elemento ul */
  $("ul").on("click", "span",function(event){
      $(this).parent().fadeOut(200, function(){                                      /* Con el parent, se borra todo lo que engloba el span, like parent itself */
         $(this).remove()
@@ -32,6 +33,7 @@ $("ul").on("click","li", function(){                                            
     event.stopPropagation();                                                        /* Con el stopPropagation, haces que se ejecute SOLO el span, en este caso, */
  })                                                                                 /* sin tener que activar el ul, div, body, etc. */ 
  
+ /* añadir nuevo ul al html */
  $("input[type='text']").keypress(function(event){
      if(event.which === 13){
          let gettingText = $(this).val();
