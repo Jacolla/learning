@@ -41,3 +41,7 @@ $("ul").on("click","li", function(){                                            
          $("ul").append("<li><span> <i class='fa fa-trash'> </i> </span>" + gettingText + "</li>")              /* El append introduce el string donde se ha seleccionado con $() */
      }
  })
+
+$("#butt").click(function(){
+    $("input[type='text']").fadeOut();
+})
