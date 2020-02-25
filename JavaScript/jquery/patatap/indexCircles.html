@@ -8,13 +8,30 @@
 	<script type="text/javascript" src="assets/paperFull/paper-full.js"></script>
 	
 	<script type="text/paperscript" canvas="myCanvas">
+	var circles = [];
+
 		/* Random point all over the screen */
 		function onKeyDown(event) {
-			var maxPoint = new Point(view.size.width, view.size.height);	/* size */
+			var maxPoint = new Point(view.size.width, view.size.height);	/* size of point */
 			var randomPoint = Point.random();								/* random site */
-			var point = maxPoint * randomPoint;								/* max screen */
-			new Path.Circle(new Point(point), 10).fillColor="green";		/* color to fill */
+			var point = maxPoint * randomPoint;								
+			var nuevoSirculo = new Path.Circle(point, 100);
+			nuevoSirculo.fillColor = "pink";
+			circles.push(nuevoSirculo);
+			
 		}
+
+		// var circuloAnimado = new Path.Circle(new Point(100,100), 100);
+		// circuloAnimado.fillColor = "blue";
+
+		function onFrame(event) {
+			for(var i=0; i<circles.length; i++){
+				circles[i].fillColor.hue +=1;
+				circles[i].scale(.750);
+			}
+
+			// circuloAnimado.fillColor.hue += 1;
+		} 
 
 	</script>
 
