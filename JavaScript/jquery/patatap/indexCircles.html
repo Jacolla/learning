@@ -8,13 +8,12 @@
 	<script type="text/javascript" src="assets/paperFull/paper-full.js"></script>
 	
 	<script type="text/paperscript" canvas="myCanvas">
-
-		for(var x=0; x<2000; x+= 100){
-			for(var y=0; y<2000; y+= 100){
-
-			var sirculillo = new Path.Rectangle(new Point(x, y), 50);
-			sirculillo.fillColor = "steelblue"			
-			}
+		/* Random point all over the screen */
+		function onKeyDown(event) {
+			var maxPoint = new Point(view.size.width, view.size.height);	/* size */
+			var randomPoint = Point.random();								/* random site */
+			var point = maxPoint * randomPoint;								/* max screen */
+			new Path.Circle(new Point(point), 10).fillColor="green";		/* color to fill */
 		}
 
 	</script>
