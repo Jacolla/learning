@@ -15,8 +15,8 @@
 			var maxPoint = new Point(view.size.width, view.size.height);	/* size of point */
 			var randomPoint = Point.random();								/* random site */
 			var point = maxPoint * randomPoint;								
-			var nuevoSirculo = new Path.Circle(point, 100);
-			nuevoSirculo.fillColor = "pink";
+			var nuevoSirculo = new Path.Circle(point, 250);
+			nuevoSirculo.fillColor = "green";
 			circles.push(nuevoSirculo);
 			
 		}
@@ -27,7 +27,7 @@
 		function onFrame(event) {
 			for(var i=0; i<circles.length; i++){
 				circles[i].fillColor.hue +=1;
-				circles[i].scale(.750);
+				circles[i].scale(.950);
 			}
 
 			// circuloAnimado.fillColor.hue += 1;
