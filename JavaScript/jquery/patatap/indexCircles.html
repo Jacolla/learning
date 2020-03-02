@@ -6,41 +6,33 @@
 
 	<link rel="stylesheet" href="assets/css/paperJS.css">
 	<script type="text/javascript" src="assets/paperFull/paper-full.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.3/howler.js" integrity="sha256-FNAKr1U+8W8E3zROGSYO2dQKFHIpoGU/TVm8aGpGWUY=" crossorigin="anonymous"></script>
-
-	<script type="text/paperscript" canvas="myCanvas">
-
-	var keyData {
-		a:{
-			color:"purple",
-			sound: new Howl({
-				urls: ['sounds/sounds/bubbles.mp3']
-			})
-		};
-
-	};
 	
+	<script type="text/paperscript" canvas="myCanvas">
 	var circles = [];
 
 		/* Random point all over the screen */
 		function onKeyDown(event) {
-			
 			var maxPoint = new Point(view.size.width, view.size.height);	/* size of point */
 			var randomPoint = Point.random();								/* random site */
 			var point = maxPoint * randomPoint;								
-			var nuevoSirculo = new Path.Circle(point, 250)
-			nuevoSirculo.fillColor = keyData[event.key].color;
+			var nuevoSirculo = new Path.Circle(point, 250);
+			nuevoSirculo.fillColor = "green";
 			circles.push(nuevoSirculo);
 			
 		}
 
+		// var circuloAnimado = new Path.Circle(new Point(100,100), 100);
+		// circuloAnimado.fillColor = "blue";
 
 		function onFrame(event) {
 			for(var i=0; i<circles.length; i++){
 				circles[i].fillColor.hue +=1;
 				circles[i].scale(.950);
 			}
+
+			// circuloAnimado.fillColor.hue += 1;
 		} 
+/* truquiTruquillo */
 	</script>
 
 </head>
