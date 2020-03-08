@@ -10,48 +10,189 @@
 
 	<script type="text/paperscript" canvas="myCanvas">
 
-	var keyData = {
-		q:{
-			color: "blue",
-			sound: new Howl({
-				urls: ["sounds/sounds/bubbles.mp3"]
-			})
-		},
-		w:{
-			color: "red",
-			sound: new Howl({
-				urls: ["sounds/sounds/clay.mp3"]
-			})
-		},
-
-
-	}
-
-	var circles = [];
-	
-		/* Random point all over the screen */
-		function onKeyDown(event) {
-			if (keyData[event.key]) {
-			
-				var maxPoint = new Point(view.size.width, view.size.height);	/* size of point */
-				var randomPoint = Point.random();								/* random site */
-				var point = maxPoint * randomPoint;								
-				var nuevoSirculo = new Path.Circle(point, 250);
-				nuevoSirculo.fillColor = keyData[event.key].color;
-				circles.push(nuevoSirculo);
+var keyData = {														/* la puta array de cada letra del puto teclado, sin incluir numeros ni pollas */
+			q: {													/* cada tecla es un objeto */
+				sonido: new Howl({
+		  		src: ['sounds/sounds/bubbles.mp3']
+				}),
+				color: '#1abc9c'
+			},
+			w: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/clay.mp3']
+				}),
+				color: '#2ecc71'
+			},
+			e: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/confetti.mp3']
+				}),
+				color: '#3498db'
+			},
+			r: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/corona.mp3']
+				}),
+				color: '#9b59b6'
+			},
+				t: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/dotted-spiral.mp3']
+				}),
+				color: '#34495e'
+			},
+			y: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/flash-1.mp3']
+				}),
+				color: '#16a085'
+			},
+			u: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/flash-2.mp3']
+				}),
+				color: '#27ae60'
+			},
+			i: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/flash-3.mp3']
+				}),
+				color: '#2980b9'
+			},
+			o: {
+				sonido: new Howl({
+					src: ['sounds/sounds/glimmer.mp3']
+				}),
+				color: '#8e44ad'
+			},
+			p: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/moon.mp3']
+				}),
+				color: '#2c3e50'
+			},
+			a: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/pinwheel.mp3']
+				}),
+				color: '#f1c40f'
+			},
+			s: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/piston-1.mp3']
+				}),
+				color: '#e67e22'
+			},
+				d: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/piston-2.mp3']
+				}),
+				color: '#e74c3c'
+			},
+			f: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/prism-1.mp3']
+				}),
+				color: '#95a5a6'
+			},
+			g: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/prism-2.mp3']
+				}),
+				color: '#f39c12'
+			},
+			h: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/prism-3.mp3']
+				}),
+				color: '#d35400'
+			},
+			j: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/splits.mp3']
+				}),
+				color: '#1abc9c'
+			},
+			k: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/squiggle.mp3']
+				}),
+				color: '#2ecc71'
+			},
+			l: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/strike.mp3']
+				}),
+				color: '#3498db'
+			},
+			z: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/suspension.mp3']
+				}),
+				color: '#9b59b6'
+			},
+			x: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/timer.mp3']
+				}),
+				color: '#34495e'
+			},
+			c: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/ufo.mp3']
+				}),
+				color: '#16a085'
+			},
+			v: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/veil.mp3']
+				}),
+				color: '#27ae60'
+			},
+			b: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/wipe.mp3']
+				}),
+				color: '#2980b9'
+			},
+			n: {
+				sonido: new Howl({
+					src: ['sounds/sounds/zig-zag.mp3']
+				}),
+				color: '#8e44ad'
+			},
+			m: {
+				sonido: new Howl({
+		  		src: ['sounds/sounds/moon.mp3']
+				}),
+				color: '#2c3e50'
 			}
 		}
 
-		// var circuloAnimado = new Path.Circle(new Point(100,100), 100);
-		// circuloAnimado.fillColor = "blue";
-
-		function onFrame(event) {
-			for(var i=0; i<circles.length; i++){
-				circles[i].fillColor.hue +=3;
-				circles[i].scale(.950);
+	var circles = [];
+	
+		function onKeyDown(event) {												/* Pá cuando una tecla es apretada, por eso el onKeyDown... */
+			if (keyData[event.key]) {											/* comprobar que se ha apretado una tecla del array de keyData */
+				var maxPoint = new Point(view.size.width, view.size.height);	/* size of point */
+				var randomPoint = Point.random();								/* random site */
+				var point = maxPoint * randomPoint;								/* var of two above */
+				var nuevoSirculo = new Path.Circle(point, 250);					
+				nuevoSirculo.fillColor = keyData[event.key].color;				/* rellenar colorsito sirculito */
+				keyData[event.key].sonido.play();								/* sonidito sirculito */
+				circles.push(nuevoSirculo);										/* meter sirculito a la array */
 			}
+		}
 
-			// circuloAnimado.fillColor.hue += 1;
+		function onFrame(event) {												/* Cuando se ha apretado la teclesita */
+			for(var i=0; i<circles.length; i++){								/* bucle mortal */
+				circles[i].scale(.950);											/* tiempo de desvanecimiento */
+				circles[i].fillColor.hue +=3;									/* cambio de tonalidad del color */
+				if (circles[i].area < 1){										/* Comprueba si el tamaño es inferior a 1 */
+					circles[i].remove();										/* Si es inferior, a tomar por culo++ */
+					circles.splice(i,1);										
+					console.log(circles)										/* Para comprobar la array */
+				}
+			}
 		} 
 	</script>
 
