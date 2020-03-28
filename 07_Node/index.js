@@ -8,6 +8,5 @@ for(let i=0; i<10; i++){
 
 
 
-
-instalar node en linux
+Todo listo, windows y linux formateados y reinstalados, todo limpio, time to get back to learn!
 */
