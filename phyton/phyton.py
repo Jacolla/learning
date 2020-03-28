@@ -63,7 +63,7 @@
 #  no puedes quitar/añadir componentes de la tupla, util cuando se quiere mirar la tupla o comprobar si hay algo en la tupla.
 #  Ocupan menos espacio, son mas rapidas de ejecutar, formatean strings(?)
 
-#  tuplaPrueba=("Marta", 30, "Alia", 25, "Janet", 23 )
+#  tuplaPrueba=("Marta", 30, "Alia", 25, "Gisele", 23 )
 #  listaDos=list(tuplaPrueba)
 #  print(listaDos[4])                                              # con los [], le decimos cual queremos seleccionar ( empezando por 0)
 
