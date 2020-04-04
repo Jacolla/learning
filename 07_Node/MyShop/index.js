@@ -1,11 +1,12 @@
-let faker = require("faker");
+var faker = require('faker');
 
-let randomNombre = faker.name.firstName();
-let numero = faker.random.number();
-let raroNombre = faker.name.firstName();
+var randomName = faker.name.findName(); // Rowan Nikolaus
+var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+var randomCard = faker.helpers.createCard(); // random contact card containing many properties
 
 
-
-console.log(randomNombre);
-console.log(nombreRaro);
-console.log(raroNombre);
+console.log(randomName)
+console.log(randomName)
+console.log(randomName)
+// console.log(randomCard)
+// console.log(randomEmail)
