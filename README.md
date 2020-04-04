@@ -1,6 +1,1 @@
-Here you can see the way I learn this.
-
-
-
-The last I'm doing, basics in jQuery, 
-where you can find it in JavaScript/jQuery/jQuery.js
+Here you can see my mistakes and laught in silence while I think it's allright
