@@ -13,12 +13,4 @@ primero hay que darle lugar para que sacarlo, en app.js,
 lo he metido en una variable y la he sacado por console.log.
 Con el comando require() para que busque la libreria que se mecesita.
 
-
-
-
 -->
-
-
-
-
-Sacar 10 lineas de nombre de producto y precio con faker en npm
