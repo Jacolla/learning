@@ -14,8 +14,8 @@ app.get("/adios", function(req, res){
     res.send("Hasta luegito!")
 })
 
-app.get("/hola", function(req, res){
-    res.send("Hola, que tal?")
+app.get("/entrada", function(req, res){
+    res.send("Hola, bienvenido a mi servidor, estas hospedado en el puerto3000")
 })
 
 app.get("*", function(req, res){
@@ -23,4 +23,4 @@ app.get("*", function(req, res){
 })
 
 
-// perrea perrea
+// Busy studing to get in a school to get the title
