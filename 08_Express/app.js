@@ -23,4 +23,4 @@ app.get("*", function(req, res){
 })
 
 
-// still
+// getHome
