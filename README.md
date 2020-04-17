@@ -1,1 +1,1 @@
-Here you can see my mistakes and laught in silence while I think it's allright
+Here you can see my mistakes and laugh in silence while I think it's allright
