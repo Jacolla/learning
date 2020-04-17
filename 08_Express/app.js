@@ -7,7 +7,7 @@ app.listen(3000, function () {
 });
 
 app.get('/', function (req, res) {
-    res.send('Hello world from Express!');
+    res.send('Que no cojones, LARGO DE AQUÍ!!');
 });
 
 app.get("/adios", function(req, res){
