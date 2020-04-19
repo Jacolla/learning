@@ -7,7 +7,7 @@ app.listen(3000, function () {
 });
 
 app.get('/', function (req, res) {
-    res.send('Que no cojones, LARGO DE AQUÍ!!');
+    res.send('ahora otra cosa!');
 });
 
 app.get("/adios", function(req, res){
@@ -23,4 +23,4 @@ app.get("*", function(req, res){
 })
 
 
-// stillAtHome
+// todayIsTimeToRead codeComplete vol.2
