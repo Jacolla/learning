@@ -9,7 +9,7 @@ app.listen(3000, function(){
 
 /*  ---Lo que sale en pantalla --- */
 app.get("/", function(req, res){
-    res.render("home.ejs");
+    res.send("Bienvenido al puerto 3000 desde proyecto con EJS");
 });
 
 
