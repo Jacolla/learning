@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="app.css">
+
+<h1>
+    Bienvenido a los posts
+</h1>
+
+
+<a href="http://localhost:3000/motos/:honda">Motos</a><br>
+<a href="http://localhost:3000/home">Home</a>
+
+
+<% posts.forEach(function(posts){ %>
+    <li>
+        <%= posts.title %> - <strong><%= posts.autor %></strong>
+    </li>
+<% }) %>
