@@ -11,7 +11,7 @@ app.listen(3000, function(){
 
 /* -----Home----- */
 app.get("/home", function(req, res){
-    res.send("Esto es APP.JS");
+    res.render("home.ejs");
 });
 
 /* -----Motos----- */
