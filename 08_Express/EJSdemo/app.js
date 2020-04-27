@@ -15,7 +15,7 @@ app.get("/home", function(req, res){
 });
 
 /* -----Motos----- */
-app.get("/motos/:algo", function(req, res){
+app.get("/motos", function(req, res){
     var thing= req.params.algo;
     res.render("motos.ejs", {thingVar: thing});
 });
