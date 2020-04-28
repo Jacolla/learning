@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express();
-app.use(express.static("public"))
+app.use(express.static("public"));
 
 
 /*          ---Puerto---         */
@@ -15,7 +15,7 @@ app.get("/home", function(req, res){
 });
 
 /* -----Motos----- */
-app.get("/motos", function(req, res){
+app.get("/motos/:algo", function(req, res){
     var thing= req.params.algo;
     res.render("motos.ejs", {thingVar: thing});
 });

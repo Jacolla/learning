@@ -1,5 +1,4 @@
-<% include /header.ejs %>
-
+<%- include ("partials/header") %>
 
     <h1>
         Esto es --MOTOS.ejs--
@@ -20,8 +19,9 @@
         <h4>Nope, no es una <%= thingVar %>, mirala bien pordió</h4>
     <% } %>
     
-    <img src="https://i.blogs.es/c0a70e/honda-cb650r-2019-001/450_1000.jpg" alt="" width="500px" height="350px">
+    <img src="https://i.blogs.es/c0a70e/honda-cb650r-2019-001/450_1000.jpg" alt="" >
 
 
-<% include /footer %>
+<%- include ("partials/footer") %>  <!-- Poner la ruta entre ( ) y con comillas "" ==> ("carpeta/archivo") -->           
+
 
