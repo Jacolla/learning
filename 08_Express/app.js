@@ -1,6 +1,6 @@
 
 var express = require('express');
-var app = express();
+var app     = express();
 
 app.listen(3000, function () {
   console.log('---Server working on port 3000!---');
@@ -20,8 +20,8 @@ app.get("/entrada", function(req, res){
 
 
 app.get('/r/:section/comments/:id/:tittle', function (req, res){
-    var identification= req.params.id;
-    var sect= req.params.section;
+    var identification = req.params.id;
+    var sect           = req.params.section;
     res.send("Bienvenido a " + sect + " de " + identification + ", supare.");
     console.log(req.params)
 });
