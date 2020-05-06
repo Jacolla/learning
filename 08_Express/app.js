@@ -30,3 +30,6 @@ app.get("*", function(req, res){
     res.send("Caballero, eso no lo tenemos en nuestra base de datos.");
 })
 
+
+
+/* darle a las API's */
