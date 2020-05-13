@@ -32,4 +32,4 @@ app.get("*", function(req, res){
 
 
 
-/* y pos venga */
+/* preparando prueba acceso  */
