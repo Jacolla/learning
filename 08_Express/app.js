@@ -32,4 +32,4 @@ app.get("*", function(req, res){
 
 
 
-/* preparando prueba acceso  */
+/* still doing examns  */
