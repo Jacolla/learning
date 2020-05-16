@@ -39,4 +39,3 @@ app.get("/posts", function(req, res){
     res.render("posts.ejs", {posts:posts})
 })
 
-// cheating
