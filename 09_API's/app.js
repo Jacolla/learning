@@ -9,3 +9,4 @@ request("https://jsonplaceholder.typicode.com/users/1", function(error, response
 });
 
 // Está mal, revisar
+// seguimos con las trampitas
