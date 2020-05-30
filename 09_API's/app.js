@@ -9,4 +9,4 @@ request("https://jsonplaceholder.typicode.com/users/1", function(error, response
 });
 
 // Está mal, revisar
-// sisi, sin disimulo, ahi va otro chavá
+// vaya, otro mas...
