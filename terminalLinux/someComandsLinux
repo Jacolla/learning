@@ -1,8 +1,16 @@
-cd                                  -   Para moverse 
-cd Destop/staff..                   -   Para ir a carpeta conocida
-cd ..                               -   Para volver 1 carpeta atras
-cd ../Desktop/staff                 -   Para volver a carpeta conocida
-ls                                  -   Muestra lo que hay en la ubicacion
-dir                                 -   Mas o menos lo mismo que ls
-mv                                  -   Para mover una carpeta de ubicacion
-mk learning/nuevaCarpeta            -   Para crear una carpeta
+cd                                                       -   Para moverse 
+cd Destop/staff..                                        -   Para ir a carpeta conocida
+cd ..                                                    -   Para volver 1 carpeta atras
+cd ../Desktop/staff                                      -   Para volver a carpeta conocida
+ls                                                       -   Muestra lo que hay en la ubicacion
+dir                                                      -   Mas o menos lo mismo que ls
+mv                                                       -   Para mover una carpeta de ubicacion
+mk learning/nuevaCarpeta                                 -   Para crear una carpeta
+cp <nombre archivo>                                      -   Copiar archivo
+rm                                                       -   Borra archivos o carpetas (remove)
+mv                                                       -   Mueve o corta archivos o carpetas al lugar indicado
+sudo(super-user do: hacer como superusuario).            -   Permite a los usuarios ejecutar acciones con los privilegios de seguridad del root, o administrador.
+sudo apt-get install <nombre programa>                   -   Instala un programa 
+sudo apt-get remove <nombre programa>                    -   Desinstala el programa
+sudo apt-get update                                      -   Actualiza Ubuntu
+sudo apt-get upgrade                                     -   Actualiza todo el software
