@@ -10,5 +10,5 @@ request("https://jsonplaceholder.typicode.com/users/1", function(error, response
 });
 
 // Está mal, revisar
-// Quedan 8 dias... 
-// confusion porque a veces cambiaba el dia por la noche
+// Quedan 6 dias... 
+
