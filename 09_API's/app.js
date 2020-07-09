@@ -1,14 +1,9 @@
-let request = require("request");
-const { SSL_OP_NETSCAPE_DEMO_CIPHER_CHANGE_BUG } = require("constants");
+let request = require('request');
 
-request("https://jsonplaceholder.typicode.com/users/1", function(error, response, body){
-    if(!error && Response.statusCode == 200){
-        eval(require("locus"));
+request('https://jsonplaceholder.typicode.com/todos', function(error, response, body){
+    if(!error && response.statusCode == 200){
         let parseData = JSON.parse(body);
-        console.log(parseData["query"],["results"],["astronomy"],["sunset"]);
+        console.log(parseData);
     };
 });
-
-// Está mal, revisar
-// listo, en breves volveré a codear!  
 
