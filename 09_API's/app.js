@@ -10,5 +10,5 @@ request("https://jsonplaceholder.typicode.com/users/1", function(error, response
 });
 
 // Está mal, revisar
-// primera etapa lista  
+// listo, en breves volveré a codear!  
 
