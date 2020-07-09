@@ -1,9 +1,16 @@
-let request = require('request');
-
-request('https://jsonplaceholder.typicode.com/todos', function(error, response, body){
-    if(!error && response.statusCode == 200){
-        let parseData = JSON.parse(body);
-        console.log(parseData);
-    };
-});
-
+const axios = require('axios');
+ 
+// Make a request for a user with a given ID
+axios.get('https://jsonplaceholder.typicode.com/todos/10')
+  .then(function (response) {
+    // handle success
+    console.log(response.data);
+  })
+  .catch(function (error) {
+    // handle error
+    console.log(error);
+  })
+  .finally(function () {
+    // always executed
+  });
+ 

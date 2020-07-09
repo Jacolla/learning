@@ -1,7 +1,7 @@
 {
-  "name": "09_API's",
+  "name": "testing",
   "version": "1.0.0",
-  "description": "",
+  "description": "Making a request API with axios and express",
   "main": "app.js",
   "dependencies": {
     "axios": "^0.19.2",
