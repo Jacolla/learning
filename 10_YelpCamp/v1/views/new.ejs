@@ -1,0 +1,13 @@
+<%- include ("partials/header.ejs") %>
+
+<h1>Nueva tierra creada!</h1>
+<form  action = "/lands" method = "POST">
+<input name   = "name" type     = "text" placeholder = "Name">
+<input name   = "imagen" type   = "text" placeholder = "img url">
+    <button>Submit</button>
+</form>
+
+<a href = "/lands">No, al final no</a>
+
+
+<%- include ("partials/footer.ejs") %>
