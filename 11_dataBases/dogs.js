@@ -1,3 +1,4 @@
+mongo "mongodb+srv://testingmongodb.7fia8.azure.mongodb.net/<dogs>" --username learningDB
 
 const mongoose = require('mongoose');
 const { getHeapSnapshot } = require('v8');
