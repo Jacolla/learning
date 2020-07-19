@@ -1,1 +1,1 @@
-Pues ná, despues de ser derrotado por las BD's... lo aplazaré y ya lo miraré en un futuro. Ahora vamos a hacer REST.
+REST - a mapping between HTTP routes and CRUD ( CREATE, READ, UPDATE, DESTROY )
