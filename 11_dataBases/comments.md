@@ -12,6 +12,8 @@ Para poder utilizar la BD, primero se debe ejecutar en el terminal de goomIDE e 
 
 Para poder ejecutar la base de datos, en otro terminal a parte, debemos ejecutar mongo, iniciando así la BD comando "help" en consola mongo.
 
+<!-- ----------MONGO---------- -->
+
 db.help()                    help on db methods
 db.mycoll.help()             help on collection methods
 db.dropDatabase()            To remove a DB ( first "use" the DB we want to kill)
