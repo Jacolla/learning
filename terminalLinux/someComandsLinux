@@ -9,8 +9,11 @@ mk learning/nuevaCarpeta                                 -   Para crear una carp
 cp <nombre archivo>                                      -   Copiar archivo
 rm                                                       -   Borra archivos o carpetas (remove)
 mv                                                       -   Mueve o corta archivos o carpetas al lugar indicado
-sudo(super-user do: hacer como superusuario).            -   Permite a los usuarios ejecutar acciones con los privilegios de seguridad del root, o administrador.
+sudo(super-user do:).            -   Permite a los usuarios ejecutar acciones con los privilegios de seguridad del root, o administrador.
 sudo apt-get install <nombre programa>                   -   Instala un programa 
 sudo apt-get remove <nombre programa>                    -   Desinstala el programa
 sudo apt-get update                                      -   Actualiza Ubuntu
 sudo apt-get upgrade                                     -   Actualiza todo el software
+
+
+Getting back to Linux
