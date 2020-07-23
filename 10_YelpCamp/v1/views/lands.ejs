@@ -1,8 +1,8 @@
 <%- include ("partials/header.ejs") %>
 
 <div    class = "container">
-<header class = "jumbotron">
-<div    class = "container">
+    <header class = "jumbotron">
+        <div    class = "container">
             <h1>Bienvenido a interné</h1>
             <p> Echa un ojo a las fotos y si quieres sube alguna, sino pues no</p>
             <p>
@@ -15,21 +15,20 @@
 <br><br><a href  = "/cabesero">Tira para el cabesero!</a>
 
 
-<div class = "row text-center" style="display: flex; flex-wrap: wrap; ">
-<%  lands.forEach(function(lands){ %>
-    <div class = "col-md-3 col-sm-6">
-        <div class = "thumbnail">
-            <img src   = " <%= lands.imagen %>  " alt = "">
-                <div class="caption">
-                    <h3><%= lands.name %> </h3>
+    <div class = "row text-center" style="display: flex; flex-wrap: wrap;">
+        <%  lands.forEach(function(lands){ %>
+            <div class= "col-md-3 col-sm-6 " >
+                <div class= "img-thumbnail">
+                    <img src= "<%= lands.imagen %>" class="img-fluid">
+                        <div class="caption">
+                            <h5><%= lands.name %> </h5>
+                        </div>
                 </div>
-        </div>
+            </div>
+        <% }) %>
     </div>
-<% }) %>
-
 </div>
 
 
-</div>
 <%- include ("partials/footer.ejs") %>
 
