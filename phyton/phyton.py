@@ -87,7 +87,7 @@
 #  print (pruebaDicc [2])  
 #  
 #  print(pruebaDicc)
-#  print(pruebaDicc.keys())                                                        # Seleccionas la "pregunta"
+#  print(pruebaDicc.keys())                                                        # Seleccionas la "resQuest"
 #  print(pruebaDicc.values())                                                      # selecciona la "respuesta"
 #  print(len(pruebaDicc))
 
@@ -215,7 +215,7 @@
 #     print("No has entendido nada...")
 
 
-# pregunta = print("Que moto vas a querer?")
+# resQuest = print("Que moto vas a querer?")
 # 
 # motos={1:"CB650R",2:"STREET TRIPLE",3:"GSX750",4:"AFRICA TWIN",}
 # #eleccion=motos.lower()
@@ -232,7 +232,7 @@
 #  print("La escogida es " + motos[select] + "... buen bicho")
 #  
 # else:
-#     print(pregunta)
+#     print(resQuest)
 # 
 #  seguro = input("Estas seguro? ")
 
@@ -438,26 +438,41 @@
 
 
 # ____________________________
-for d in range (1,31):
-    print("----")
-    print("dia", d)
-    if d % 7 == 1 or d % 7 == 0:
-        print("Descansito gueno")
-        continue
-    print("Levantarse a desayunar")
-    print("A tudial hueputa")
+# for d in range (1,31):
+#     print("----")
+#     print("dia", d)
+#     if d % 7 == 1 or d % 7 == 0:
+#         print("Descansito gueno")
+#         continue
+#     print("Levantarse a desayunar")
+#     print("A tudial hueputa")
 
 
 # ____________________________
-# pregunta = (input("Nombre: "))
-# for i in range(10):
-#         print("Tienes 10 oportunidades")
-#         pregunta2 = input("Cual es tu nombre: ")
-# # bucle NO cerrado               
-# # bucle mal cerrado               
-# while pregunta != str():
+# prota = "Jaime"
+# resQuest = (input("Nombre: "))         
+
+
+# while resQuest != prota:
 #         print("No tio no... NOMBRE: ")
-#         print(str(pregunta))
+#         desbucleando = input("¿Que como me llamo!?")
+
+
+#         if desbucleando == prota:
+#             print("Todo se fue a la puta...") 
+#             valorat = input("Te gustó? ")
+
+
+#             while valorat != "sep":
+#                 print("¿Que podrías mejorar?")
+#                 input("¿Un poco todo?")
+#                 break
+
+
+#         elif desbucleando == str():
+#             print("Ahora me estas empezando a gustar")
+#         break
+        
 
 
 # # <-- BarraProgreso -->
@@ -469,8 +484,7 @@ for d in range (1,31):
 # 
 
 
-lista = range(10, 40, 5)
-for i in lista:
-    print(i)
+# lista = range(10, 40, 5)
+# for i in lista:
+#     print(i)
 
-    # posEngaTambien #
