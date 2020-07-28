@@ -1,26 +1,14 @@
-prota = "Jaime"
+sayMyName = "myname"
 resQuest = (input("Nombre: "))     
-
-
-
-while resQuest != prota:
-        print("No tio no... el nombre ")
+while resQuest != sayMyName:
+        print("No lad no... say my name ")
         desbucleando = input("¿?")
-
-
-        if desbucleando == prota:
-            print("Todo se fue a la puta...") 
-            valorat = input("Te gustó? ")
-
-
-            while valorat != "sep":
-                print("¿Que podrías mejorar?")
-                input("¿Un poco todo?")
-
-
+        if desbucleando == sayMyName:
+            print("Aight, it's done, you free to go.") 
+            valorat = input("Have you enjoyed? ")
+            while valorat != "hell yes":
+                print("¿What could you improve?")
+                input("¿Mix of all?")
         elif desbucleando == str():
-            print("Ahora me estas empezando a gustar,")
-            print("Siempre me llamaste la atención... esperé a que yo llamase la tuya.")
-        break
-        
-# greenDot
+            print("Ahora me estas empezando a gustar,")        
+            break #(dance)
