@@ -11,4 +11,4 @@ while resQuest != sayMyName:
                 input("¿Mix of all?")
         elif desbucleando == str():
             print("Ahora me estas empezando a gustar,")        
-            break #(dance)
+            break #(dance, isn't it?)
