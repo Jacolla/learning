@@ -449,31 +449,6 @@
 
 
 # ____________________________
-# prota = "Jaime"
-# resQuest = (input("Nombre: "))         
-
-
-# while resQuest != prota:
-#         print("No tio no... NOMBRE: ")
-#         desbucleando = input("¿Que como me llamo!?")
-
-
-#         if desbucleando == prota:
-#             print("Todo se fue a la puta...") 
-#             valorat = input("Te gustó? ")
-
-
-#             while valorat != "sep":
-#                 print("¿Que podrías mejorar?")
-#                 input("¿Un poco todo?")
-#                 break
-
-
-#         elif desbucleando == str():
-#             print("Ahora me estas empezando a gustar")
-#         break
-        
-
 
 # # <-- BarraProgreso -->
 # import time

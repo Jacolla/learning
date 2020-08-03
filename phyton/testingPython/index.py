@@ -8,14 +8,10 @@ while resQuest != sayMyName:
         if desbucleando == sayMyName:
             print("Aight, it's done, you free to go.") 
             valorat = input("Have you enjoyed? ")
-            
-            while valorat != "yes":
-                print("¿What could you improve?")
-                input("¿Mix of all?")
+            break
 
         elif desbucleando == str():
             print("Ahora me estas empezando a gustar,")        
-            
+            break
 
-
-# focusing on independence.
+# but now I'm chilling a bit...
