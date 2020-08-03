@@ -18,4 +18,4 @@ while resQuest != sayMyName:
             
 
 
-# but now I'm chilling a bit...
+# focusing on independence.
