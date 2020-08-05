@@ -24,3 +24,4 @@ def posts():
 @app.route('/comments')
 def comments():
     return "Here goes comments of people."
+
