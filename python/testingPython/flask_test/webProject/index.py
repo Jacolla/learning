@@ -25,4 +25,4 @@ def posts():
 def comments():
     return "Here goes comments of people."
 
-# and here comes the greenDot, yep, yes.........
+# still no shame
