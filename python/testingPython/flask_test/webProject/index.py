@@ -25,4 +25,4 @@ def posts():
 def comments():
     return "Here goes comments of people."
 
-# still no shame
+# now i feel some shame tbh...
