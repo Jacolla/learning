@@ -25,4 +25,4 @@ def posts():
 def comments():
     return "Here goes comments of people."
 
-# now i feel same shame tbh...  
+# busy because I'm starting a new job to keep financing my studies
