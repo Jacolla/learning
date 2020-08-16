@@ -1,28 +1,30 @@
-from flask import Flask
+from flask import Flask, render_template
 app = Flask(__name__)
-
-@app.route('/')
-def hello_world():
-    return 'Welcome to my Web page in Python'
-
-@app.route('/home')
+@app.route('/entrada')
 def home():
-    return "This is home"
+    return render_template("home.html")
+if __name__ == '__main__':
+   app.run()
 
-@app.route('/profile')
-def profile():
-    return "This is profile"
-    
-@app.route('/personal')
-def personal():
-    return "Here we do have our personal space "
-    
-@app.route('/posts')
-def posts():
-    return "And over here is the posts area"
-    
-@app.route('/comments')
-def comments():
-    return "Here goes comments of people."
 
-# busy because I'm starting a new job to keep financing my studies
+
+
+# @app.route('/home')
+# def home():
+#     return "This is home"
+
+# @app.route('/profile')
+# def profile():
+#     return "This is profile"
+    
+# @app.route('/personal')
+# def personal():
+#     return "Here we do have our personal space "
+    
+# @app.route('/posts')
+# def posts():
+#     return "And over here is the posts area"
+    
+# @app.route('/comments')
+# def comments():
+#     return "Here goes comments of people."
