@@ -10,6 +10,10 @@ if __name__ == '__main__':
 
 
 
+# Creo que deberia fraccionarlo en partes, es decir, la barra una seccion,
+# cursos otra seccion
+# skills otra seccion.
+
 # @app.route('/home')
 # def home():
 #     return "This is home"
