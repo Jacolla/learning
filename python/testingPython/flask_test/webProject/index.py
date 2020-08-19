@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
-@app.route('/home')
+@app.route('/')
 def entrada():
     return render_template('index.html')
 if __name__ == '__main__':
@@ -13,6 +13,8 @@ if __name__ == '__main__':
 # Creo que deberia fraccionarlo en partes, es decir, la barra una seccion,
 # cursos otra seccion
 # skills otra seccion.
+
+# pero hoy no creo...
 
 # @app.route('/home')
 # def home():
