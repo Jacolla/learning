@@ -14,7 +14,7 @@ if __name__ == '__main__':
 # cursos otra seccion
 # skills otra seccion.
 
-# ni ayer tampoco...
+# aprendiendo nuevo oficio para poder financiar mis estudios.
 
 # @app.route('/home')
 # def home():
