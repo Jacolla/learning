@@ -14,7 +14,6 @@ if __name__ == '__main__':
 # cursos otra seccion
 # skills otra seccion.
 
-# aprendiendo nuevo oficio para poder financiar mis estudios.
 
 # @app.route('/home')
 # def home():
@@ -35,3 +34,6 @@ if __name__ == '__main__':
 # @app.route('/comments')
 # def comments():
 #     return "Here goes comments of people."
+
+
+# En ello seguimos.
