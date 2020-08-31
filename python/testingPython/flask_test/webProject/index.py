@@ -36,4 +36,4 @@ if __name__ == '__main__':
 #     return "Here goes comments of people."
 
 
-# En ello seguimos.
+# También estoy pendiende de apertura de convocatoria para FP superior desarrollador multiplataforma.
