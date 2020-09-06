@@ -15,13 +15,13 @@ if __name__ == '__main__':
 # skills otra seccion.
 
 
-# @app.route('/home')
-# def home():
-#     return "This is home"
+@app.route('/home')
+def home():
+    return "This is home"
 
-# @app.route('/profile')
-# def profile():
-#     return "This is profile"
+@app.route('/profile')
+def profile():
+    return "This is profile"
     
 # @app.route('/personal')
 # def personal():
@@ -36,4 +36,4 @@ if __name__ == '__main__':
 #     return "Here goes comments of people."
 
 
-# Solicitud enviada.
+# A la espera de notificación de si he entrado en el curso.
