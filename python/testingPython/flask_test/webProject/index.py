@@ -36,4 +36,4 @@ def profile():
 #     return "Here goes comments of people."
 
 
-# A la espera de notificación de si he entrado en el curso.
+# Sigo a la espera...
