@@ -36,4 +36,4 @@ def profile():
 #     return "Here goes comments of people."
 
 
-# Sigo a la espera...
+# still
