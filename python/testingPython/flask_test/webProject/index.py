@@ -8,32 +8,22 @@ if __name__ == '__main__':
    app.run(debug=True)
 
 
+# @app.route('/home')
+# def home():
+#     return "This is home"
 
-
-# Creo que deberia fraccionarlo en partes, es decir, la barra una seccion,
-# cursos otra seccion
-# skills otra seccion.
-
-
-@app.route('/home')
-def home():
-    return "This is home"
-
-@app.route('/profile')
-def profile():
-    return "This is profile"
+# @app.route('/profile')
+# def profile():
+#     return "This is profile"
     
 # @app.route('/personal')
 # def personal():
 #     return "Here we do have our personal space "
     
-# @app.route('/posts')
+# @app.route('/something')
 # def posts():
 #     return "And over here is the posts area"
-    
-# @app.route('/comments')
-# def comments():
-#     return "Here goes comments of people."
 
 
-# kernel corrupted, probably because after 8 years of OC has take it's price...
+# Has been a pleasure i5 2500k, you have hold some really good OC's.
+# I'll bury you next to the Q6600, the two queens.
