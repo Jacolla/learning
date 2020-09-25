@@ -36,4 +36,4 @@ def profile():
 #     return "Here goes comments of people."
 
 
-# need to get my place to work
+# kernel corrupted, probably because after 8 years of OC has take it's price...
