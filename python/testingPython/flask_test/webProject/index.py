@@ -26,5 +26,4 @@ if __name__ == '__main__':
 #     return "And over here is the posts area"
 
 
-# Has been a pleasure i5 2500k, you have hold some really good OC's.
-# I'll bury you next to the Q6600, the two queens.
+# It really has been...
