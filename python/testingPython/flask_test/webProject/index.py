@@ -26,4 +26,4 @@ if __name__ == '__main__':
 #     return "And over here is the posts area"
 
 
-# Now time to think in the 10th generation...
+# Now time to think in the 10th generation boy
