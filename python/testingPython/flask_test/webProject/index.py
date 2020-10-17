@@ -26,4 +26,5 @@ if __name__ == '__main__':
 #     return "And over here is the posts area"
 
 
-# Now time to think in the 10th generation boy
+#      i5 or i7?
+# 6C 12T  vs 8C 16T
