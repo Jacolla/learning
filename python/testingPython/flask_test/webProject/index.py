@@ -29,4 +29,4 @@ if __name__ == '__main__':
 #      i5 or i7?
 # 6C 12T  vs 8C 16T
 
-# problably the i5 10600k
+# problably the i5 10600k... or the 10700k?..
