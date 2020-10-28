@@ -25,4 +25,4 @@ if __name__ == '__main__':
 # def posts():
 #     return "And over here is the posts area"
 
-# Not ready at all yet
+# probably i'll take the i7 10700k...
