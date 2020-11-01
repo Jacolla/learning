@@ -1,0 +1,40 @@
+body{
+	background: url("http://www.arqhys.com/wp-content/uploads/2017/02/tipos-de-carreteras.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+p {
+	color: blue;
+}
+ /* esto es para seleccionar los ID, solo puede haber un elemento con esa ID  
+ , los ID se seleccionan con un #( nombre ID) */
+
+
+/*
+ metodo de seleccion by ID 
+#texto1{
+	background: orange;
+}
+
+#texto2{
+	background: purple;
+}
+
+*/
+
+/*
+ esto es el metodo de seleccion del CLASS, puedes agrupar mas
+de un selector, se indica mediante un .( nombre class )
+*/
+
+.texto12{
+	background: green;
+}
+
+#texto3{
+	background: blue;
+}
+
+.lista{
+	text-decoration: line-through;
+}
