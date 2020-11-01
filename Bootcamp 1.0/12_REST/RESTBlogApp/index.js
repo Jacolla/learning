@@ -52,3 +52,5 @@ app.listen(process.env.PORT, process.env.IP, function(){
 // a dia de hoy ha cambiado bastante, y la forma que han intentado apañarlo es infumable,
 // he intentado mirarlo por mi cuenta pero es una puta mierda, esperaré a empezar las clases y
 // ahí preguntaré mas en profundidad.
+
+// Han actualizado el curso en Udemy, así que voy a volver a empezar el curso
