@@ -18,11 +18,9 @@ if __name__ == '__main__':
 #     return "This is profile"
     
 # @app.route('/personal')
-# def personal():
+# def personal(): 
 #     return "Here we do have our personal space "
     
 # @app.route('/something')
 # def posts():
 #     return "And over here is the posts area"
-
-# i7 10700k comming home... :D
