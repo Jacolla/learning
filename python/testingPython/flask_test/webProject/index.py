@@ -24,3 +24,5 @@ if __name__ == '__main__':
 # @app.route('/something')
 # def posts():
 #     return "And over here is the posts area"
+
+# pos na, tengo esto abandonado...
