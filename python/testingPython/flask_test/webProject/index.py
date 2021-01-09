@@ -26,4 +26,4 @@ if __name__ == '__main__':
 #     return "And over here is the posts area"
 
 # programando 2021
-# time to get a new bike, then room
+# time to get a new bike, then room, then back to study
