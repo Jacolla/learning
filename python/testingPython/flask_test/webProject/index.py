@@ -26,3 +26,5 @@ if __name__ == '__main__':
 #     return "And over here is the posts area"
 
 # Still not ready at all, but i promise i'll be back
+
+# Gotta re-install FLASK to keep going with this, or look up to do a new project
