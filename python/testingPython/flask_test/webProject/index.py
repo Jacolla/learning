@@ -25,5 +25,4 @@ if __name__ == '__main__':
 # def posts():
 #     return "And over here is the posts area"
 
-# programando 2021
-# time to get a new bike, then room, then back to study
+# Still not ready at all, but i promise i'll be back
