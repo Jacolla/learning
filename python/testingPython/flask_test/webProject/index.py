@@ -28,3 +28,6 @@ if __name__ == '__main__':
 # Still not ready at all, but i promise i'll be back
 
 # Gotta re-install FLASK to keep going with this, or look up to do a new project
+
+
+# nah forget all this shit, build a new one
