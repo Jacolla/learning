@@ -1,0 +1,8 @@
+preparar API? django-admin startapp --api-- (darle nombre)
+
+Cambios en BBDD?   ---  python .\manage.py makemigrations
+arrancar servidor?  --- python .\manage.py runserver ( y ya te da IP )
+
+
+cont vid min 18:04
+https://www.youtube.com/watch?v=JD-age0BPVo&list=PLzMcBGfZo4-kCLWnGmK0jUBmGLaJxvi4j&ab_channel=TechWithTim
