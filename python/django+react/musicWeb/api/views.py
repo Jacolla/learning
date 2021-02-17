@@ -9,4 +9,3 @@ from .models import Room
 class RoomView(generics.CreateAPIView):
     queryset = Room.objects.all()
     serializer_class = RoomSerializer
-    print("Hola")
