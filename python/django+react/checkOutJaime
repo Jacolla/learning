@@ -4,5 +4,5 @@ Cambios en BBDD?   ---  python .\manage.py makemigrations
 arrancar servidor?  --- python .\manage.py runserver 
 
 
-cont vid 3
+cont vid 3 o no
 
