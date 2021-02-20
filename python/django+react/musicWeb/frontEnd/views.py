@@ -7,4 +7,3 @@ def index(request, *args, **kwargs):
 
 
 
-# vid min  --  20:40  --  #3 
