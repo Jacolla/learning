@@ -7,7 +7,7 @@ export default class App extends Component{
     }
 
     render(){
-        return <h1> React seems to work </h1>
+        return <h1> React seems to work, it is indeed </h1>
     }
 }
 const appDiv= document.getElementById('app');
