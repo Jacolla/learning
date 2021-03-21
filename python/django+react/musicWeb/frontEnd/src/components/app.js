@@ -7,8 +7,8 @@ export default class App extends Component{
     }
 
     render(){
-        return <h1> React seems to work, it is indeed </h1>
+        return <h1> <i>Print from App.js</i> </h1>
     }
 }
-const appDiv= document.getElementById('app');
+const appDiv= document.getElementById('App');
 render (<App />, appDiv);
