@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Music Controller</title>
+    <title>Testing Django+React</title>
     {% load static %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
@@ -11,13 +11,14 @@
   </head>
   <body>
 
-
     <div id="main">
   
       <div id="App">
+      {% comment %} Aqui va el data de App.js {% endcomment %}
       </div>
   
         <h2>Sacandolo desde Index.html</h2>
+        <h2>index.html que lo saca con la ayuda de urls.py</h2>
     </div>
 
     <script src="{% static "frontend/main.js" %}"></script>
