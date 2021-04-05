@@ -7,7 +7,7 @@ export default class App extends Component{
     }
 
     render(){
-        return <h1> <i>Print from App.js, or not...</i> </h1> 
+        return <h1> <i>Print from App.js</i> </h1> 
     }
 }
 const appDiv= document.getElementById('App');
