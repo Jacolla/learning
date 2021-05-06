@@ -5,10 +5,7 @@ arrancar servidor?  --- python .\manage.py runserver
 
 
 recuerda empaquetarlo antes de sacarlo  --  npm run dev, actualiza servidor y vuelve a solicitar GET
-y limpiar la cache...
-
-#4 -- 12:00
-I have to take this seriously
+y limpiar la cache almenos en chrome
 
 
 
