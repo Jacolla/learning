@@ -7,5 +7,6 @@ export default class RoomJoinPage extends Component {
  
     render(){
         return <p>Esto es RoomJoinPage.js</p>
+        
     }
 }
