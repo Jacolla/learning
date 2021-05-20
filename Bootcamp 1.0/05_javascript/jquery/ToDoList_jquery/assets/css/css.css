@@ -35,13 +35,10 @@ ul{
 
 li{
     background: #ffff ;
-    height: 40px;
-    line-height: 40px;
+    height: 50px;
+    line-height: 2vmmin;
 }
 
-li:nth-child(2n){
-    background: #e0e0e0 ;
-}
 
 li:hover span{
     width: 40px;
@@ -50,7 +47,7 @@ li:hover span{
 
 span{
     background: #3ce7b4;
-    height: 40px;
+    height: 50px;
     margin-right: center;
     text-align: center;
     color: white;
@@ -79,7 +76,7 @@ input:focus{
 
 .completado{
     color: rgb(46, 46, 46);
-    background: rgb(165, 204, 94);
+    background: rgb(204, 94, 94);
 }
  
 
