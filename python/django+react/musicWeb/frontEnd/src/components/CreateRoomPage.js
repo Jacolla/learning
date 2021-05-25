@@ -1,10 +1,11 @@
+// import Button from "@material-ui/core/Button";
+// import Grid from "@material-ui/core/Grid";
+// import Typography from "@material-ui/core/Typography";
+// import TextField from "@material-ui/core/TextField";
+// import FormControl from "@material-ui/core/FormControl";
+import { Button, Grid, Typography, TextField, FormControl } from "@material-ui/core";
 import React, {Component} from "react";
-import Button from "@material-ui/core/Button";
-import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
-import TextField from "@material-ui/core/TextField";
 import FormHelperText from "@material-ui/core/FormHelperText";
-import FormControl from "@material-ui/core/FormControl";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import { Link } from "react-router-dom";
 import Radio from "@material-ui/core/Radio";
@@ -39,7 +40,18 @@ export default class CreateRoomPage extends Component {
     }
 
     handleRoomButtonPressed(){
-        console.log(this.state)
+        const requestOptions = {
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify({
+                votes_to_skip: this.state.votesToSkip,
+                guest_can_pause: this.state.guestCanPause,
+            }),
+        };
+
+        fetch("/api/create-room", requestOptions)
+            .then((response) => response.json())
+            .then((data) => console.log(data));
     }
 
     render(){
