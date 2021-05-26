@@ -8,5 +8,10 @@ recuerda empaquetarlo antes de sacarlo  --  npm run dev, actualiza servidor y vu
 y limpiar la cache almenos en chrome
 
 
-Cont vid 6 20:30min, archivo JOIN, añadiendo handler para crear Room
+Cont vid 7
 
+No me coge el ni el "ID" ni "host" ni "code", algo no esta bien enlazado.
+
+Ahora si lo coge, pero no pasa la "logica" de si ya esta creado o no.
+Puede ser que el problema este o bien en el "asignador de HOST & ID" o bien en el sserializer
+Fijarse en NODE lo que dice.

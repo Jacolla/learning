@@ -19,17 +19,17 @@ export default class CreateRoomPage extends Component {
         super(props);
         this.state = {
             guestCanPause: true,
-            votesToSkip: this.defaultVotes,
+            voteToSkip: this.defaultVotes,
         };
 
-        this.handleVotesChange = this.handleVotesChange.bind(this);
+        this.handleVotesChange = this.handleVoteChange.bind(this);
         this.handleRoomButtonPressed = this.handleRoomButtonPressed.bind(this);
         this.handleGuestCanPauseChange = this.handleGuestCanPauseChange.bind(this);
     }
     
-    handleVotesChange(e){
+    handleVoteChange(e){
         this.setState({
-            votesToSkip: e.target.value,
+            voteToSkip: e.target.value,
         });
     }
     
@@ -44,7 +44,7 @@ export default class CreateRoomPage extends Component {
             method: "POST",
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify({
-                votes_to_skip: this.state.votesToSkip,
+                vote_to_skip: this.state.voteToSkip,
                 guest_can_pause: this.state.guestCanPause,
             }),
         };
