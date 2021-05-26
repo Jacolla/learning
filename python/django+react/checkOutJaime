@@ -14,4 +14,12 @@ No me coge el ni el "ID" ni "host" ni "code", algo no esta bien enlazado.
 
 Ahora si lo coge, pero no pasa la "logica" de si ya esta creado o no.
 Puede ser que el problema este o bien en el "asignador de HOST & ID" o bien en el sserializer
+
 Fijarse en NODE lo que dice.
+            |
+            |
+            |
+            V
+OperationalError at /api/create-room
+
+table api_room has no column named votes_to_skip
