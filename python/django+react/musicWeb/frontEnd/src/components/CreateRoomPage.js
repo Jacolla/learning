@@ -22,10 +22,10 @@ export default class CreateRoomPage extends Component {
             votesToSkip: this.defaultVotes,
         };
 
-        this.handleVotesChange = this.handleVotesChange.bind(this);
         this.handleRoomButtonPressed = this.handleRoomButtonPressed.bind(this);
+        this.handleVotesChange = this.handleVotesChange.bind(this);
         this.handleGuestCanPauseChange = this.handleGuestCanPauseChange.bind(this);
-    }
+      }
     
     handleVotesChange(e){
         this.setState({

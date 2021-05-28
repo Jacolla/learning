@@ -22,4 +22,4 @@ Fijarse en NODE lo que dice.
             V
 OperationalError at /api/create-room
 
-table api_room has no column named votes_to_skip
+server output-> table api_room has no column named votes_to_skip
