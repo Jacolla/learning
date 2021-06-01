@@ -23,3 +23,4 @@ Fijarse en NODE lo que dice.
 OperationalError at /api/create-room
 
 server output-> table api_room has no column named votes_to_skip
+gotta keep an eye on it
