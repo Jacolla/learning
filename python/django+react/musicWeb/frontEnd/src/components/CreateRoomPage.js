@@ -13,7 +13,7 @@ import RadioGroup from "@material-ui/core/RadioGroup";
 
 
 export default class CreateRoomPage extends Component {
-    defaultVotes = 2;
+    defaultVotes = 5;
 
     constructor(props) {
         super(props);
@@ -43,18 +43,18 @@ export default class CreateRoomPage extends Component {
         const requestOptions = {
             method: "POST",
             headers: {"Content-Type": "application/json"},
+            Accept: 'application/json',
             body: JSON.stringify({
                 votes_to_skip: this.state.votesToSkip,
                 guest_can_pause: this.state.guestCanPause,
             }),
         };
-
         fetch("/api/create-room", requestOptions)
             .then((response) => response.json())
             .then((data) => console.log(data));
     }
 
-    render(){
+    render() {
         return (
             <Grid container spacing = {1}> 
                 <Grid item xs = {12} align = "center">
@@ -111,7 +111,6 @@ export default class CreateRoomPage extends Component {
                         }}
                         />
 
-
                         <FormHelperText>
                             <div align="center">
                                  Votess required to skip song
@@ -130,7 +129,6 @@ export default class CreateRoomPage extends Component {
                         onClick = {this.handleRoomButtonPressed} 
                     >
                         Create a Room
-
                     </Button>
 
                 </Grid>
