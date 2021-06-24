@@ -67,7 +67,7 @@ export default class Room extends Component{
 
             <Grid item xs={12} align="center">
               <Button color="secondary" variant="contained" onClick={this.leaveButtonPressed}>
-                Leave Room
+                Leave Room if you want
               </Button>
             </Grid>
           </Grid>
