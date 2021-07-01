@@ -17,14 +17,13 @@ export default class RoomJoinPage extends Component {
   render() {
     return (
       <Grid container spacing={1}>
-        
-        <Grid item xs={12} align="center" >
+        <Grid item xs={12} align="center">
           <Typography variant="h4" component="h4">
             Join a Room
           </Typography>
         </Grid>
 
-        <Grid item xs={12} align="center" >
+        <Grid item xs={12} align="center">
           <TextField
             error={this.state.error}
             label="Code"
@@ -35,50 +34,53 @@ export default class RoomJoinPage extends Component {
             onChange={this.handleTextFieldChange}
           />
         </Grid>
-             
-        <Grid item xs={12} align="center" >
-          <Button variant="contained" color="primary" onClick={this.roomButtonPressed} >
+
+        <Grid item xs={12} align="center">
+          <Button
+            variant="contained"
+            color="primary"
+            onClick={this.roomButtonPressed}
+          >
             Enter Room
           </Button>
-        </Grid>  
+        </Grid>
 
-        <Grid item xs={12} align="center" >
+        <Grid item xs={12} align="center">
           <Button variant="contained" color="secondary" to="/" component={Link}>
             Back
           </Button>
-        </Grid>     
-
+        </Grid>
       </Grid>
     );
   }
 
-
-  handleTextFieldChange(e){
+  handleTextFieldChange(e) {
     this.setState({
       roomCode: e.target.value,
-    })
+    });
   }
 
-  roomButtonPressed(){                                                                                   //  BackEnd para cuando apretamos boton de crear Room
+  roomButtonPressed() {
+    //  BackEnd para cuando apretamos boton de crear Room
     const requestOptions = {
       method: "POST",
-      headers: {"Content-Type": "application/json"},
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        code: this.state.roomCode
-      })
+        code: this.state.roomCode,
+      }),
     };
     fetch("/api/join-room", requestOptions)
-    .then((response) => {
-      if (response.ok) {
-        this.props.history.push(`/room/${this.state.roomCode}`)
-      } else{
-        this.setState({
-          error : "Room Not Found."})
-      }
-
-
-    }).catch((error) => {
-      console.log(error);
-    })
+      .then((response) => {
+        if (response.ok) {
+          this.props.history.push(`/room/${this.state.roomCode}`);
+        } else {
+          this.setState({
+            error: "Room Not Found.",
+          });
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   }
 }

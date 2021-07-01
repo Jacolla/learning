@@ -1,9 +1,16 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import {Button, Grid, Typography, TextField, FormHelperText,
-        FormControl, FormControlLabel, Radio, RadioGroup, 
-       } from "@material-ui/core"
-
+import {
+  Button,
+  Grid,
+  Typography,
+  TextField,
+  FormHelperText,
+  FormControl,
+  FormControlLabel,
+  Radio,
+  RadioGroup,
+} from "@material-ui/core";
 
 export default class CreateRoomPage extends Component {
   defaultVotes = 5;
@@ -49,26 +56,23 @@ export default class CreateRoomPage extends Component {
   render() {
     return (
       <Grid container spacing={1}>
-
         <Grid item xs={12} align="center">
           <Typography component="h4" variant="h4">
-            Create a room 
+            Create a room
           </Typography>
         </Grid>
 
         <Grid item xs={12} align="center">
           <FormControl component="fieldset">
-
             <FormHelperText>
               <div align="center">Guest Control of Playback State</div>
             </FormHelperText>
-            
+
             <RadioGroup
               row
               defaultValue="true"
               onChange={this.handleGuestCanPauseChange}
             >
-
               <FormControlLabel
                 value="true"
                 control={<Radio color="primary" />}
@@ -84,11 +88,9 @@ export default class CreateRoomPage extends Component {
               />
             </RadioGroup>
           </FormControl>
-
         </Grid>
 
         <Grid item xs={12} align="center">
-
           <FormControl>
             <TextField
               required={true}
@@ -104,9 +106,7 @@ export default class CreateRoomPage extends Component {
             <FormHelperText>
               <div align="center">Votes required to skip song</div>
             </FormHelperText>
-
           </FormControl>
-
         </Grid>
         <Grid item xs={12} align="center">
           <Button
@@ -123,7 +123,6 @@ export default class CreateRoomPage extends Component {
             Back
           </Button>
         </Grid>
-        
       </Grid>
     );
   }
