@@ -44,7 +44,7 @@ export default class HomePage extends Component {
         <Grid item xs={12} align="center">
           <ButtonGroup variant="contained" color="primary">
             <Button color="primary" to="/join" component={Link}>
-              Join a Room
+              Unicion a room
             </Button>
 
             <Button color="secondary" to="/create" component={Link}>
