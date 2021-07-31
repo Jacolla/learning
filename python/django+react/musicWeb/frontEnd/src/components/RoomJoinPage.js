@@ -9,7 +9,6 @@ export default class RoomJoinPage extends Component {
       roomCode: "",
       error: "",
     };
-
     this.handleTextFieldChange = this.handleTextFieldChange.bind(this);
     this.roomButtonPressed = this.roomButtonPressed.bind(this);
   }
