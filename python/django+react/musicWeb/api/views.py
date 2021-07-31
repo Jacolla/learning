@@ -137,13 +137,13 @@ class UpdateRoom(APIView):
         if not self.request.session.exists(self.request.session.session_key):
             self.request.session.create()
             # normalmente se usa el "patch" para modificar componentes activos.
-        serializer = self.serializaer_class(data=request.data)
+        serializer = self.serializer_class(data=request.data)
         if serializer.is_valid():
             guest_can_pause = serializer.data.get("guest_can_pause")
             votes_to_skip = serializer.data.get("votes_to_skip")
             code = serializer.data.get("code")
             queryset = Room.objects.filter(code=code)
-            if not queryset.exist():
+            if not queryset.exists():
                 return Response(
                     {"Error": "Room not found"}, status=status.HTTP_404_NOT_FOUND
                 )
