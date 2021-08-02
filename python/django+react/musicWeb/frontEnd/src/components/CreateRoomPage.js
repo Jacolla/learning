@@ -12,6 +12,7 @@ import {
   RadioGroup,
 } from "@material-ui/core";
 import { Collapse } from "@material-ui/core";
+import Alert from "@material-ui/lab/Alert";
 
 export default class CreateRoomPage extends Component {
   static defaultPorps = {
@@ -76,13 +77,14 @@ export default class CreateRoomPage extends Component {
     fetch("/api/update-room", requestOptions).then((response) => {
       if (response.ok) {
         this.setState({
-          succesMsg: "Room updated successfully! Fuck yeah",
+          succesMsg: "Room updated! Fuck yeah",
         });
       } else {
         this.setState({
           errorMsg: "Nope, somethig went wrong, try again",
         });
       }
+      this.props.updateCallback();
     });
   }
 
@@ -130,7 +132,25 @@ export default class CreateRoomPage extends Component {
           <Collapse
             in={this.state.errorMsg != "" || this.state.succesMsg != ""}
           >
-            {this.state.succesMsg}
+            {this.state.succesMsg != "" ? (
+              <Alert
+                severity="success"
+                onClose={() => {
+                  this.setState({ succesMsg: "" });
+                }}
+              >
+                {this.state.succesMsg}{" "}
+              </Alert>
+            ) : (
+              <Alert
+                severity="error"
+                onClose={() => {
+                  this.setState({ errorMsg: "" });
+                }}
+              >
+                {this.state.errorMsg}{" "}
+              </Alert>
+            )}
           </Collapse>
         </Grid>
 
@@ -148,7 +168,7 @@ export default class CreateRoomPage extends Component {
 
             <RadioGroup
               row
-              defaultValue="true"
+              defaultValue={this.props.guestCanPause.toString()}
               onChange={this.handleGuestCanPauseChange}
             >
               <FormControlLabel
