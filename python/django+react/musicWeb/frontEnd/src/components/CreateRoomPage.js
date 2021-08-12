@@ -97,7 +97,7 @@ export default class CreateRoomPage extends Component {
             variant="contained"
             onClick={this.handleRoomButtonPressed}
           >
-            create a room
+            Create A Room
           </Button>
         </Grid>
         <Grid item xs={12} align="center">
@@ -165,7 +165,6 @@ export default class CreateRoomPage extends Component {
             <FormHelperText>
               <div align="center">Guest Control of Playback State</div>
             </FormHelperText>
-
             <RadioGroup
               row
               defaultValue={this.props.guestCanPause.toString()}
