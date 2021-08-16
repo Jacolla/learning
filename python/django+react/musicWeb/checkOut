@@ -4,7 +4,9 @@ luego empaquetar app desde carpeta frontEnd  --  npm run dev
 
 
 
-vid 13  27:12
+vid 14, pero repasar el 13.
 
 
-Da problema al crear room, he de mirar si esta todo OK.
+Echar un ojo al util.py de spotify file. Algo no lo tengo bien puesto, pues me da error de autentificacion 
+y al probarlo con el de TIM, sale todo OK.
+Repasar spotify/util

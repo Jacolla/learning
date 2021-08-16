@@ -167,7 +167,7 @@ export default class CreateRoomPage extends Component {
             </FormHelperText>
             <RadioGroup
               row
-              defaultValue={this.props.guestCanPause.toString()}
+              // defaultValue={this.props.guestCanPause.toString()}
               onChange={this.handleGuestCanPauseChange}
             >
               <FormControlLabel
@@ -176,7 +176,6 @@ export default class CreateRoomPage extends Component {
                 label="Play/Pause"
                 labelPlacement="bottom"
               />
-
               <FormControlLabel
                 value="false"
                 control={<Radio color="secondary" />}
