@@ -4,7 +4,7 @@
   "description": "Making a request API with axios and express",
   "main": "app.js",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.2",
     "nodemon": "^2.0.4"
   },
   "devDependencies": {},
